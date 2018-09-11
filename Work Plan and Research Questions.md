@@ -9,7 +9,7 @@
 
 #### Planned timeline for completing the project
 
-See associated Gantt Chart.
+See associated [Gantt Chart](https://github.com/hcghanta/apple-mango-banana/blob/master/GanntChart_PolkCo.pdf).
  
 #### Projected effort allocation 
 1. Profile of your client's interests and needs
