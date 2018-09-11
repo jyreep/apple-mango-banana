@@ -2,7 +2,7 @@
 **Description**: This is our team Git repository package for the ISQA 8086-002 class.
 
 ### List of files in the repository
-* Work Plan and Research Questions
+* Work Plan and Research Questions.md
 * 
 * 
 
