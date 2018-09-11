@@ -1,9 +1,16 @@
 # Work Plan and Research Questions
 
 #### Planned research questions
-1. 
-2. 
-3. 
+1.	What is sand skink presence or absence at each site for each year? What is the long term trend in sand skink presence for each site?
+
+2.	Has there been a decline in the presence of sand skinks for three years or more at any of the sites? 
+
+3.	Are there differences in sand skink presence between sites and years?
+
+4.	Is there a relationship between sand skink presence/absence and prescribed fire? Is there a decline in sand skink presence due to prescribed fire?     *Burn history for each site and burn unit is attached. Maps of each site by burn unit is attached. 
+
+5.	Is there a relationship between high water level and sand skink presence or absence at Crooked Lake Prairie?  
+
 
 #### Planned timeline for completing the project
 
