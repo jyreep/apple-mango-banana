@@ -8,9 +8,8 @@
 5.	Is there a relationship between high water level and sand skink presence or absence at Crooked Lake Prairie?  
 
 #### Planned timeline for completing the project
+See associated [Gantt Chart](https://github.com/hcghanta/apple-mango-banana/blob/master/GanntChart_PolkCo.pdf).
 
-See associated [Gantt Chart](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.mpp)>>
- 
 #### Projected effort allocation 
 1. Profile of your client's interests and needs
 * Team member responsible: Jeremy and Hemanchandra  
