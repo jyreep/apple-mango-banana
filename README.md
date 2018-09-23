@@ -2,7 +2,9 @@
 **Description**: This is our team Git repository package for the ISQA 8086-002 class.
 
 ### List of files in the repository
-* Work Plan and Research Questions.md
+* [Work Plan and Research Questions.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/Work%20Plan%20and%20Research%20Questions.md)
+* [GanntChart_PolkCo.pdf](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.pdf)
+* [GanntChart_PolkCo.mpp](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.mpp)
 * 
 * 
 
