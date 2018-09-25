@@ -3,10 +3,13 @@
 
 ### List of files in the repository
 * WorkPlanAndResearchQuestions
-  * [Work Plan and Research Questions.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/Work%20Plan%20and%20Research%20Questions.md)
+  * [Work Plan and Research Questions.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/WorkPlanAndResearchQuestions/Work%20Plan%20and%20Research%20Questions.md)
   * [GanntChart_PolkCo.pdf](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.pdf)
   * [GanntChart_PolkCo.mpp](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.mpp)
-* 
+* BackgroundResearchReports
+  * [TheClientOrganizationAndItsMissionAndGoals.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/TheClientOrganizationAndItsMissionAndGoals.md)
+  * 
+  * 
 * 
 
 ### License
