@@ -24,4 +24,6 @@ The park promises to offer something for all demographics including picnic sites
   The Polk County Conservation Board has the overarching goal to maintain a high-quality natural environment in the area. To achieve this, it is essential to identify and protect the existing natural areas, and enhance those already under protection, otherwise once they are gone, generations of Iowans will lose an opportunity to enjoy the natural beauty of the county and this great state. 
 
 ### Refernces
-
+1. My country parks webpage for Polk County. Retrieved from https://www.mycountyparks.com/County/Polk.aspx
+2. Polk county parks and recreation page. Retrieved from https://polk-county.net/parks-and-recreation
+3. Polk county Iowa Rules and regulations brochure. Retrieved from https://polkcountyiowa.gov
