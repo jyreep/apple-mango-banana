@@ -12,9 +12,15 @@ Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
 * Interests & focus
 
 ### Organizational
-* Sector (nonprofit, governmental, etc.)
-* Mission
-* Stakeholders (who/what they serve/support)
+* Sector:
+  _Government Organization | Park_
+  
+* Mission: 
+  _The Polk County Parks department's mission is to provide the citizens of Polk County with quality outdoor recreation, conservation education, and long term protection of Polk County's natural heritage._
+  
+* Stakeholders: 
+  _The Polk County Parks and Recreation department is a government organization that serves the citizens of Polk County with nearly 40 park sites and 11 mini-parks that include athletic facilities, picnic areas, a historical-oriented park, and five campgrounds._
+  
 * Strengths & weaknesses
 * Culture
 
@@ -24,4 +30,4 @@ Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
 * Priorities
 * Opportunities
 
-Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to this Audience Profile review and writing of this document. We reached out to our contacts Ms. Candice Knothe and Mr. Britt Sutherland via email with some prelimnary questions regarding the organization and their data.
+_**Contributorship Statement**: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to this Audience Profile review and writing of this document. We reached out to our contacts Ms. Candice Knothe and Mr. Britt Sutherland via email with some prelimnary questions regarding the organization and their data._
