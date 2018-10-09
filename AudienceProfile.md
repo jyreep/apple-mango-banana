@@ -13,15 +13,15 @@ Organization: _Polk County Parks_
 * Candice is a member of the Heartland CISMA, a network of land managers in central Florida, and serves as an organizer for a number of their events.
 
 ### Organizational
-* **Sector:
+* **Sector**:
 
 Government Organization | Park
   
-* **Mission: 
+* **Mission**: 
 
 The Polk County Parks department's mission is to acquire, preserve, protect, manage, and restore endangered and environmentally sensitive lands, water resources and important wildlife habitat. Acquired properties may be used for passive outdoor recreational purposes provided that such uses will not disturb or degrade the environmental quality for which the site was acquired.
   
-* **Stakeholders: 
+* **Stakeholders**: 
 
 The Polk County Parks and Recreation department is a government organization of the Polk County Board of County Commissioners that serves the citizens of Polk County with nearly 40 park sites and 11 mini-parks that include athletic facilities, picnic areas, a historical-oriented park, and five campgrounds. Polk County Parks works closely with non-profits, local, state and federal level agencies. 
 
@@ -29,7 +29,7 @@ The citizens of Polk County: The community of Polk County is very concerned abou
 
 Polk County Board of County Commissioners (BoCC): In response to the citizen's initiative to raise funds for the conservation of natural habitat in the area, the Polk County Board of County Commissioners (BoCC) has a funded environmental land acquisition and management program. 
 
-* **Culture
+* **Culture**:
 
 The Polk County Parks department has an active organizational culture despite being a governmental organization. The community is very invested in the parks' programs and the County organizes community outreach events through the year to engage its' citizens, and to raise funds. The citizens actively participate in the County programs to come together and  recently collaborated to weed out invasive species from areas that need such atttention.
 
