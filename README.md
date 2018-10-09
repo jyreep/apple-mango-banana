@@ -8,9 +8,9 @@
   * [GanntChart_PolkCo.mpp](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.mpp)
 * BackgroundResearchReports
   * [TheClientOrganizationAndItsMissionAndGoals.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/TheClientOrganizationAndItsMissionAndGoals.md)
-  * 
-  * 
-* 
+  * [StudyOrganism.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/StudyOrganism.md)
+  * [RecommendationResearch.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/RecommendationResearch.md)
+* [AudienceProfile.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/AudienceProfile.md)
 
 ### License
 
