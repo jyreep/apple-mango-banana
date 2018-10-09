@@ -2,10 +2,9 @@
 
 ### Name
 Organization: _Polk County Parks_
+Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
 
-### Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
-
-#### Candice Knothe
+**Candice Knothe**
 
 * Currently works for the Environmental Lands Program for Polk County, FL.
 * Previously worked as a biologist with the Florida Forest Service at Lake Wales Ridge State Forest where she monitored and managed the threatened and endangered plant species in the forest. She also worked in the plant ecology lab at the Robert W. Jones Research Center at Ichauway and at the ecology lab at Rice University.
