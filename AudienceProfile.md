@@ -2,6 +2,7 @@
 
 ### Name
 Organization: _Polk County Parks_
+
 Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
 
 **Candice Knothe**
@@ -10,7 +11,7 @@ Individuals: _Ms. Candice Knothe, Mr. Britt Sutherland_
 * Previously worked as a biologist with the Florida Forest Service at Lake Wales Ridge State Forest where she monitored and managed the threatened and endangered plant species in the forest. She also worked in the plant ecology lab at the Robert W. Jones Research Center at Ichauway and at the ecology lab at Rice University.
 * She is working on a M.S. in Biology at Georgia Southern University and graduated from the University of Central Florida in 2008.
 * Candice is a member of the Heartland CISMA, a network of land managers in central Florida, and serves as an organizer for a number of their events.
-
+___
 ### Organizational
 * **Sector**:
 
@@ -31,7 +32,7 @@ Polk County Board of County Commissioners (BoCC): In response to the citizen's i
 * **Culture**:
 
 The Polk County Parks department has an active organizational culture despite being a governmental organization. The community is very invested in the parks' programs and the County organizes community outreach events through the year to engage its' citizens, and to raise funds. The citizens actively participate in the County programs to come together and  recently collaborated to weed out invasive species from areas that need such atttention.
-
+___
 ### Both individual & organizational
 * Data capabilities (maturity/literacy)
 * Requirements/needs
