@@ -20,33 +20,35 @@ Mission:
 Stakeholders:
   The Polk County Parks and Recreation department is a government organization of the Polk County Board of County Commissioners that serves the citizens of Polk County with nearly 40 park sites and 11 mini-parks that include athletic facilities, picnic areas, a historical-oriented park, and five campgrounds. Polk County Parks works closely with non-profits, local, state and federal level agencies.
 
-The citizens of Polk County: The community of Polk County is very concerned about the loss of native habitat in the area including the water, wildlife, and wilderness resources. In 1990, they kickstarted a grassroots effort to promote the funding of environmental lands acquisition and management program for their protection. The sense of responsibility toward their environment in their community is evident in that they elected to levy a tax on themselves to fund a local environmental lands program.
+The Citizens of Polk County: The community of Polk County is very concerned about the loss of native habitat in the area including the water, wildlife, and wilderness resources. In 1990, they kickstarted a grassroots effort to promote the funding of environmental lands acquisition and management program for their protection. The sense of responsibility toward their environment in their community is evident in that they elected to levy a tax on themselves to fund a local environmental lands program.
 
-Polk County Board of County Commissioners (BoCC): In response to the citizen's initiative to raise funds for the conservation of natural habitat in the area, the Polk County Board of County Commissioners (BoCC) has a funded environmental land acquisition and management program.
+Polk County Board of County Commissioners (BoCC): In response to the citizen's initiative to raise funds for the conservation of natural habitat in the area, the Polk County BoCC has a funded environmental land acquisition and management program.
 
-Culture:
-  The Polk County Parks department has an active organizational culture despite being a governmental organization. The community is very invested in the parks' programs and the County organizes community outreach events through the year to engage its' citizens, and to raise funds. The citizens actively participate in the County programs to come together and recently collaborated to weed out invasive species from areas that need such atttention.
+Culture: The Polk County Parks department has an active organizational culture despite being a governmental organization. The community is very invested in the parks' programs and the County organizes community outreach events through the year to engage its citizens and to raise funds. The citizens actively participate in the County programs to come together and recently collaborated to weed out invasive species from areas that needed such atttention.
 
 ## Both individual & organizational
 * Data capabilities
 
-  Water quality data is availabel from November 2017 to April 2018. It provides data on various parameters such as temperature(deg C), conductivity(umhos/cm), dissolved oxygen(%), pH(Std Unit), chlorophyll(ug/l), sulfate(mg/l), total dissoloved and suspended solids(mg/l), iron contains(ug/l), nitrogen ammonia(mg/l), Nitrogen Kjeldahl(mg/l), Nitrogen Nitrate+Nitrite(mg/l), Nitrogen in total, Phosphorus Ortho(mg/l) and Phosphorus in total(mg/l) which are useful in analyzing the water quality. Data is available from November 2017 to April 2018 which helps in detecting the increase or decrease in water quality over the period.
+  Water quality data is available from November 2017 to April 2018. It provides data on various parameters such as temperature(deg C), conductivity(umhos/cm), dissolved oxygen(%), pH(Std Unit), chlorophyll(ug/l), sulfate(mg/l), total dissoloved and suspended solids(mg/l), iron(ug/l), nitrogen ammonia(mg/l), Kjeldahl nitrogen(mg/l), nitrogen nitrate + nitrite(mg/l), total nitrogen, Ortho phosphorus(mg/l), and total phosphorus(mg/l) which are useful in analyzing the water quality. Data is available from November 2017 to April 2018 which helps in detecting the increase or decrease in water quality over the period.
   
-  The data provided on Sand skinks with codes to represent the tracks of Sand skinks can be used to analyze the presence of Sand skinks over Crooked Lake West -Stuart, Crooked Lake West -Lewis, Crooked Lake Sandhil, Hickory Lake Scrub, Crooked Lake Prairie regions.
+  The data provided on Sand Skinks uses codes to represent the tracks of Sand Skinks and can be used to analyze the presence of Sand Skinks over Crooked Lake West-Stuart, Crooked Lake West-Lewis, Crooked Lake Sandhill, Hickory Lake Scrub, and Crooked Lake Prairie regions.
 
 * Requirements/needs
+
   * Quantify the benefits of the wet land found in the Banana Creek and Hancock water bodies.
   * Analyze the increase or decrease in water quality as it moves through the wet land system.
   * Analyze the long term Sand Skink data.
   
 * Priorities
 
-  The following questions are most important to be answered before providing any additional analysis.
+  The following questions are most important to be answered before providing any additional analysis:
   * Analysis on water quality over the specified period
-  * Sand skink presence or absence for each year
-  * Is there a decline in number of sand skinks
-  * Difference of Sand skink presence between the sites
-  * Relationship between sand skink presence/absence and prescribed fire
+  * Sand Skink presence or absence for each year
+  * Is there a decline in number of Sand Skinks
+  * Difference of Sand Skink presence between the sites
+  * Relationship between Sand Skink presence/absence and prescribed fire
   
 
 _**Contributorship Statement**: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to this Audience Profile review and writing of this document. We reached out to our contacts Ms. Candice Knothe and Mr. Britt Sutherland via email with some prelimnary questions regarding the organization and their data._
+
+_**Proofreader Statement**: Proofread 10.10.2018 by Jeremy Reep._
