@@ -12,4 +12,7 @@
 
 * A script or step-by-step textual description (or a combination) that documents your data cleaning process with enough detail for replication.
 
+For the skink data, I removed all rows with aggregate values and with blank values. I did the same for columns. 
+The water data is a copy and paste of each month's data onto the same sheet, keeping the columns in line.
+
 _Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to the data cleaning undertaking and the writing of this document._
