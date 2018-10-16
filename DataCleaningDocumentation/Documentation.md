@@ -14,6 +14,7 @@ This data analysis project uses the Apache License Version 2.0
 We have the following metadata regarding the water quality data set:
 * Waterbody: 
 
+___
 * 1 paragraph description of the metadata: what information is available to help you interpret and understand the data?
 
 * Identify any issues you have encountered with the data: missing values, unstandardized content, entity matching, integration, etc.
