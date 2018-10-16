@@ -5,7 +5,7 @@ The data for the Polk County Parks project consists of two sets of data - water 
 
 The water quality data set was collected by Brett Sutherland and contains information about the water quality at different sampling sites of two water bodies in the Circle B reserve of Polk County Parks. We have this data collected over a period of two years from November 2017 to September 2018. The data set contains 9 columns including - _Waterbody, LabNo, Sampling Site Name, Date Collected, Parameter, Unit, Result, DetectionLimit, and DQCode._ We have 1683 rows of data with this information.
 
-The sand skink data set contains data regarding the presence of sand skinks or their tracks at a range of points and quads at five sites of the Polk County Parks. The workbook contains one sheet with the legend or codes for the data in the workbook. Each of the other five sheets represent one site in the Polk County Park. They include _Crooked Lake Sandhill, Crooked Lake West - Stuart, Crooked Lake West - Lewis, Hickory Lake Scrub, and Crooked Lake Prairie._ For each site we have a sheet with columns for the _Site Name, Point and Quad,_ and dates at which the observations were recorded. 
+The sand skink data set contains data regarding the presence of sand skinks or their tracks at a range of points and quads at five sites of the Polk County Parks. The workbook contains one sheet with the legend or codes for the data in the workbook. Each of the other five sheets represent one site in the Polk County Park. They include _Crooked Lake Sandhill, Crooked Lake West - Stuart, Crooked Lake West - Lewis, Hickory Lake Scrub, and Crooked Lake Prairie._ For each site we have a sheet with columns for the _Site Name, Point and Quad,_ and dates at which the observations were recorded. As part of the sand skink data set we also have a spreadsheet with the burn history at some sites at the Polk County Parks. This spreadsheet has 28 rows of data with the columns - _Site, Unit, Acreage, and Date._
 
 ### Licensing
 This data analysis project uses the Apache License Version 2.0
@@ -22,7 +22,7 @@ This data analysis project uses the Apache License Version 2.0
 * DetectionLimit:
 * DQCode:
 
-**We have the following metadata regarding the water quality data set:**
+**We have the following metadata regarding the sand skink data set:**
 * Site: One of five Sites, sites are Crooked Lake West- Stuart, Crooked Lake West-Lewis, Crooked Lake Sandhill, Hickory Lake Scrub, Crooked Lake Prairie
 * Point and Quad: Point Number and Quad (cardinal direction). Every point has a N, E, S,W
 * Date: There are 8 consecutive survey dates for each year
