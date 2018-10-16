@@ -11,33 +11,45 @@ The sand skink data set contains data regarding the presence of sand skinks or t
 This data analysis project uses the Apache License Version 2.0
 
 #### The Metadata
-We have the following metadata regarding the water quality data set:
-* Waterbody: 
+**We have the following metadata regarding the water quality data set:**
+* Waterbody: The name of the waterbody at which the samples were collected
+* LabNo: An identifier for the laboratory at which the water samples were analyzed
+* Sampling Site Name: The name of the site at which the water sample was collected
+* Date Collected: The date at which the sample was collected
+* Parameter: The parameter being measured
+* Unit: The unit in which the parameter was measured
+* Result: The observation made
+* DetectionLimit:
+* DQCode:
 
-___
-* 1 paragraph description of the metadata: what information is available to help you interpret and understand the data?
+**We have the following metadata regarding the water quality data set:**
+* Site: One of five Sites, sites are Crooked Lake West- Stuart, Crooked Lake West-Lewis, Crooked Lake Sandhill, Hickory Lake Scrub, Crooked Lake Prairie
+* Point and Quad: Point Number and Quad (cardinal direction). Every point has a N, E, S,W
+* Date: There are 8 consecutive survey dates for each year
+Recording presence/absence of sand skinks (Neoseps reynoldsi) 
+* 0=No tracks
+* 1=Tracks present
+* 2=Sand Skink present
+* xxx=not surveyed
 
-* Identify any issues you have encountered with the data: missing values, unstandardized content, entity matching, integration, etc.
+#### Issues you have encountered with the data
+Identify any issues you have encountered with the data: missing values, unstandardized content, entity matching, integration, etc.
 
-* 1 paragraph description of your rationale for the steps you're taking to remediate data. For example, if you need to fill in empty fields, specify what value you chose and why.
-
-* A script or step-by-step textual description (or a combination) that documents your data cleaning process with enough detail for replication.
-
-For the skink data, I removed all rows with aggregate values and with blank values. I did the same for columns. 
-The water data is a copy and paste of each month's data onto the same sheet, keeping the columns in line.
+#### Description of rationale for the steps taken to remediate data
+1 paragraph description of your rationale for the steps you're taking to remediate data. For example, if you need to fill in empty fields, specify what value you chose and why.
 
 #### Data cleaning steps
-##### Sand Skink Data:
+**Sand Skink Data**
 1. Replaced blank fields with "xxx"
 2. Replaced “XXXX” and “xxx” with “xxx” for consistency
 3. Deleted empty rows and aggregate columns
 
-##### Burn history and sand skink:
+**Burn history and sand skink**
 1. Corrected "Crooked Lake Prarie" to "Crooked Lake Prairie"
 
-##### Water Quality Data:
+**Water Quality Data**
 1. Added index column for easy visualizations
 2. Deleted comments column 
-
+3. Copied and pasted each month's data onto the same sheet, keeping the columns in line
 
 _Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to the data cleaning undertaking and the writing of this document._
