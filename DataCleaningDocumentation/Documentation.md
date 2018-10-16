@@ -26,4 +26,18 @@ ___
 For the skink data, I removed all rows with aggregate values and with blank values. I did the same for columns. 
 The water data is a copy and paste of each month's data onto the same sheet, keeping the columns in line.
 
+#### Data cleaning steps
+##### Sand Skink Data:
+1. Replaced blank fields with "xxx"
+2. Replaced “XXXX” and “xxx” with “xxx” for consistency
+3. Deleted empty rows and aggregate columns
+
+##### Burn history and sand skink:
+1. Corrected "Crooked Lake Prarie" to "Crooked Lake Prairie"
+
+##### Water Quality Data:
+1. Added index column for easy visualizations
+2. Deleted comments column 
+
+
 _Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to the data cleaning undertaking and the writing of this document._
