@@ -11,6 +11,11 @@
   * [StudyOrganism.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/StudyOrganism.md)
   * [RecommendationResearch.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/RecommendationResearch.md)
 * [AudienceProfile.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/AudienceProfile.md)
+* DataCleaningDocumentation
+  * [Documenation.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/Documentation.md)
+  * [SandSkinkData2018Clean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/SandSkinkData2018Clean.xlsx)
+  * [WaterDataClean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/WaterDataClean.xlsx)
+  * [Burn history.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/Burn%20history.xlsx)
 
 ### License
 
