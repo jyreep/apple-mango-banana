@@ -33,10 +33,10 @@ Recording presence/absence of sand skinks (Neoseps reynoldsi)
 * xxx=not surveyed
 
 ### Issues you have encountered with the data
-Identify any issues you have encountered with the data: missing values, unstandardized content, entity matching, integration, etc.
+The largest issues encountered were with regards to the sand skink data. The use of a string of "x" was not consistent throughout the data and required a uniform standard to be applied. Blank data also needed to be addressed and filled with the new uniform "x" string convention in order to equally represent results of "Not surveyed" throughout. The data were also formatted for visual usage in Excel and not for data processing, so intermediate aggregate columns and blank spaces used for separation of time periods were removed.
 
 ### Description of rationale for the steps taken to remediate data
-1 paragraph description of your rationale for the steps you're taking to remediate data. For example, if you need to fill in empty fields, specify what value you chose and why.
+Our choice in filling in the blank data was based on there being a specified data value for no observation. Our interpretation is that is the same as a null for a particular time and location. Thus, we uniformly applied the existing convention. The removal of blank space was purely a tactic to optimize the data sets for use in R. Aggregate columns could also be easily generated within R and would only complicate the reading of the data into the software.
 
 ### Data cleaning steps
 **Sand Skink Data**
