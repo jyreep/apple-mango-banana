@@ -19,8 +19,6 @@ This data analysis project uses the Apache License Version 2.0
 * Parameter: The parameter being measured
 * Unit: The unit in which the parameter was measured
 * Result: The observation made
-* DetectionLimit:
-* DQCode:
 
 **We have the following metadata regarding the sand skink data set:**
 * Site: One of five Sites, sites are Crooked Lake West- Stuart, Crooked Lake West-Lewis, Crooked Lake Sandhill, Hickory Lake Scrub, Crooked Lake Prairie
