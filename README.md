@@ -2,9 +2,20 @@
 **Description**: This is our team Git repository package for the ISQA 8086-002 class.
 
 ### List of files in the repository
-* Work Plan and Research Questions.md
-* 
-* 
+* WorkPlanAndResearchQuestions
+  * [Work Plan and Research Questions.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/WorkPlanAndResearchQuestions/Work%20Plan%20and%20Research%20Questions.md)
+  * [GanntChart_PolkCo.pdf](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.pdf)
+  * [GanntChart_PolkCo.mpp](https://github.com/ruhidamda/apple-mango-banana/blob/master/GanntChart_PolkCo.mpp)
+* BackgroundResearchReports
+  * [TheClientOrganizationAndItsMissionAndGoals.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/TheClientOrganizationAndItsMissionAndGoals.md)
+  * [StudyOrganism.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/StudyOrganism.md)
+  * [RecommendationResearch.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/BackgroundResearchReports/RecommendationResearch.md)
+* [AudienceProfile.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/AudienceProfile.md)
+* DataCleaningDocumentation
+  * [Documenation.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/Documentation.md)
+  * [SandSkinkData2018Clean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/SandSkinkData2018Clean.xlsx)
+  * [WaterDataClean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/WaterDataClean.xlsx)
+  * [Burn history.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/Burn%20history.xlsx)
 
 ### License
 
