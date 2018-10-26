@@ -1,0 +1,1684 @@
+﻿Waterbody,LabNo,Sampling Site Name,Date Collected,Parameter,Unit,Result,DetectionLimit,DQCodes
+Banana Creek,30221,Banana Creek,11/7/17,Temperature,deg C,22.79,,
+Banana Creek,30221,Banana Creek,11/7/17,Conductivity,umhos/cm,173,,
+Banana Creek,30221,Banana Creek,11/7/17,Dissolved Oxygen,%,79.2,,J3
+Banana Creek,30221,Banana Creek,11/7/17,Dissolved Oxygen,mg/l,6.81,,J3
+Banana Creek,30221,Banana Creek,11/7/17,pH,Std Unit,7.48,,
+Banana Creek,30221,Banana Creek,11/7/17,Chlorophyll a,ug/l,148,3,
+Banana Creek,30221,Banana Creek,11/7/17,Chlorophyll a (Corrected),ug/l,110,3,
+Banana Creek,30221,Banana Creek,11/7/17,Sulfate,mg/l,8.83,3.6,
+Banana Creek,30221,Banana Creek,11/7/17,Total Dissolved Solids,mg/l,122,1,
+Banana Creek,30221,Banana Creek,11/7/17,Total Suspended Solids,mg/l,51,0.4,
+Banana Creek,30221,Banana Creek,11/7/17,Iron,ug/l,708,50,
+Banana Creek,30221,Banana Creek,11/7/17,Nitrogen Ammonia,mg/l,0.023,0.01,Y C I
+Banana Creek,30221,Banana Creek,11/7/17,Nitrogen Kjeldahl,mg/l,5.76,0.1,Y
+Banana Creek,30221,Banana Creek,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,Y U
+Banana Creek,30221,Banana Creek,11/7/17,Nitrogen Total,mg/l,5.76,0.11,Y
+Banana Creek,30221,Banana Creek,11/7/17,Phosphorus Ortho,mg/l,0.425,0.005,
+Banana Creek,30221,Banana Creek,11/7/17,Phosphorus Total,mg/l,1.46,0.015,Y
+Hancock,30222,Reynold's Runoff,11/7/17,Temperature,deg C,21.17,,
+Hancock,30222,Reynold's Runoff,11/7/17,Conductivity,umhos/cm,314,,
+Hancock,30222,Reynold's Runoff,11/7/17,Dissolved Oxygen,%,73,,J3
+Hancock,30222,Reynold's Runoff,11/7/17,Dissolved Oxygen,mg/l,6.45,,J3
+Hancock,30222,Reynold's Runoff,11/7/17,pH,Std Unit,7.27,,
+Hancock,30222,Reynold's Runoff,11/7/17,Chlorophyll a,ug/l,3,3,U
+Hancock,30222,Reynold's Runoff,11/7/17,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30222,Reynold's Runoff,11/7/17,Sulfate,mg/l,11.4,3.6,
+Hancock,30222,Reynold's Runoff,11/7/17,Total Dissolved Solids,mg/l,210,1,
+Hancock,30222,Reynold's Runoff,11/7/17,Total Suspended Solids,mg/l,4.4,0.4,
+Hancock,30222,Reynold's Runoff,11/7/17,Iron,ug/l,585,50,
+Hancock,30222,Reynold's Runoff,11/7/17,Nitrogen Ammonia,mg/l,0.018,0.01,Y C I
+Hancock,30222,Reynold's Runoff,11/7/17,Nitrogen Kjeldahl,mg/l,0.577,0.1,Y
+Hancock,30222,Reynold's Runoff,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.132,0.01,Y
+Hancock,30222,Reynold's Runoff,11/7/17,Nitrogen Total,mg/l,0.71,0.11,Y
+Hancock,30222,Reynold's Runoff,11/7/17,Phosphorus Ortho,mg/l,0.166,0.005,
+Hancock,30222,Reynold's Runoff,11/7/17,Phosphorus Total,mg/l,0.368,0.015,Y
+Hancock,30223,Flooded Road,11/7/17,Temperature,deg C,22.19,,
+Hancock,30223,Flooded Road,11/7/17,Conductivity,umhos/cm,311,,
+Hancock,30223,Flooded Road,11/7/17,Dissolved Oxygen,%,49.3,,J3
+Hancock,30223,Flooded Road,11/7/17,Dissolved Oxygen,mg/l,6.45,,J3
+Hancock,30223,Flooded Road,11/7/17,pH,Std Unit,6.96,,
+Hancock,30223,Flooded Road,11/7/17,Chlorophyll a,ug/l,3.46,3,I
+Hancock,30223,Flooded Road,11/7/17,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30223,Flooded Road,11/7/17,Sulfate,mg/l,11.4,3.6,
+Hancock,30223,Flooded Road,11/7/17,Total Dissolved Solids,mg/l,212,1,
+Hancock,30223,Flooded Road,11/7/17,Total Suspended Solids,mg/l,11.6,0.4,
+Hancock,30223,Flooded Road,11/7/17,Iron,ug/l,425,50,
+Hancock,30223,Flooded Road,11/7/17,Nitrogen Ammonia,mg/l,0.021,0.01,Y C I
+Hancock,30223,Flooded Road,11/7/17,Nitrogen Kjeldahl,mg/l,0.662,0.1,Y
+Hancock,30223,Flooded Road,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.026,0.01,Y I
+Hancock,30223,Flooded Road,11/7/17,Nitrogen Total,mg/l,0.69,0.11,Y
+Hancock,30223,Flooded Road,11/7/17,Phosphorus Ortho,mg/l,0.256,0.005,
+Hancock,30223,Flooded Road,11/7/17,Phosphorus Total,mg/l,0.367,0.015,Y
+Hancock,30224,Wading Bird North,11/7/17,Temperature,deg C,24.25,,
+Hancock,30224,Wading Bird North,11/7/17,Conductivity,umhos/cm,194,,
+Hancock,30224,Wading Bird North,11/7/17,Dissolved Oxygen,%,59.9,,J3
+Hancock,30224,Wading Bird North,11/7/17,Dissolved Oxygen,mg/l,5.04,,J3
+Hancock,30224,Wading Bird North,11/7/17,pH,Std Unit,6.95,,
+Hancock,30224,Wading Bird North,11/7/17,Chlorophyll a,ug/l,50.6,3,
+Hancock,30224,Wading Bird North,11/7/17,Chlorophyll a (Corrected),ug/l,39.2,3,
+Hancock,30224,Wading Bird North,11/7/17,Sulfate,mg/l,7.66,3.6,
+Hancock,30224,Wading Bird North,11/7/17,Total Dissolved Solids,mg/l,138,1,
+Hancock,30224,Wading Bird North,11/7/17,Total Suspended Solids,mg/l,12.8,0.4,
+Hancock,30224,Wading Bird North,11/7/17,Iron,ug/l,142,50,I
+Hancock,30224,Wading Bird North,11/7/17,Nitrogen Ammonia,mg/l,0.017,0.01,Y C I
+Hancock,30224,Wading Bird North,11/7/17,Nitrogen Kjeldahl,mg/l,1.66,0.1,Y
+Hancock,30224,Wading Bird North,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,Y U
+Hancock,30224,Wading Bird North,11/7/17,Nitrogen Total,mg/l,1.66,0.11,Y
+Hancock,30224,Wading Bird North,11/7/17,Phosphorus Ortho,mg/l,0.493,0.005,
+Hancock,30224,Wading Bird North,11/7/17,Phosphorus Total,mg/l,0.683,0.015,Y
+Hancock,30225,Wading Bird South,11/7/17,Temperature,deg C,25.32,,
+Hancock,30225,Wading Bird South,11/7/17,Conductivity,umhos/cm,187,,
+Hancock,30225,Wading Bird South,11/7/17,Dissolved Oxygen,%,60.5,,J3
+Hancock,30225,Wading Bird South,11/7/17,Dissolved Oxygen,mg/l,4.97,,J3
+Hancock,30225,Wading Bird South,11/7/17,pH,Std Unit,7.14,,
+Hancock,30225,Wading Bird South,11/7/17,Chlorophyll a,ug/l,69.6,3,
+Hancock,30225,Wading Bird South,11/7/17,Chlorophyll a (Corrected),ug/l,52.1,3,
+Hancock,30225,Wading Bird South,11/7/17,Sulfate,mg/l,7.67,3.6,
+Hancock,30225,Wading Bird South,11/7/17,Total Dissolved Solids,mg/l,140,1,
+Hancock,30225,Wading Bird South,11/7/17,Total Suspended Solids,mg/l,18.4,0.4,A
+Hancock,30225,Wading Bird South,11/7/17,Iron,ug/l,117,50,I
+Hancock,30225,Wading Bird South,11/7/17,Nitrogen Ammonia,mg/l,0.023,0.01,Y C I
+Hancock,30225,Wading Bird South,11/7/17,Nitrogen Kjeldahl,mg/l,1.99,0.1,Y
+Hancock,30225,Wading Bird South,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,Y U
+Hancock,30225,Wading Bird South,11/7/17,Nitrogen Total,mg/l,1.99,0.11,Y
+Hancock,30225,Wading Bird South,11/7/17,Phosphorus Ortho,mg/l,0.376,0.005,
+Hancock,30225,Wading Bird South,11/7/17,Phosphorus Total,mg/l,0.543,0.015,Y
+Hancock,30226,Eagle Roost Rd,11/7/17,Temperature,deg C,24.59,,
+Hancock,30226,Eagle Roost Rd,11/7/17,Conductivity,umhos/cm,189,,
+Hancock,30226,Eagle Roost Rd,11/7/17,Dissolved Oxygen,%,12.6,,J3
+Hancock,30226,Eagle Roost Rd,11/7/17,Dissolved Oxygen,mg/l,1.06,,J3
+Hancock,30226,Eagle Roost Rd,11/7/17,pH,Std Unit,6.33,,
+Hancock,30226,Eagle Roost Rd,11/7/17,Chlorophyll a,ug/l,45.6,3,
+Hancock,30226,Eagle Roost Rd,11/7/17,Chlorophyll a (Corrected),ug/l,31.2,3,
+Hancock,30226,Eagle Roost Rd,11/7/17,Sulfate,mg/l,7.27,3.6,
+Hancock,30226,Eagle Roost Rd,11/7/17,Total Dissolved Solids,mg/l,134,1,
+Hancock,30226,Eagle Roost Rd,11/7/17,Total Suspended Solids,mg/l,11.2,0.4,
+Hancock,30226,Eagle Roost Rd,11/7/17,Iron,ug/l,127,50,I
+Hancock,30226,Eagle Roost Rd,11/7/17,Nitrogen Ammonia,mg/l,0.2,0.01,Y C
+Hancock,30226,Eagle Roost Rd,11/7/17,Nitrogen Kjeldahl,mg/l,1.96,0.1,Y A
+Hancock,30226,Eagle Roost Rd,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,Y I
+Hancock,30226,Eagle Roost Rd,11/7/17,Nitrogen Total,mg/l,1.97,0.11,Y
+Hancock,30226,Eagle Roost Rd,11/7/17,Phosphorus Ortho,mg/l,0.418,0.005,
+Hancock,30226,Eagle Roost Rd,11/7/17,Phosphorus Total,mg/l,0.57,0.015,Y A J3
+Hancock,30227,Heron Hideout,11/7/17,Temperature,deg C,22.93,,
+Hancock,30227,Heron Hideout,11/7/17,Conductivity,umhos/cm,162,,
+Hancock,30227,Heron Hideout,11/7/17,Dissolved Oxygen,%,18.5,,J3
+Hancock,30227,Heron Hideout,11/7/17,Dissolved Oxygen,mg/l,1.56,,J3
+Hancock,30227,Heron Hideout,11/7/17,pH,Std Unit,6.55,,
+Hancock,30227,Heron Hideout,11/7/17,Chlorophyll a,ug/l,9.93,3,
+Hancock,30227,Heron Hideout,11/7/17,Chlorophyll a (Corrected),ug/l,8.01,3,
+Hancock,30227,Heron Hideout,11/7/17,Sulfate,mg/l,6.89,3.6,J3
+Hancock,30227,Heron Hideout,11/7/17,Total Dissolved Solids,mg/l,134,1,
+Hancock,30227,Heron Hideout,11/7/17,Total Suspended Solids,mg/l,1.6,0.4,I
+Hancock,30227,Heron Hideout,11/7/17,Iron,ug/l,123,50,I
+Hancock,30227,Heron Hideout,11/7/17,Nitrogen Ammonia,mg/l,0.025,0.01,Y C I
+Hancock,30227,Heron Hideout,11/7/17,Nitrogen Kjeldahl,mg/l,1.22,0.1,Y
+Hancock,30227,Heron Hideout,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,Y U
+Hancock,30227,Heron Hideout,11/7/17,Nitrogen Total,mg/l,1.22,0.11,Y
+Hancock,30227,Heron Hideout,11/7/17,Phosphorus Ortho,mg/l,0.488,0.005,
+Hancock,30227,Heron Hideout,11/7/17,Phosphorus Total,mg/l,0.531,0.015,Y
+Hancock,30228,Outflow Pipes,11/7/17,Temperature,deg C,22.53,,
+Hancock,30228,Outflow Pipes,11/7/17,Conductivity,umhos/cm,176,,
+Hancock,30228,Outflow Pipes,11/7/17,Dissolved Oxygen,%,7.1,,J3
+Hancock,30228,Outflow Pipes,11/7/17,Dissolved Oxygen,mg/l,0.64,,J3
+Hancock,30228,Outflow Pipes,11/7/17,pH,Std Unit,6.32,,
+Hancock,30228,Outflow Pipes,11/7/17,Chlorophyll a,ug/l,76.7,3,A
+Hancock,30228,Outflow Pipes,11/7/17,Chlorophyll a (Corrected),ug/l,68.6,3,A
+Hancock,30228,Outflow Pipes,11/7/17,Sulfate,mg/l,7.83,3.6,
+Hancock,30228,Outflow Pipes,11/7/17,Total Dissolved Solids,mg/l,128,1,A
+Hancock,30228,Outflow Pipes,11/7/17,Total Suspended Solids,mg/l,15.6,0.4,
+Hancock,30228,Outflow Pipes,11/7/17,Iron,ug/l,140,50,I A
+Hancock,30228,Outflow Pipes,11/7/17,Nitrogen Ammonia,mg/l,0.065,0.01,C
+Hancock,30228,Outflow Pipes,11/7/17,Nitrogen Kjeldahl,mg/l,2.07,0.1,
+Hancock,30228,Outflow Pipes,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30228,Outflow Pipes,11/7/17,Nitrogen Total,mg/l,2.07,0.11,
+Hancock,30228,Outflow Pipes,11/7/17,Phosphorus Ortho,mg/l,0.321,0.005,
+Hancock,30228,Outflow Pipes,11/7/17,Phosphorus Total,mg/l,0.493,0.015,
+Hancock,30229,Canal Outflow,11/7/17,Temperature,deg C,23.06,,
+Hancock,30229,Canal Outflow,11/7/17,Conductivity,umhos/cm,184,,
+Hancock,30229,Canal Outflow,11/7/17,Dissolved Oxygen,%,22.5,,J3
+Hancock,30229,Canal Outflow,11/7/17,Dissolved Oxygen,mg/l,1.8,,J3
+Hancock,30229,Canal Outflow,11/7/17,pH,Std Unit,6.36,,
+Hancock,30229,Canal Outflow,11/7/17,Chlorophyll a,ug/l,86.4,3,
+Hancock,30229,Canal Outflow,11/7/17,Chlorophyll a (Corrected),ug/l,76.1,3,
+Hancock,30229,Canal Outflow,11/7/17,Sulfate,mg/l,6.84,3.6,
+Hancock,30229,Canal Outflow,11/7/17,Total Dissolved Solids,mg/l,132,1,
+Hancock,30229,Canal Outflow,11/7/17,Total Suspended Solids,mg/l,46.4,0.4,
+Hancock,30229,Canal Outflow,11/7/17,Iron,ug/l,144,50,I
+Hancock,30229,Canal Outflow,11/7/17,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30229,Canal Outflow,11/7/17,Nitrogen Kjeldahl,mg/l,1.54,0.1,
+Hancock,30229,Canal Outflow,11/7/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30229,Canal Outflow,11/7/17,Nitrogen Total,mg/l,1.54,0.11,
+Hancock,30229,Canal Outflow,11/7/17,Phosphorus Ortho,mg/l,0.51,0.005,
+Hancock,30229,Canal Outflow,11/7/17,Phosphorus Total,mg/l,0.659,0.015,
+Banana Creek,30421,Banana Creek,12/5/17,Temperature,deg C,20.5,,
+Banana Creek,30421,Banana Creek,12/5/17,Conductivity,umhos/cm,177,,
+Banana Creek,30421,Banana Creek,12/5/17,Dissolved Oxygen,%,55.9,,
+Banana Creek,30421,Banana Creek,12/5/17,Dissolved Oxygen,mg/l,5.04,,
+Banana Creek,30421,Banana Creek,12/5/17,pH,Std Unit,7.27,,
+Banana Creek,30421,Banana Creek,12/5/17,Chlorophyll a,ug/l,245,3,
+Banana Creek,30421,Banana Creek,12/5/17,Chlorophyll a (Corrected),ug/l,164,3,
+Banana Creek,30421,Banana Creek,12/5/17,Sulfate,mg/l,8.84,3.6,
+Banana Creek,30421,Banana Creek,12/5/17,Total Dissolved Solids,mg/l,134,1,
+Banana Creek,30421,Banana Creek,12/5/17,Total Suspended Solids,mg/l,270,0.4,A
+Banana Creek,30421,Banana Creek,12/5/17,Iron,ug/l,296,50,
+Banana Creek,30421,Banana Creek,12/5/17,Nitrogen Ammonia,mg/l,0.01,0.01,C I
+Banana Creek,30421,Banana Creek,12/5/17,Nitrogen Kjeldahl,mg/l,7.12,0.1,
+Banana Creek,30421,Banana Creek,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30421,Banana Creek,12/5/17,Nitrogen Total,mg/l,7.12,0.11,
+Banana Creek,30421,Banana Creek,12/5/17,Phosphorus Ortho,mg/l,0.363,0.005,
+Banana Creek,30421,Banana Creek,12/5/17,Phosphorus Total,mg/l,1.7,0.015,
+Hancock,30422,Reynold's Runoff,12/5/17,Temperature,deg C,18.68,,
+Hancock,30422,Reynold's Runoff,12/5/17,Conductivity,umhos/cm,314,,
+Hancock,30422,Reynold's Runoff,12/5/17,Dissolved Oxygen,%,15.2,,
+Hancock,30422,Reynold's Runoff,12/5/17,Dissolved Oxygen,mg/l,1.42,,
+Hancock,30422,Reynold's Runoff,12/5/17,pH,Std Unit,7.36,,
+Hancock,30422,Reynold's Runoff,12/5/17,Chlorophyll a,ug/l,3,3,U
+Hancock,30422,Reynold's Runoff,12/5/17,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30422,Reynold's Runoff,12/5/17,Sulfate,mg/l,10.7,3.6,
+Hancock,30422,Reynold's Runoff,12/5/17,Total Dissolved Solids,mg/l,204,1,
+Hancock,30422,Reynold's Runoff,12/5/17,Total Suspended Solids,mg/l,1.2,0.4,I
+Hancock,30422,Reynold's Runoff,12/5/17,Iron,ug/l,345,50,
+Hancock,30422,Reynold's Runoff,12/5/17,Nitrogen Ammonia,mg/l,0.012,0.01,C I
+Hancock,30422,Reynold's Runoff,12/5/17,Nitrogen Kjeldahl,mg/l,0.519,0.1,
+Hancock,30422,Reynold's Runoff,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.136,0.01,
+Hancock,30422,Reynold's Runoff,12/5/17,Nitrogen Total,mg/l,0.66,0.11,
+Hancock,30422,Reynold's Runoff,12/5/17,Phosphorus Ortho,mg/l,0.133,0.005,
+Hancock,30422,Reynold's Runoff,12/5/17,Phosphorus Total,mg/l,0.303,0.015,
+Hancock,30423,Flooded Road,12/5/17,Temperature,deg C,19.42,,
+Hancock,30423,Flooded Road,12/5/17,Conductivity,umhos/cm,307,,
+Hancock,30423,Flooded Road,12/5/17,Dissolved Oxygen,%,60.9,,
+Hancock,30423,Flooded Road,12/5/17,Dissolved Oxygen,mg/l,5.67,,
+Hancock,30423,Flooded Road,12/5/17,pH,Std Unit,7.02,,
+Hancock,30423,Flooded Road,12/5/17,Chlorophyll a,ug/l,3,3,U
+Hancock,30423,Flooded Road,12/5/17,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30423,Flooded Road,12/5/17,Sulfate,mg/l,12.6,3.6,
+Hancock,30423,Flooded Road,12/5/17,Total Dissolved Solids,mg/l,204,1,
+Hancock,30423,Flooded Road,12/5/17,Total Suspended Solids,mg/l,4.4,0.4,
+Hancock,30423,Flooded Road,12/5/17,Iron,ug/l,355,50,
+Hancock,30423,Flooded Road,12/5/17,Nitrogen Ammonia,mg/l,0.016,0.01,C I
+Hancock,30423,Flooded Road,12/5/17,Nitrogen Kjeldahl,mg/l,0.584,0.1,A
+Hancock,30423,Flooded Road,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.013,0.01,I
+Hancock,30423,Flooded Road,12/5/17,Nitrogen Total,mg/l,0.6,0.11,
+Hancock,30423,Flooded Road,12/5/17,Phosphorus Ortho,mg/l,0.184,0.005,
+Hancock,30423,Flooded Road,12/5/17,Phosphorus Total,mg/l,0.299,0.015,A
+Hancock,30424,Wading Bird North,12/5/17,Temperature,deg C,21.42,,
+Hancock,30424,Wading Bird North,12/5/17,Conductivity,umhos/cm,200,,
+Hancock,30424,Wading Bird North,12/5/17,Dissolved Oxygen,%,49.8,,
+Hancock,30424,Wading Bird North,12/5/17,Dissolved Oxygen,mg/l,4.41,,
+Hancock,30424,Wading Bird North,12/5/17,pH,Std Unit,6.94,,
+Hancock,30424,Wading Bird North,12/5/17,Chlorophyll a,ug/l,56.4,3,
+Hancock,30424,Wading Bird North,12/5/17,Chlorophyll a (Corrected),ug/l,40.1,3,
+Hancock,30424,Wading Bird North,12/5/17,Sulfate,mg/l,8.18,3.6,
+Hancock,30424,Wading Bird North,12/5/17,Total Dissolved Solids,mg/l,144,1,
+Hancock,30424,Wading Bird North,12/5/17,Total Suspended Solids,mg/l,20,0.4,
+Hancock,30424,Wading Bird North,12/5/17,Iron,ug/l,105,50,I
+Hancock,30424,Wading Bird North,12/5/17,Nitrogen Ammonia,mg/l,0.02,0.01,C I
+Hancock,30424,Wading Bird North,12/5/17,Nitrogen Kjeldahl,mg/l,1.66,0.1,
+Hancock,30424,Wading Bird North,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30424,Wading Bird North,12/5/17,Nitrogen Total,mg/l,1.66,0.11,
+Hancock,30424,Wading Bird North,12/5/17,Phosphorus Ortho,mg/l,0.24,0.005,
+Hancock,30424,Wading Bird North,12/5/17,Phosphorus Total,mg/l,0.417,0.015,
+Hancock,30425,Wading Bird South,12/5/17,Temperature,deg C,22.26,,
+Hancock,30425,Wading Bird South,12/5/17,Conductivity,umhos/cm,195,,
+Hancock,30425,Wading Bird South,12/5/17,Dissolved Oxygen,%,89.2,,
+Hancock,30425,Wading Bird South,12/5/17,Dissolved Oxygen,mg/l,7.8,,
+Hancock,30425,Wading Bird South,12/5/17,pH,Std Unit,7.22,,
+Hancock,30425,Wading Bird South,12/5/17,Chlorophyll a,ug/l,69.6,3,
+Hancock,30425,Wading Bird South,12/5/17,Chlorophyll a (Corrected),ug/l,50.5,3,
+Hancock,30425,Wading Bird South,12/5/17,Sulfate,mg/l,8.72,3.6,
+Hancock,30425,Wading Bird South,12/5/17,Total Dissolved Solids,mg/l,140,1,
+Hancock,30425,Wading Bird South,12/5/17,Total Suspended Solids,mg/l,33.2,0.4,
+Hancock,30425,Wading Bird South,12/5/17,Iron,ug/l,171,50,I
+Hancock,30425,Wading Bird South,12/5/17,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30425,Wading Bird South,12/5/17,Nitrogen Kjeldahl,mg/l,2.65,0.1,
+Hancock,30425,Wading Bird South,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30425,Wading Bird South,12/5/17,Nitrogen Total,mg/l,2.65,0.11,
+Hancock,30425,Wading Bird South,12/5/17,Phosphorus Ortho,mg/l,0.2,0.005,
+Hancock,30425,Wading Bird South,12/5/17,Phosphorus Total,mg/l,0.514,0.015,
+Hancock,30426,Eagle Roost Rd,12/5/17,Temperature,deg C,21.78,,
+Hancock,30426,Eagle Roost Rd,12/5/17,Conductivity,umhos/cm,197,,
+Hancock,30426,Eagle Roost Rd,12/5/17,Dissolved Oxygen,%,29,,
+Hancock,30426,Eagle Roost Rd,12/5/17,Dissolved Oxygen,mg/l,2.65,,
+Hancock,30426,Eagle Roost Rd,12/5/17,pH,Std Unit,6.76,,
+Hancock,30426,Eagle Roost Rd,12/5/17,Chlorophyll a,ug/l,34.6,3,
+Hancock,30426,Eagle Roost Rd,12/5/17,Chlorophyll a (Corrected),ug/l,24.8,3,
+Hancock,30426,Eagle Roost Rd,12/5/17,Sulfate,mg/l,7.18,3.6,
+Hancock,30426,Eagle Roost Rd,12/5/17,Total Dissolved Solids,mg/l,144,1,
+Hancock,30426,Eagle Roost Rd,12/5/17,Total Suspended Solids,mg/l,7.6,0.4,
+Hancock,30426,Eagle Roost Rd,12/5/17,Iron,ug/l,88.9,50,I
+Hancock,30426,Eagle Roost Rd,12/5/17,Nitrogen Ammonia,mg/l,0.146,0.01,C
+Hancock,30426,Eagle Roost Rd,12/5/17,Nitrogen Kjeldahl,mg/l,1.76,0.1,
+Hancock,30426,Eagle Roost Rd,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30426,Eagle Roost Rd,12/5/17,Nitrogen Total,mg/l,1.76,0.11,
+Hancock,30426,Eagle Roost Rd,12/5/17,Phosphorus Ortho,mg/l,0.288,0.005,
+Hancock,30426,Eagle Roost Rd,12/5/17,Phosphorus Total,mg/l,0.428,0.015,
+Hancock,30427,Heron Hideout,12/5/17,Temperature,deg C,21.31,,
+Hancock,30427,Heron Hideout,12/5/17,Conductivity,umhos/cm,192,,
+Hancock,30427,Heron Hideout,12/5/17,Dissolved Oxygen,%,25.8,,
+Hancock,30427,Heron Hideout,12/5/17,Dissolved Oxygen,mg/l,2.3,,
+Hancock,30427,Heron Hideout,12/5/17,pH,Std Unit,6.64,,
+Hancock,30427,Heron Hideout,12/5/17,Chlorophyll a,ug/l,15,3,
+Hancock,30427,Heron Hideout,12/5/17,Chlorophyll a (Corrected),ug/l,12.8,3,
+Hancock,30427,Heron Hideout,12/5/17,Sulfate,mg/l,8.07,3.6,
+Hancock,30427,Heron Hideout,12/5/17,Total Dissolved Solids,mg/l,138,1,
+Hancock,30427,Heron Hideout,12/5/17,Total Suspended Solids,mg/l,6.4,0.4,
+Hancock,30427,Heron Hideout,12/5/17,Iron,ug/l,116,50,I
+Hancock,30427,Heron Hideout,12/5/17,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Hancock,30427,Heron Hideout,12/5/17,Nitrogen Kjeldahl,mg/l,1.23,0.1,
+Hancock,30427,Heron Hideout,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30427,Heron Hideout,12/5/17,Nitrogen Total,mg/l,1.23,0.11,
+Hancock,30427,Heron Hideout,12/5/17,Phosphorus Ortho,mg/l,0.497,0.005,
+Hancock,30427,Heron Hideout,12/5/17,Phosphorus Total,mg/l,0.581,0.015,
+Hancock,30428,Outflow Pipes,12/5/17,Temperature,deg C,21.37,,
+Hancock,30428,Outflow Pipes,12/5/17,Conductivity,umhos/cm,187,,
+Hancock,30428,Outflow Pipes,12/5/17,Dissolved Oxygen,%,13.4,,
+Hancock,30428,Outflow Pipes,12/5/17,Dissolved Oxygen,mg/l,1.19,,
+Hancock,30428,Outflow Pipes,12/5/17,pH,Std Unit,6.77,,
+Hancock,30428,Outflow Pipes,12/5/17,Chlorophyll a,ug/l,133,3,
+Hancock,30428,Outflow Pipes,12/5/17,Chlorophyll a (Corrected),ug/l,114,3,
+Hancock,30428,Outflow Pipes,12/5/17,Sulfate,mg/l,7.88,3.6,
+Hancock,30428,Outflow Pipes,12/5/17,Total Dissolved Solids,mg/l,140,1,
+Hancock,30428,Outflow Pipes,12/5/17,Total Suspended Solids,mg/l,29,0.4,
+Hancock,30428,Outflow Pipes,12/5/17,Iron,ug/l,111,50,I
+Hancock,30428,Outflow Pipes,12/5/17,Nitrogen Ammonia,mg/l,0.052,0.01,C
+Hancock,30428,Outflow Pipes,12/5/17,Nitrogen Kjeldahl,mg/l,2.92,0.1,
+Hancock,30428,Outflow Pipes,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30428,Outflow Pipes,12/5/17,Nitrogen Total,mg/l,2.92,0.11,
+Hancock,30428,Outflow Pipes,12/5/17,Phosphorus Ortho,mg/l,0.2,0.005,
+Hancock,30428,Outflow Pipes,12/5/17,Phosphorus Total,mg/l,0.435,0.015,
+Hancock,30429,Canal Outflow,12/5/17,Temperature,deg C,20.86,,
+Hancock,30429,Canal Outflow,12/5/17,Conductivity,umhos/cm,191,,
+Hancock,30429,Canal Outflow,12/5/17,Dissolved Oxygen,%,23.1,,
+Hancock,30429,Canal Outflow,12/5/17,Dissolved Oxygen,mg/l,2.07,,
+Hancock,30429,Canal Outflow,12/5/17,pH,Std Unit,6.43,,
+Hancock,30429,Canal Outflow,12/5/17,Chlorophyll a,ug/l,28.2,3,
+Hancock,30429,Canal Outflow,12/5/17,Chlorophyll a (Corrected),ug/l,24,3,
+Hancock,30429,Canal Outflow,12/5/17,Sulfate,mg/l,8.51,3.6,
+Hancock,30429,Canal Outflow,12/5/17,Total Dissolved Solids,mg/l,135,1,A
+Hancock,30429,Canal Outflow,12/5/17,Total Suspended Solids,mg/l,4.8,0.4,
+Hancock,30429,Canal Outflow,12/5/17,Iron,ug/l,153,50,A I
+Hancock,30429,Canal Outflow,12/5/17,Nitrogen Ammonia,mg/l,0.033,0.01,C I
+Hancock,30429,Canal Outflow,12/5/17,Nitrogen Kjeldahl,mg/l,1.89,0.1,
+Hancock,30429,Canal Outflow,12/5/17,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30429,Canal Outflow,12/5/17,Nitrogen Total,mg/l,1.89,0.11,
+Hancock,30429,Canal Outflow,12/5/17,Phosphorus Ortho,mg/l,0.364,0.005,
+Hancock,30429,Canal Outflow,12/5/17,Phosphorus Total,mg/l,0.552,0.015,
+Banana Creek,30431,Banana Creek,1/2/18,Temperature,deg C,12.06,,
+Banana Creek,30431,Banana Creek,1/2/18,Dissolved Oxygen,mg/l,6.73,,
+Banana Creek,30431,Banana Creek,1/2/18,pH,Std Unit,7.22,,
+Banana Creek,30431,Banana Creek,1/2/18,Iron,ug/l,1041,50,
+Banana Creek,30431,Banana Creek,1/2/18,Conductivity,umhos/cm,194,,
+Banana Creek,30431,Banana Creek,1/2/18,Phosphorus Total,mg/l,3.14,0.015,
+Banana Creek,30431,Banana Creek,1/2/18,Nitrogen Kjeldahl,mg/l,14.7,0.1,
+Banana Creek,30431,Banana Creek,1/2/18,Sulfate,mg/l,8.34,3.6,
+Banana Creek,30431,Banana Creek,1/2/18,Nitrogen Ammonia,mg/l,0.022,0.01,C I
+Banana Creek,30431,Banana Creek,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30431,Banana Creek,1/2/18,Nitrogen Total,mg/l,14.7,0.11,
+Banana Creek,30431,Banana Creek,1/2/18,Phosphorus Ortho,mg/l,0.301,0.005,
+Banana Creek,30431,Banana Creek,1/2/18,Chlorophyll a (Corrected),ug/l,96.1,3,J3
+Banana Creek,30431,Banana Creek,1/2/18,Chlorophyll a,ug/l,127,3,J3
+Banana Creek,30431,Banana Creek,1/2/18,Total Dissolved Solids,mg/l,110,1,
+Banana Creek,30431,Banana Creek,1/2/18,Total Suspended Solids,mg/l,58,0.4,
+Banana Creek,30431,Banana Creek,1/2/18,Dissolved Oxygen,%,62.3,,
+Hancock,30432,Reynold's Runoff,1/2/18,Dissolved Oxygen,%,91.1,,
+Hancock,30432,Reynold's Runoff,1/2/18,Chlorophyll a,ug/l,3,3,J3 U
+Hancock,30432,Reynold's Runoff,1/2/18,Total Dissolved Solids,mg/l,174,1,
+Hancock,30432,Reynold's Runoff,1/2/18,Phosphorus Ortho,mg/l,0.117,0.005,
+Hancock,30432,Reynold's Runoff,1/2/18,Chlorophyll a (Corrected),ug/l,3,3,J3 U
+Hancock,30432,Reynold's Runoff,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.157,0.01,
+Hancock,30432,Reynold's Runoff,1/2/18,Nitrogen Total,mg/l,0.68,0.11,
+Hancock,30432,Reynold's Runoff,1/2/18,Sulfate,mg/l,10,3.6,
+Hancock,30432,Reynold's Runoff,1/2/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30432,Reynold's Runoff,1/2/18,Phosphorus Total,mg/l,0.405,0.015,
+Hancock,30432,Reynold's Runoff,1/2/18,Nitrogen Kjeldahl,mg/l,0.522,0.1,
+Hancock,30432,Reynold's Runoff,1/2/18,Conductivity,umhos/cm,311,,
+Hancock,30432,Reynold's Runoff,1/2/18,Iron,ug/l,415,50,
+Hancock,30432,Reynold's Runoff,1/2/18,Dissolved Oxygen,mg/l,9.91,,
+Hancock,30432,Reynold's Runoff,1/2/18,pH,Std Unit,7.39,,
+Hancock,30432,Reynold's Runoff,1/2/18,Temperature,deg C,11.58,,
+Hancock,30432,Reynold's Runoff,1/2/18,Total Suspended Solids,mg/l,7.2,0.4,
+Hancock,30433,Flooded Road,1/2/18,Total Suspended Solids,mg/l,0.4,0.4,I
+Hancock,30433,Flooded Road,1/2/18,Temperature,deg C,11.04,,
+Hancock,30433,Flooded Road,1/2/18,pH,Std Unit,7.15,,
+Hancock,30433,Flooded Road,1/2/18,Dissolved Oxygen,mg/l,7.5,,
+Hancock,30433,Flooded Road,1/2/18,Iron,ug/l,222,50,
+Hancock,30433,Flooded Road,1/2/18,Conductivity,umhos/cm,302,,
+Hancock,30433,Flooded Road,1/2/18,Nitrogen Kjeldahl,mg/l,0.49,0.1,A
+Hancock,30433,Flooded Road,1/2/18,Phosphorus Total,mg/l,0.174,0.015,A J3
+Hancock,30433,Flooded Road,1/2/18,Nitrogen Ammonia,mg/l,0.013,0.01,C I
+Hancock,30433,Flooded Road,1/2/18,Sulfate,mg/l,11.3,3.6,
+Hancock,30433,Flooded Road,1/2/18,Nitrogen Total,mg/l,0.51,0.11,
+Hancock,30433,Flooded Road,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.019,0.01,I
+Hancock,30433,Flooded Road,1/2/18,Chlorophyll a (Corrected),ug/l,3,3,U J3
+Hancock,30433,Flooded Road,1/2/18,Phosphorus Ortho,mg/l,0.141,0.005,
+Hancock,30433,Flooded Road,1/2/18,Chlorophyll a,ug/l,3,3,U J3
+Hancock,30433,Flooded Road,1/2/18,Total Dissolved Solids,mg/l,180,1,
+Hancock,30433,Flooded Road,1/2/18,Dissolved Oxygen,%,68.1,,
+Hancock,30434,Wading Bird North,1/2/18,Dissolved Oxygen,%,83.7,,
+Hancock,30434,Wading Bird North,1/2/18,Phosphorus Ortho,mg/l,0.229,0.005,
+Hancock,30434,Wading Bird North,1/2/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30434,Wading Bird North,1/2/18,Chlorophyll a,ug/l,79.8,3,J3
+Hancock,30434,Wading Bird North,1/2/18,Chlorophyll a (Corrected),ug/l,52.8,3,J3
+Hancock,30434,Wading Bird North,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30434,Wading Bird North,1/2/18,Nitrogen Total,mg/l,1.78,0.11,
+Hancock,30434,Wading Bird North,1/2/18,Nitrogen Ammonia,mg/l,0.016,0.01,C I
+Hancock,30434,Wading Bird North,1/2/18,Sulfate,mg/l,8.32,3.6,
+Hancock,30434,Wading Bird North,1/2/18,Phosphorus Total,mg/l,0.419,0.015,
+Hancock,30434,Wading Bird North,1/2/18,Nitrogen Kjeldahl,mg/l,1.78,0.1,
+Hancock,30434,Wading Bird North,1/2/18,Iron,ug/l,167,50,I
+Hancock,30434,Wading Bird North,1/2/18,Conductivity,umhos/cm,199,,
+Hancock,30434,Wading Bird North,1/2/18,Dissolved Oxygen,mg/l,9.14,,
+Hancock,30434,Wading Bird North,1/2/18,pH,Std Unit,7.41,,
+Hancock,30434,Wading Bird North,1/2/18,Temperature,deg C,11.47,,
+Hancock,30434,Wading Bird North,1/2/18,Total Suspended Solids,mg/l,105,0.4,
+Hancock,30435,Wading Bird South,1/2/18,Total Suspended Solids,mg/l,45.5,0.4,
+Hancock,30435,Wading Bird South,1/2/18,Temperature,deg C,11.96,,
+Hancock,30435,Wading Bird South,1/2/18,pH,Std Unit,7.38,,
+Hancock,30435,Wading Bird South,1/2/18,Dissolved Oxygen,mg/l,9.43,,
+Hancock,30435,Wading Bird South,1/2/18,Conductivity,umhos/cm,196,,
+Hancock,30435,Wading Bird South,1/2/18,Iron,ug/l,220,50,
+Hancock,30435,Wading Bird South,1/2/18,Nitrogen Kjeldahl,mg/l,2.01,0.1,
+Hancock,30435,Wading Bird South,1/2/18,Phosphorus Total,mg/l,0.484,0.015,
+Hancock,30435,Wading Bird South,1/2/18,Sulfate,mg/l,7.87,3.6,
+Hancock,30435,Wading Bird South,1/2/18,Nitrogen Ammonia,mg/l,0.015,0.01,C I
+Hancock,30435,Wading Bird South,1/2/18,Nitrogen Total,mg/l,2.01,0.11,
+Hancock,30435,Wading Bird South,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30435,Wading Bird South,1/2/18,Chlorophyll a (Corrected),ug/l,54.5,3,J3
+Hancock,30435,Wading Bird South,1/2/18,Chlorophyll a,ug/l,78.9,3,J3
+Hancock,30435,Wading Bird South,1/2/18,Phosphorus Ortho,mg/l,0.299,0.005,
+Hancock,30435,Wading Bird South,1/2/18,Dissolved Oxygen,%,87.3,,
+Hancock,30435,Wading Bird South,1/2/18,Total Dissolved Solids,mg/l,118,1,
+Hancock,30436,Eagle Roost Rd,1/2/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30436,Eagle Roost Rd,1/2/18,Dissolved Oxygen,%,63.5,,
+Hancock,30436,Eagle Roost Rd,1/2/18,Phosphorus Ortho,mg/l,0.471,0.005,
+Hancock,30436,Eagle Roost Rd,1/2/18,Chlorophyll a,ug/l,52.5,3,J3
+Hancock,30436,Eagle Roost Rd,1/2/18,Chlorophyll a (Corrected),ug/l,40.9,3,J3
+Hancock,30436,Eagle Roost Rd,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.018,0.01,I
+Hancock,30436,Eagle Roost Rd,1/2/18,Nitrogen Total,mg/l,2.21,0.11,
+Hancock,30436,Eagle Roost Rd,1/2/18,Nitrogen Ammonia,mg/l,0.129,0.01,C
+Hancock,30436,Eagle Roost Rd,1/2/18,Sulfate,mg/l,8.86,3.6,
+Hancock,30436,Eagle Roost Rd,1/2/18,Phosphorus Total,mg/l,0.637,0.015,
+Hancock,30436,Eagle Roost Rd,1/2/18,Nitrogen Kjeldahl,mg/l,2.19,0.1,
+Hancock,30436,Eagle Roost Rd,1/2/18,Iron,ug/l,55.2,50,I
+Hancock,30436,Eagle Roost Rd,1/2/18,Conductivity,umhos/cm,198,,
+Hancock,30436,Eagle Roost Rd,1/2/18,Dissolved Oxygen,mg/l,6.83,,
+Hancock,30436,Eagle Roost Rd,1/2/18,pH,Std Unit,7.04,,
+Hancock,30436,Eagle Roost Rd,1/2/18,Temperature,deg C,12.11,,
+Hancock,30436,Eagle Roost Rd,1/2/18,Total Suspended Solids,mg/l,8.8,0.4,
+Hancock,30437,Heron Hideout,1/2/18,Temperature,deg C,12.26,,
+Hancock,30437,Heron Hideout,1/2/18,pH,Std Unit,6.62,,
+Hancock,30437,Heron Hideout,1/2/18,Dissolved Oxygen,mg/l,2.4,,
+Hancock,30437,Heron Hideout,1/2/18,Conductivity,umhos/cm,191,,
+Hancock,30437,Heron Hideout,1/2/18,Iron,ug/l,76.2,50,I
+Hancock,30437,Heron Hideout,1/2/18,Nitrogen Kjeldahl,mg/l,1.04,0.1,
+Hancock,30437,Heron Hideout,1/2/18,Phosphorus Total,mg/l,0.455,0.015,
+Hancock,30437,Heron Hideout,1/2/18,Sulfate,mg/l,7.62,3.6,
+Hancock,30437,Heron Hideout,1/2/18,Nitrogen Ammonia,mg/l,0.02,0.01,C I
+Hancock,30437,Heron Hideout,1/2/18,Nitrogen Total,mg/l,1.04,0.11,
+Hancock,30437,Heron Hideout,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30437,Heron Hideout,1/2/18,Phosphorus Ortho,mg/l,0.439,0.005,
+Hancock,30437,Heron Hideout,1/2/18,Chlorophyll a,ug/l,14.1,3,J3
+Hancock,30437,Heron Hideout,1/2/18,Chlorophyll a (Corrected),ug/l,13.6,3,J3
+Hancock,30437,Heron Hideout,1/2/18,Dissolved Oxygen,%,22.3,,
+Hancock,30437,Heron Hideout,1/2/18,Total Dissolved Solids,mg/l,118,1,
+Hancock,30437,Heron Hideout,1/2/18,Total Suspended Solids,mg/l,1.2,0.4,I
+Hancock,30438,Outflow Pipes,1/2/18,Total Suspended Solids,mg/l,27,0.4,
+Hancock,30438,Outflow Pipes,1/2/18,Total Dissolved Solids,mg/l,124,1,
+Hancock,30438,Outflow Pipes,1/2/18,Dissolved Oxygen,%,70.8,,
+Hancock,30438,Outflow Pipes,1/2/18,Chlorophyll a,ug/l,109,3,J3
+Hancock,30438,Outflow Pipes,1/2/18,Phosphorus Ortho,mg/l,0.19,0.005,
+Hancock,30438,Outflow Pipes,1/2/18,Chlorophyll a (Corrected),ug/l,85.4,3,J3
+Hancock,30438,Outflow Pipes,1/2/18,Nitrogen Total,mg/l,2.94,0.11,
+Hancock,30438,Outflow Pipes,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.024,0.01,I
+Hancock,30438,Outflow Pipes,1/2/18,Nitrogen Ammonia,mg/l,0.238,0.01,C
+Hancock,30438,Outflow Pipes,1/2/18,Sulfate,mg/l,8.58,3.6,J3
+Hancock,30438,Outflow Pipes,1/2/18,Nitrogen Kjeldahl,mg/l,2.92,0.1,
+Hancock,30438,Outflow Pipes,1/2/18,Iron,ug/l,151,50,I
+Hancock,30438,Outflow Pipes,1/2/18,Phosphorus Total,mg/l,0.405,0.015,
+Hancock,30438,Outflow Pipes,1/2/18,Dissolved Oxygen,mg/l,7.33,,
+Hancock,30438,Outflow Pipes,1/2/18,Conductivity,umhos/cm,194,,
+Hancock,30438,Outflow Pipes,1/2/18,pH,Std Unit,7.22,,
+Hancock,30438,Outflow Pipes,1/2/18,Temperature,deg C,13.95,,
+Hancock,30439,Canal Outflow,1/2/18,Temperature,deg C,14.49,,
+Hancock,30439,Canal Outflow,1/2/18,Dissolved Oxygen,mg/l,4.29,,
+Hancock,30439,Canal Outflow,1/2/18,pH,Std Unit,6.61,,
+Hancock,30439,Canal Outflow,1/2/18,Conductivity,umhos/cm,197,,
+Hancock,30439,Canal Outflow,1/2/18,Iron,ug/l,178,50,A J3
+Hancock,30439,Canal Outflow,1/2/18,Phosphorus Total,mg/l,0.552,0.015,
+Hancock,30439,Canal Outflow,1/2/18,Nitrogen Kjeldahl,mg/l,1.79,0.1,
+Hancock,30439,Canal Outflow,1/2/18,Sulfate,mg/l,9.01,3.6,
+Hancock,30439,Canal Outflow,1/2/18,Nitrogen Ammonia,mg/l,0.089,0.01,C
+Hancock,30439,Canal Outflow,1/2/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30439,Canal Outflow,1/2/18,Nitrogen Total,mg/l,1.79,0.11,
+Hancock,30439,Canal Outflow,1/2/18,Phosphorus Ortho,mg/l,0.41,0.005,
+Hancock,30439,Canal Outflow,1/2/18,Chlorophyll a (Corrected),ug/l,22,3,A J3
+Hancock,30439,Canal Outflow,1/2/18,Chlorophyll a,ug/l,33.2,3,A J3
+Hancock,30439,Canal Outflow,1/2/18,Dissolved Oxygen,%,42.4,,
+Hancock,30439,Canal Outflow,1/2/18,Total Dissolved Solids,mg/l,114,1,
+Hancock,30439,Canal Outflow,1/2/18,Total Suspended Solids,mg/l,13.2,0.4,
+Banana Creek,30508,Banana Creek,2/6/18,Temperature,deg C,17.78,,
+Banana Creek,30508,Banana Creek,2/6/18,Dissolved Oxygen,mg/l,0.12,,
+Banana Creek,30508,Banana Creek,2/6/18,pH,Std Unit,6.56,,
+Banana Creek,30508,Banana Creek,2/6/18,Iron,ug/l,262,50,
+Banana Creek,30508,Banana Creek,2/6/18,Conductivity,umhos/cm,218,,
+Banana Creek,30508,Banana Creek,2/6/18,Phosphorus Total,mg/l,0.848,0.015,
+Banana Creek,30508,Banana Creek,2/6/18,Nitrogen Kjeldahl,mg/l,5.09,0.1,
+Banana Creek,30508,Banana Creek,2/6/18,Sulfate,mg/l,9.46,3.6,
+Banana Creek,30508,Banana Creek,2/6/18,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Banana Creek,30508,Banana Creek,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30508,Banana Creek,2/6/18,Nitrogen Total,mg/l,5.09,0.11,
+Banana Creek,30508,Banana Creek,2/6/18,Phosphorus Ortho,mg/l,0.219,0.005,
+Banana Creek,30508,Banana Creek,2/6/18,Chlorophyll a (Corrected),ug/l,150,3,
+Banana Creek,30508,Banana Creek,2/6/18,Chlorophyll a,ug/l,180,3,
+Banana Creek,30508,Banana Creek,2/6/18,Total Dissolved Solids,mg/l,130,1,
+Banana Creek,30508,Banana Creek,2/6/18,Total Suspended Solids,mg/l,70,0.4,
+Banana Creek,30508,Banana Creek,2/6/18,Dissolved Oxygen,%,1.6,,
+Hancock,30509,Reynold's Runoff,2/6/18,Dissolved Oxygen,%,86.9,,
+Hancock,30509,Reynold's Runoff,2/6/18,Chlorophyll a,ug/l,5.21,3,I
+Hancock,30509,Reynold's Runoff,2/6/18,Total Dissolved Solids,mg/l,214,1,
+Hancock,30509,Reynold's Runoff,2/6/18,Phosphorus Ortho,mg/l,0.24,0.005,
+Hancock,30509,Reynold's Runoff,2/6/18,Chlorophyll a (Corrected),ug/l,6.01,3,
+Hancock,30509,Reynold's Runoff,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.035,0.01,I
+Hancock,30509,Reynold's Runoff,2/6/18,Nitrogen Total,mg/l,0.73,0.11,
+Hancock,30509,Reynold's Runoff,2/6/18,Sulfate,mg/l,14.1,3.6,
+Hancock,30509,Reynold's Runoff,2/6/18,Nitrogen Ammonia,mg/l,0.015,0.01,C I
+Hancock,30509,Reynold's Runoff,2/6/18,Phosphorus Total,mg/l,0.598,0.015,
+Hancock,30509,Reynold's Runoff,2/6/18,Nitrogen Kjeldahl,mg/l,0.69,0.1,
+Hancock,30509,Reynold's Runoff,2/6/18,Conductivity,umhos/cm,302,,
+Hancock,30509,Reynold's Runoff,2/6/18,Iron,ug/l,1180,50,
+Hancock,30509,Reynold's Runoff,2/6/18,Dissolved Oxygen,mg/l,8.49,,
+Hancock,30509,Reynold's Runoff,2/6/18,pH,Std Unit,7.38,,
+Hancock,30509,Reynold's Runoff,2/6/18,Temperature,deg C,16.48,,
+Hancock,30509,Reynold's Runoff,2/6/18,Total Suspended Solids,mg/l,9.2,0.4,
+Hancock,30510,Flooded Road,2/6/18,Total Suspended Solids,mg/l,2.4,0.4,I
+Hancock,30510,Flooded Road,2/6/18,Temperature,deg C,16.87,,
+Hancock,30510,Flooded Road,2/6/18,pH,Std Unit,7.28,,
+Hancock,30510,Flooded Road,2/6/18,Dissolved Oxygen,mg/l,7.94,,
+Hancock,30510,Flooded Road,2/6/18,Iron,ug/l,288,50,
+Hancock,30510,Flooded Road,2/6/18,Conductivity,umhos/cm,292,,
+Hancock,30510,Flooded Road,2/6/18,Nitrogen Kjeldahl,mg/l,0.599,0.1,A
+Hancock,30510,Flooded Road,2/6/18,Phosphorus Total,mg/l,0.334,0.015,A
+Hancock,30510,Flooded Road,2/6/18,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Hancock,30510,Flooded Road,2/6/18,Sulfate,mg/l,16.4,3.6,
+Hancock,30510,Flooded Road,2/6/18,Nitrogen Total,mg/l,0.61,0.11,
+Hancock,30510,Flooded Road,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.012,0.01,I
+Hancock,30510,Flooded Road,2/6/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30510,Flooded Road,2/6/18,Phosphorus Ortho,mg/l,0.251,0.005,
+Hancock,30510,Flooded Road,2/6/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30510,Flooded Road,2/6/18,Total Dissolved Solids,mg/l,198,1,
+Hancock,30510,Flooded Road,2/6/18,Dissolved Oxygen,%,81.9,,
+Hancock,30511,Wading Bird North,2/6/18,Dissolved Oxygen,%,73.8,,
+Hancock,30511,Wading Bird North,2/6/18,Phosphorus Ortho,mg/l,0.461,0.005,
+Hancock,30511,Wading Bird North,2/6/18,Total Dissolved Solids,mg/l,134,1,
+Hancock,30511,Wading Bird North,2/6/18,Chlorophyll a,ug/l,35.8,3,
+Hancock,30511,Wading Bird North,2/6/18,Chlorophyll a (Corrected),ug/l,26,3,
+Hancock,30511,Wading Bird North,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30511,Wading Bird North,2/6/18,Nitrogen Total,mg/l,1.7,0.11,
+Hancock,30511,Wading Bird North,2/6/18,Nitrogen Ammonia,mg/l,0.015,0.01,C I
+Hancock,30511,Wading Bird North,2/6/18,Sulfate,mg/l,8.24,3.6,
+Hancock,30511,Wading Bird North,2/6/18,Phosphorus Total,mg/l,0.64,0.015,
+Hancock,30511,Wading Bird North,2/6/18,Nitrogen Kjeldahl,mg/l,1.7,0.1,
+Hancock,30511,Wading Bird North,2/6/18,Iron,ug/l,112,50,I
+Hancock,30511,Wading Bird North,2/6/18,Conductivity,umhos/cm,198,,
+Hancock,30511,Wading Bird North,2/6/18,Dissolved Oxygen,mg/l,6.85,,
+Hancock,30511,Wading Bird North,2/6/18,pH,Std Unit,7.12,,
+Hancock,30511,Wading Bird North,2/6/18,Temperature,deg C,18.87,,
+Hancock,30511,Wading Bird North,2/6/18,Total Suspended Solids,mg/l,15.6,0.4,
+Hancock,30512,Wading Bird South,2/6/18,Total Suspended Solids,mg/l,18,0.4,A
+Hancock,30512,Wading Bird South,2/6/18,Temperature,deg C,19.27,,
+Hancock,30512,Wading Bird South,2/6/18,pH,Std Unit,7.23,,
+Hancock,30512,Wading Bird South,2/6/18,Dissolved Oxygen,mg/l,8.63,,
+Hancock,30512,Wading Bird South,2/6/18,Conductivity,umhos/cm,196,,
+Hancock,30512,Wading Bird South,2/6/18,Iron,ug/l,95.8,50,I
+Hancock,30512,Wading Bird South,2/6/18,Nitrogen Kjeldahl,mg/l,1.67,0.1,
+Hancock,30512,Wading Bird South,2/6/18,Phosphorus Total,mg/l,0.689,0.015,
+Hancock,30512,Wading Bird South,2/6/18,Sulfate,mg/l,8.79,3.6,
+Hancock,30512,Wading Bird South,2/6/18,Nitrogen Ammonia,mg/l,0.011,0.01,C I
+Hancock,30512,Wading Bird South,2/6/18,Nitrogen Total,mg/l,1.67,0.11,
+Hancock,30512,Wading Bird South,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30512,Wading Bird South,2/6/18,Chlorophyll a (Corrected),ug/l,33.8,3,
+Hancock,30512,Wading Bird South,2/6/18,Chlorophyll a,ug/l,44.7,3,
+Hancock,30512,Wading Bird South,2/6/18,Phosphorus Ortho,mg/l,0.493,0.005,
+Hancock,30512,Wading Bird South,2/6/18,Dissolved Oxygen,%,93.6,,
+Hancock,30512,Wading Bird South,2/6/18,Total Dissolved Solids,mg/l,136,1,
+Hancock,30513,Eagle Roost Rd,2/6/18,Total Dissolved Solids,mg/l,132,1,
+Hancock,30513,Eagle Roost Rd,2/6/18,Dissolved Oxygen,%,37.1,,
+Hancock,30513,Eagle Roost Rd,2/6/18,Phosphorus Ortho,mg/l,0.493,0.005,
+Hancock,30513,Eagle Roost Rd,2/6/18,Chlorophyll a,ug/l,60.4,3,
+Hancock,30513,Eagle Roost Rd,2/6/18,Chlorophyll a (Corrected),ug/l,40.1,3,
+Hancock,30513,Eagle Roost Rd,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.017,0.01,I
+Hancock,30513,Eagle Roost Rd,2/6/18,Nitrogen Total,mg/l,2.11,0.11,
+Hancock,30513,Eagle Roost Rd,2/6/18,Nitrogen Ammonia,mg/l,0.144,0.01,C
+Hancock,30513,Eagle Roost Rd,2/6/18,Sulfate,mg/l,7.73,3.6,
+Hancock,30513,Eagle Roost Rd,2/6/18,Phosphorus Total,mg/l,0.687,0.015,
+Hancock,30513,Eagle Roost Rd,2/6/18,Nitrogen Kjeldahl,mg/l,2.09,0.1,
+Hancock,30513,Eagle Roost Rd,2/6/18,Iron,ug/l,93.4,50,I
+Hancock,30513,Eagle Roost Rd,2/6/18,Conductivity,umhos/cm,194,,
+Hancock,30513,Eagle Roost Rd,2/6/18,Dissolved Oxygen,mg/l,3.43,,
+Hancock,30513,Eagle Roost Rd,2/6/18,pH,Std Unit,6.85,,
+Hancock,30513,Eagle Roost Rd,2/6/18,Temperature,deg C,19.07,,
+Hancock,30513,Eagle Roost Rd,2/6/18,Total Suspended Solids,mg/l,20.4,0.4,
+Hancock,30514,Heron Hideout,2/6/18,Temperature,deg C,17.7,,
+Hancock,30514,Heron Hideout,2/6/18,pH,Std Unit,6.61,,
+Hancock,30514,Heron Hideout,2/6/18,Dissolved Oxygen,mg/l,2.15,,
+Hancock,30514,Heron Hideout,2/6/18,Conductivity,umhos/cm,202,,
+Hancock,30514,Heron Hideout,2/6/18,Iron,ug/l,116,50,I
+Hancock,30514,Heron Hideout,2/6/18,Nitrogen Kjeldahl,mg/l,1.11,0.1,
+Hancock,30514,Heron Hideout,2/6/18,Phosphorus Total,mg/l,0.524,0.015,
+Hancock,30514,Heron Hideout,2/6/18,Sulfate,mg/l,7.91,3.6,J3
+Hancock,30514,Heron Hideout,2/6/18,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Hancock,30514,Heron Hideout,2/6/18,Nitrogen Total,mg/l,1.11,0.11,
+Hancock,30514,Heron Hideout,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30514,Heron Hideout,2/6/18,Phosphorus Ortho,mg/l,0.49,0.005,
+Hancock,30514,Heron Hideout,2/6/18,Chlorophyll a,ug/l,68.7,3,
+Hancock,30514,Heron Hideout,2/6/18,Chlorophyll a (Corrected),ug/l,58.1,3,
+Hancock,30514,Heron Hideout,2/6/18,Dissolved Oxygen,%,22.9,,
+Hancock,30514,Heron Hideout,2/6/18,Total Dissolved Solids,mg/l,140,1,
+Hancock,30514,Heron Hideout,2/6/18,Total Suspended Solids,mg/l,38.8,0.4,
+Hancock,30515,Outflow Pipes,2/6/18,Total Suspended Solids,mg/l,29,0.4,
+Hancock,30515,Outflow Pipes,2/6/18,Total Dissolved Solids,mg/l,142,1,
+Hancock,30515,Outflow Pipes,2/6/18,Dissolved Oxygen,%,29,,
+Hancock,30515,Outflow Pipes,2/6/18,Chlorophyll a,ug/l,158,3,
+Hancock,30515,Outflow Pipes,2/6/18,Phosphorus Ortho,mg/l,0.161,0.005,
+Hancock,30515,Outflow Pipes,2/6/18,Chlorophyll a (Corrected),ug/l,126,3,
+Hancock,30515,Outflow Pipes,2/6/18,Nitrogen Total,mg/l,3.64,0.11,
+Hancock,30515,Outflow Pipes,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30515,Outflow Pipes,2/6/18,Nitrogen Ammonia,mg/l,0.175,0.01,C
+Hancock,30515,Outflow Pipes,2/6/18,Sulfate,mg/l,8.38,3.6,
+Hancock,30515,Outflow Pipes,2/6/18,Nitrogen Kjeldahl,mg/l,3.64,0.1,
+Hancock,30515,Outflow Pipes,2/6/18,Iron,ug/l,142,50,I
+Hancock,30515,Outflow Pipes,2/6/18,Phosphorus Total,mg/l,0.455,0.015,
+Hancock,30515,Outflow Pipes,2/6/18,Dissolved Oxygen,mg/l,2.76,,
+Hancock,30515,Outflow Pipes,2/6/18,Conductivity,umhos/cm,191,,
+Hancock,30515,Outflow Pipes,2/6/18,pH,Std Unit,6.8,,
+Hancock,30515,Outflow Pipes,2/6/18,Temperature,deg C,17.63,,
+Hancock,30516,Canal Outflow,2/6/18,Temperature,deg C,17.68,,
+Hancock,30516,Canal Outflow,2/6/18,Dissolved Oxygen,mg/l,1.6,,
+Hancock,30516,Canal Outflow,2/6/18,pH,Std Unit,6.63,,
+Hancock,30516,Canal Outflow,2/6/18,Conductivity,umhos/cm,202,,
+Hancock,30516,Canal Outflow,2/6/18,Iron,ug/l,119,50,I A J3
+Hancock,30516,Canal Outflow,2/6/18,Phosphorus Total,mg/l,0.888,0.015,
+Hancock,30516,Canal Outflow,2/6/18,Nitrogen Kjeldahl,mg/l,2.41,0.1,
+Hancock,30516,Canal Outflow,2/6/18,Sulfate,mg/l,8.42,3.6,
+Hancock,30516,Canal Outflow,2/6/18,Nitrogen Ammonia,mg/l,0.075,0.01,C
+Hancock,30516,Canal Outflow,2/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30516,Canal Outflow,2/6/18,Nitrogen Total,mg/l,2.41,0.11,
+Hancock,30516,Canal Outflow,2/6/18,Phosphorus Ortho,mg/l,0.537,0.005,
+Hancock,30516,Canal Outflow,2/6/18,Chlorophyll a (Corrected),ug/l,14,3,
+Hancock,30516,Canal Outflow,2/6/18,Chlorophyll a,ug/l,21.3,3,
+Hancock,30516,Canal Outflow,2/6/18,Dissolved Oxygen,%,16.8,,
+Hancock,30516,Canal Outflow,2/6/18,Total Dissolved Solids,mg/l,140,1,A
+Hancock,30516,Canal Outflow,2/6/18,Total Suspended Solids,mg/l,16.8,0.4,
+Banana Creek,30588,Banana Creek,3/6/18,Temperature,deg C,20.89,,
+Banana Creek,30588,Banana Creek,3/6/18,Dissolved Oxygen,mg/l,10.94,,J3
+Banana Creek,30588,Banana Creek,3/6/18,pH,Std Unit,9.28,,
+Banana Creek,30588,Banana Creek,3/6/18,Iron,ug/l,156,50,I
+Banana Creek,30588,Banana Creek,3/6/18,Conductivity,umhos/cm,199,,
+Banana Creek,30588,Banana Creek,3/6/18,Phosphorus Total,mg/l,1.41,0.015,
+Banana Creek,30588,Banana Creek,3/6/18,Nitrogen Kjeldahl,mg/l,4.08,0.1,
+Banana Creek,30588,Banana Creek,3/6/18,Sulfate,mg/l,7.98,3.6,
+Banana Creek,30588,Banana Creek,3/6/18,Nitrogen Ammonia,mg/l,0.017,0.01,C I
+Banana Creek,30588,Banana Creek,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30588,Banana Creek,3/6/18,Nitrogen Total,mg/l,4.08,0.11,
+Banana Creek,30588,Banana Creek,3/6/18,Phosphorus Ortho,mg/l,0.26,0.005,
+Banana Creek,30588,Banana Creek,3/6/18,Chlorophyll a (Corrected),ug/l,108,3,
+Banana Creek,30588,Banana Creek,3/6/18,Chlorophyll a,ug/l,133,3,
+Banana Creek,30588,Banana Creek,3/6/18,Total Dissolved Solids,mg/l,116,1,
+Banana Creek,30588,Banana Creek,3/6/18,Total Suspended Solids,mg/l,55,0.4,
+Banana Creek,30588,Banana Creek,3/6/18,Dissolved Oxygen,%,122.4,,J3
+Hancock,30589,Reynold's Runoff,3/6/18,Dissolved Oxygen,%,103.4,,J3
+Hancock,30589,Reynold's Runoff,3/6/18,Chlorophyll a,ug/l,6.47,3,
+Hancock,30589,Reynold's Runoff,3/6/18,Total Dissolved Solids,mg/l,194,1,
+Hancock,30589,Reynold's Runoff,3/6/18,Phosphorus Ortho,mg/l,0.118,0.005,
+Hancock,30589,Reynold's Runoff,3/6/18,Chlorophyll a (Corrected),ug/l,3.2,3,I
+Hancock,30589,Reynold's Runoff,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30589,Reynold's Runoff,3/6/18,Nitrogen Total,mg/l,0.67,0.11,
+Hancock,30589,Reynold's Runoff,3/6/18,Sulfate,mg/l,8.29,3.6,
+Hancock,30589,Reynold's Runoff,3/6/18,Nitrogen Ammonia,mg/l,0.02,0.01,C I
+Hancock,30589,Reynold's Runoff,3/6/18,Phosphorus Total,mg/l,0.551,0.015,
+Hancock,30589,Reynold's Runoff,3/6/18,Nitrogen Kjeldahl,mg/l,0.667,0.1,
+Hancock,30589,Reynold's Runoff,3/6/18,Conductivity,umhos/cm,337,,
+Hancock,30589,Reynold's Runoff,3/6/18,Iron,ug/l,391,50,
+Hancock,30589,Reynold's Runoff,3/6/18,Dissolved Oxygen,mg/l,9.68,,J3
+Hancock,30589,Reynold's Runoff,3/6/18,pH,Std Unit,7.42,,
+Hancock,30589,Reynold's Runoff,3/6/18,Temperature,deg C,18.53,,
+Hancock,30589,Reynold's Runoff,3/6/18,Total Suspended Solids,mg/l,12,0.4,
+Hancock,30590,Flooded Road,3/6/18,Total Suspended Solids,mg/l,10,0.4,
+Hancock,30590,Flooded Road,3/6/18,Temperature,deg C,18.08,,
+Hancock,30590,Flooded Road,3/6/18,pH,Std Unit,7.12,,
+Hancock,30590,Flooded Road,3/6/18,Dissolved Oxygen,mg/l,9.13,,J3
+Hancock,30590,Flooded Road,3/6/18,Iron,ug/l,827,50,
+Hancock,30590,Flooded Road,3/6/18,Conductivity,umhos/cm,335,,
+Hancock,30590,Flooded Road,3/6/18,Nitrogen Kjeldahl,mg/l,0.696,0.1,A
+Hancock,30590,Flooded Road,3/6/18,Phosphorus Total,mg/l,0.4,0.015,A
+Hancock,30590,Flooded Road,3/6/18,Nitrogen Ammonia,mg/l,0.016,0.01,C I
+Hancock,30590,Flooded Road,3/6/18,Sulfate,mg/l,9.61,3.6,
+Hancock,30590,Flooded Road,3/6/18,Nitrogen Total,mg/l,0.7,0.11,
+Hancock,30590,Flooded Road,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U J3
+Hancock,30590,Flooded Road,3/6/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30590,Flooded Road,3/6/18,Phosphorus Ortho,mg/l,0.147,0.005,
+Hancock,30590,Flooded Road,3/6/18,Chlorophyll a,ug/l,5.09,3,I
+Hancock,30590,Flooded Road,3/6/18,Total Dissolved Solids,mg/l,194,1,
+Hancock,30590,Flooded Road,3/6/18,Dissolved Oxygen,%,96.8,,J3
+Hancock,30591,Wading Bird North,3/6/18,Dissolved Oxygen,%,94.8,,J3
+Hancock,30591,Wading Bird North,3/6/18,Phosphorus Ortho,mg/l,0.353,0.005,
+Hancock,30591,Wading Bird North,3/6/18,Total Dissolved Solids,mg/l,126,1,
+Hancock,30591,Wading Bird North,3/6/18,Chlorophyll a,ug/l,48.3,3,
+Hancock,30591,Wading Bird North,3/6/18,Chlorophyll a (Corrected),ug/l,33.6,3,
+Hancock,30591,Wading Bird North,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30591,Wading Bird North,3/6/18,Nitrogen Total,mg/l,1.96,0.11,
+Hancock,30591,Wading Bird North,3/6/18,Nitrogen Ammonia,mg/l,0.015,0.01,C I
+Hancock,30591,Wading Bird North,3/6/18,Sulfate,mg/l,6.15,3.6,
+Hancock,30591,Wading Bird North,3/6/18,Phosphorus Total,mg/l,0.63,0.015,
+Hancock,30591,Wading Bird North,3/6/18,Nitrogen Kjeldahl,mg/l,1.96,0.1,
+Hancock,30591,Wading Bird North,3/6/18,Iron,ug/l,208,50,
+Hancock,30591,Wading Bird North,3/6/18,Conductivity,umhos/cm,210,,
+Hancock,30591,Wading Bird North,3/6/18,Dissolved Oxygen,mg/l,8.61,,J3
+Hancock,30591,Wading Bird North,3/6/18,pH,Std Unit,7.19,,
+Hancock,30591,Wading Bird North,3/6/18,Temperature,deg C,20.05,,
+Hancock,30591,Wading Bird North,3/6/18,Total Suspended Solids,mg/l,27.6,0.4,
+Hancock,30592,Wading Bird South,3/6/18,Total Suspended Solids,mg/l,24.7,0.4,
+Hancock,30592,Wading Bird South,3/6/18,Temperature,deg C,20.22,,
+Hancock,30592,Wading Bird South,3/6/18,pH,Std Unit,7.31,,
+Hancock,30592,Wading Bird South,3/6/18,Dissolved Oxygen,mg/l,10.37,,J3
+Hancock,30592,Wading Bird South,3/6/18,Conductivity,umhos/cm,206,,
+Hancock,30592,Wading Bird South,3/6/18,Iron,ug/l,109,50,
+Hancock,30592,Wading Bird South,3/6/18,Nitrogen Kjeldahl,mg/l,2.32,0.1,
+Hancock,30592,Wading Bird South,3/6/18,Phosphorus Total,mg/l,0.581,0.015,
+Hancock,30592,Wading Bird South,3/6/18,Sulfate,mg/l,7.38,3.6,
+Hancock,30592,Wading Bird South,3/6/18,Nitrogen Ammonia,mg/l,0.011,0.01,C I
+Hancock,30592,Wading Bird South,3/6/18,Nitrogen Total,mg/l,2.32,0.11,
+Hancock,30592,Wading Bird South,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30592,Wading Bird South,3/6/18,Chlorophyll a (Corrected),ug/l,40.1,3,
+Hancock,30592,Wading Bird South,3/6/18,Chlorophyll a,ug/l,57.9,3,
+Hancock,30592,Wading Bird South,3/6/18,Phosphorus Ortho,mg/l,0.317,0.005,
+Hancock,30592,Wading Bird South,3/6/18,Dissolved Oxygen,%,114.6,,J3
+Hancock,30592,Wading Bird South,3/6/18,Total Dissolved Solids,mg/l,120,1,
+Hancock,30593,Eagle Roost Rd,3/6/18,Total Dissolved Solids,mg/l,122,1,
+Hancock,30593,Eagle Roost Rd,3/6/18,Dissolved Oxygen,%,48.8,,J3
+Hancock,30593,Eagle Roost Rd,3/6/18,Phosphorus Ortho,mg/l,0.366,0.005,
+Hancock,30593,Eagle Roost Rd,3/6/18,Chlorophyll a,ug/l,47.6,3,
+Hancock,30593,Eagle Roost Rd,3/6/18,Chlorophyll a (Corrected),ug/l,34,3,
+Hancock,30593,Eagle Roost Rd,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30593,Eagle Roost Rd,3/6/18,Nitrogen Total,mg/l,2,0.11,
+Hancock,30593,Eagle Roost Rd,3/6/18,Nitrogen Ammonia,mg/l,0.059,0.01,C
+Hancock,30593,Eagle Roost Rd,3/6/18,Sulfate,mg/l,6.59,3.6,
+Hancock,30593,Eagle Roost Rd,3/6/18,Phosphorus Total,mg/l,0.544,0.015,
+Hancock,30593,Eagle Roost Rd,3/6/18,Nitrogen Kjeldahl,mg/l,2,0.1,
+Hancock,30593,Eagle Roost Rd,3/6/18,Iron,ug/l,58.2,50,I
+Hancock,30593,Eagle Roost Rd,3/6/18,Conductivity,umhos/cm,207,,
+Hancock,30593,Eagle Roost Rd,3/6/18,Dissolved Oxygen,mg/l,4.46,,J3
+Hancock,30593,Eagle Roost Rd,3/6/18,pH,Std Unit,6.82,,
+Hancock,30593,Eagle Roost Rd,3/6/18,Temperature,deg C,19.38,,
+Hancock,30593,Eagle Roost Rd,3/6/18,Total Suspended Solids,mg/l,14,0.4,
+Hancock,30594,Heron Hideout,3/6/18,Temperature,deg C,18.45,,
+Hancock,30594,Heron Hideout,3/6/18,pH,Std Unit,6.51,,
+Hancock,30594,Heron Hideout,3/6/18,Dissolved Oxygen,mg/l,1.7,,J3
+Hancock,30594,Heron Hideout,3/6/18,Conductivity,umhos/cm,215,,
+Hancock,30594,Heron Hideout,3/6/18,Iron,ug/l,92.1,50,I
+Hancock,30594,Heron Hideout,3/6/18,Nitrogen Kjeldahl,mg/l,1.21,0.1,
+Hancock,30594,Heron Hideout,3/6/18,Phosphorus Total,mg/l,0.596,0.015,
+Hancock,30594,Heron Hideout,3/6/18,Sulfate,mg/l,6.33,3.6,
+Hancock,30594,Heron Hideout,3/6/18,Nitrogen Ammonia,mg/l,0.033,0.01,C I
+Hancock,30594,Heron Hideout,3/6/18,Nitrogen Total,mg/l,1.21,0.11,
+Hancock,30594,Heron Hideout,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30594,Heron Hideout,3/6/18,Phosphorus Ortho,mg/l,0.554,0.005,
+Hancock,30594,Heron Hideout,3/6/18,Chlorophyll a,ug/l,9.27,3,
+Hancock,30594,Heron Hideout,3/6/18,Chlorophyll a (Corrected),ug/l,8.01,3,
+Hancock,30594,Heron Hideout,3/6/18,Dissolved Oxygen,%,17.9,,J3
+Hancock,30594,Heron Hideout,3/6/18,Total Dissolved Solids,mg/l,140,1,
+Hancock,30594,Heron Hideout,3/6/18,Total Suspended Solids,mg/l,1.6,0.4,I
+Hancock,30595,Outflow Pipes,3/6/18,Total Suspended Solids,mg/l,54,0.4,
+Hancock,30595,Outflow Pipes,3/6/18,Total Dissolved Solids,mg/l,132,1,
+Hancock,30595,Outflow Pipes,3/6/18,Dissolved Oxygen,%,87.6,,J3
+Hancock,30595,Outflow Pipes,3/6/18,Chlorophyll a,ug/l,346,3,
+Hancock,30595,Outflow Pipes,3/6/18,Phosphorus Ortho,mg/l,0.061,0.005,
+Hancock,30595,Outflow Pipes,3/6/18,Chlorophyll a (Corrected),ug/l,292,3,
+Hancock,30595,Outflow Pipes,3/6/18,Nitrogen Total,mg/l,5.4,0.11,
+Hancock,30595,Outflow Pipes,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30595,Outflow Pipes,3/6/18,Nitrogen Ammonia,mg/l,0.017,0.01,C I
+Hancock,30595,Outflow Pipes,3/6/18,Sulfate,mg/l,7.13,3.6,
+Hancock,30595,Outflow Pipes,3/6/18,Nitrogen Kjeldahl,mg/l,5.4,0.1,
+Hancock,30595,Outflow Pipes,3/6/18,Iron,ug/l,92.6,50,I
+Hancock,30595,Outflow Pipes,3/6/18,Phosphorus Total,mg/l,0.487,0.015,
+Hancock,30595,Outflow Pipes,3/6/18,Dissolved Oxygen,mg/l,8.06,,J3
+Hancock,30595,Outflow Pipes,3/6/18,Conductivity,umhos/cm,202,,
+Hancock,30595,Outflow Pipes,3/6/18,pH,Std Unit,7.83,,
+Hancock,30595,Outflow Pipes,3/6/18,Temperature,deg C,19.6,,
+Hancock,30596,Canal Outflow,3/6/18,Temperature,deg C,19.19,,
+Hancock,30596,Canal Outflow,3/6/18,Dissolved Oxygen,mg/l,1.16,,J3
+Hancock,30596,Canal Outflow,3/6/18,pH,Std Unit,6.5,,
+Hancock,30596,Canal Outflow,3/6/18,Conductivity,umhos/cm,203,,
+Hancock,30596,Canal Outflow,3/6/18,Iron,ug/l,154,50,I
+Hancock,30596,Canal Outflow,3/6/18,Phosphorus Total,mg/l,0.774,0.015,
+Hancock,30596,Canal Outflow,3/6/18,Nitrogen Kjeldahl,mg/l,2.18,0.1,
+Hancock,30596,Canal Outflow,3/6/18,Sulfate,mg/l,6.96,3.6,
+Hancock,30596,Canal Outflow,3/6/18,Nitrogen Ammonia,mg/l,0.055,0.01,C
+Hancock,30596,Canal Outflow,3/6/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30596,Canal Outflow,3/6/18,Nitrogen Total,mg/l,2.18,0.11,
+Hancock,30596,Canal Outflow,3/6/18,Phosphorus Ortho,mg/l,0.509,0.005,
+Hancock,30596,Canal Outflow,3/6/18,Chlorophyll a (Corrected),ug/l,29,3,A
+Hancock,30596,Canal Outflow,3/6/18,Chlorophyll a,ug/l,48.9,3,A
+Hancock,30596,Canal Outflow,3/6/18,Dissolved Oxygen,%,12.6,,J3
+Hancock,30596,Canal Outflow,3/6/18,Total Dissolved Solids,mg/l,120,1,A
+Hancock,30596,Canal Outflow,3/6/18,Total Suspended Solids,mg/l,34,0.4,A
+Banana Creek,30654,Banana Creek,4/3/18,Temperature,deg C,23.9,,
+Banana Creek,30654,Banana Creek,4/3/18,Dissolved Oxygen,mg/l,2.22,,
+Banana Creek,30654,Banana Creek,4/3/18,pH,Std Unit,7.34,,
+Banana Creek,30654,Banana Creek,4/3/18,Iron,ug/l,249,50,
+Banana Creek,30654,Banana Creek,4/3/18,Conductivity,umhos/cm,200,,
+Banana Creek,30654,Banana Creek,4/3/18,Phosphorus Total,mg/l,0.976,0.015,
+Banana Creek,30654,Banana Creek,4/3/18,Nitrogen Kjeldahl,mg/l,6.83,0.1,
+Banana Creek,30654,Banana Creek,4/3/18,Sulfate,mg/l,5.92,3.6,
+Banana Creek,30654,Banana Creek,4/3/18,Nitrogen Ammonia,mg/l,0.084,0.01,C
+Banana Creek,30654,Banana Creek,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30654,Banana Creek,4/3/18,Nitrogen Total,mg/l,6.83,0.11,
+Banana Creek,30654,Banana Creek,4/3/18,Phosphorus Ortho,mg/l,0.183,0.005,
+Banana Creek,30654,Banana Creek,4/3/18,Chlorophyll a (Corrected),ug/l,232,3,
+Banana Creek,30654,Banana Creek,4/3/18,Chlorophyll a,ug/l,289,3,
+Banana Creek,30654,Banana Creek,4/3/18,Total Dissolved Solids,mg/l,130,1,
+Banana Creek,30654,Banana Creek,4/3/18,Total Suspended Solids,mg/l,88,0.4,
+Banana Creek,30654,Banana Creek,4/3/18,Dissolved Oxygen,%,26.2,,
+Hancock,30655,Reynold's Runoff,4/3/18,Dissolved Oxygen,%,72.6,,
+Hancock,30655,Reynold's Runoff,4/3/18,Chlorophyll a,ug/l,3.67,3,I
+Hancock,30655,Reynold's Runoff,4/3/18,Total Dissolved Solids,mg/l,198,1,
+Hancock,30655,Reynold's Runoff,4/3/18,Phosphorus Ortho,mg/l,0.166,0.005,
+Hancock,30655,Reynold's Runoff,4/3/18,Chlorophyll a (Corrected),ug/l,3.2,3,I
+Hancock,30655,Reynold's Runoff,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30655,Reynold's Runoff,4/3/18,Nitrogen Total,mg/l,0.49,0.11,
+Hancock,30655,Reynold's Runoff,4/3/18,Sulfate,mg/l,19.6,3.6,
+Hancock,30655,Reynold's Runoff,4/3/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30655,Reynold's Runoff,4/3/18,Phosphorus Total,mg/l,0.272,0.015,
+Hancock,30655,Reynold's Runoff,4/3/18,Nitrogen Kjeldahl,mg/l,0.489,0.1,
+Hancock,30655,Reynold's Runoff,4/3/18,Conductivity,umhos/cm,310,,
+Hancock,30655,Reynold's Runoff,4/3/18,Iron,ug/l,216,50,
+Hancock,30655,Reynold's Runoff,4/3/18,Dissolved Oxygen,mg/l,6.43,,
+Hancock,30655,Reynold's Runoff,4/3/18,pH,Std Unit,7.29,,
+Hancock,30655,Reynold's Runoff,4/3/18,Temperature,deg C,21.4,,
+Hancock,30655,Reynold's Runoff,4/3/18,Total Suspended Solids,mg/l,3.2,0.4,
+Hancock,30656,Flooded Road,4/3/18,Total Suspended Solids,mg/l,0.4,0.4,U
+Hancock,30656,Flooded Road,4/3/18,Temperature,deg C,21.8,,
+Hancock,30656,Flooded Road,4/3/18,pH,Std Unit,6.89,,
+Hancock,30656,Flooded Road,4/3/18,Dissolved Oxygen,mg/l,3.78,,
+Hancock,30656,Flooded Road,4/3/18,Iron,ug/l,253,50,
+Hancock,30656,Flooded Road,4/3/18,Conductivity,umhos/cm,317,,
+Hancock,30656,Flooded Road,4/3/18,Nitrogen Kjeldahl,mg/l,0.701,0.1,
+Hancock,30656,Flooded Road,4/3/18,Phosphorus Total,mg/l,0.377,0.015,
+Hancock,30656,Flooded Road,4/3/18,Nitrogen Ammonia,mg/l,0.013,0.01,C I
+Hancock,30656,Flooded Road,4/3/18,Sulfate,mg/l,23.7,3.6,
+Hancock,30656,Flooded Road,4/3/18,Nitrogen Total,mg/l,0.7,0.11,
+Hancock,30656,Flooded Road,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30656,Flooded Road,4/3/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30656,Flooded Road,4/3/18,Phosphorus Ortho,mg/l,0.295,0.005,
+Hancock,30656,Flooded Road,4/3/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30656,Flooded Road,4/3/18,Total Dissolved Solids,mg/l,202,1,
+Hancock,30656,Flooded Road,4/3/18,Dissolved Oxygen,%,43,,
+Hancock,30657,Wading Bird North,4/3/18,Dissolved Oxygen,%,66.6,,
+Hancock,30657,Wading Bird North,4/3/18,Phosphorus Ortho,mg/l,0.285,0.005,
+Hancock,30657,Wading Bird North,4/3/18,Total Dissolved Solids,mg/l,144,1,
+Hancock,30657,Wading Bird North,4/3/18,Chlorophyll a,ug/l,88.9,3,
+Hancock,30657,Wading Bird North,4/3/18,Chlorophyll a (Corrected),ug/l,74.1,3,
+Hancock,30657,Wading Bird North,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30657,Wading Bird North,4/3/18,Nitrogen Total,mg/l,3.11,0.11,
+Hancock,30657,Wading Bird North,4/3/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30657,Wading Bird North,4/3/18,Sulfate,mg/l,7.68,3.6,
+Hancock,30657,Wading Bird North,4/3/18,Phosphorus Total,mg/l,0.768,0.015,
+Hancock,30657,Wading Bird North,4/3/18,Nitrogen Kjeldahl,mg/l,3.11,0.1,
+Hancock,30657,Wading Bird North,4/3/18,Iron,ug/l,174,50,I
+Hancock,30657,Wading Bird North,4/3/18,Conductivity,umhos/cm,214,,
+Hancock,30657,Wading Bird North,4/3/18,Dissolved Oxygen,mg/l,5.49,,
+Hancock,30657,Wading Bird North,4/3/18,pH,Std Unit,7.03,,
+Hancock,30657,Wading Bird North,4/3/18,Temperature,deg C,25.19,,
+Hancock,30657,Wading Bird North,4/3/18,Total Suspended Solids,mg/l,26.5,0.4,
+Hancock,30658,Wading Bird South,4/3/18,Total Suspended Solids,mg/l,57,0.4,
+Hancock,30658,Wading Bird South,4/3/18,Temperature,deg C,25.45,,
+Hancock,30658,Wading Bird South,4/3/18,pH,Std Unit,7.8,,
+Hancock,30658,Wading Bird South,4/3/18,Dissolved Oxygen,mg/l,7.75,,
+Hancock,30658,Wading Bird South,4/3/18,Conductivity,umhos/cm,175,,
+Hancock,30658,Wading Bird South,4/3/18,Iron,ug/l,118,50,I
+Hancock,30658,Wading Bird South,4/3/18,Nitrogen Kjeldahl,mg/l,4.72,0.1,
+Hancock,30658,Wading Bird South,4/3/18,Phosphorus Total,mg/l,0.589,0.015,
+Hancock,30658,Wading Bird South,4/3/18,Sulfate,mg/l,6.51,3.6,
+Hancock,30658,Wading Bird South,4/3/18,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Hancock,30658,Wading Bird South,4/3/18,Nitrogen Total,mg/l,4.72,0.11,
+Hancock,30658,Wading Bird South,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30658,Wading Bird South,4/3/18,Chlorophyll a (Corrected),ug/l,220,3,
+Hancock,30658,Wading Bird South,4/3/18,Chlorophyll a,ug/l,272,3,
+Hancock,30658,Wading Bird South,4/3/18,Phosphorus Ortho,mg/l,0.124,0.005,
+Hancock,30658,Wading Bird South,4/3/18,Dissolved Oxygen,%,94.7,,
+Hancock,30658,Wading Bird South,4/3/18,Total Dissolved Solids,mg/l,128,1,
+Hancock,30659,Eagle Roost Rd,4/3/18,Total Dissolved Solids,mg/l,132,1,
+Hancock,30659,Eagle Roost Rd,4/3/18,Dissolved Oxygen,%,58.7,,
+Hancock,30659,Eagle Roost Rd,4/3/18,Phosphorus Ortho,mg/l,0.313,0.005,
+Hancock,30659,Eagle Roost Rd,4/3/18,Chlorophyll a,ug/l,162,3,
+Hancock,30659,Eagle Roost Rd,4/3/18,Chlorophyll a (Corrected),ug/l,116,3,
+Hancock,30659,Eagle Roost Rd,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30659,Eagle Roost Rd,4/3/18,Nitrogen Total,mg/l,4.22,0.11,
+Hancock,30659,Eagle Roost Rd,4/3/18,Nitrogen Ammonia,mg/l,0.407,0.01,C
+Hancock,30659,Eagle Roost Rd,4/3/18,Sulfate,mg/l,7.92,3.6,
+Hancock,30659,Eagle Roost Rd,4/3/18,Phosphorus Total,mg/l,0.674,0.015,
+Hancock,30659,Eagle Roost Rd,4/3/18,Nitrogen Kjeldahl,mg/l,4.22,0.1,
+Hancock,30659,Eagle Roost Rd,4/3/18,Iron,ug/l,169,50,I
+Hancock,30659,Eagle Roost Rd,4/3/18,Conductivity,umhos/cm,187,,
+Hancock,30659,Eagle Roost Rd,4/3/18,Dissolved Oxygen,mg/l,4.8,,
+Hancock,30659,Eagle Roost Rd,4/3/18,pH,Std Unit,6.75,,
+Hancock,30659,Eagle Roost Rd,4/3/18,Temperature,deg C,25.09,,
+Hancock,30659,Eagle Roost Rd,4/3/18,Total Suspended Solids,mg/l,53,0.4,
+Hancock,30660,Heron Hideout,4/3/18,Temperature,deg C,25.71,,
+Hancock,30660,Heron Hideout,4/3/18,pH,Std Unit,6.45,,
+Hancock,30660,Heron Hideout,4/3/18,Dissolved Oxygen,mg/l,0.67,,
+Hancock,30660,Heron Hideout,4/3/18,Conductivity,umhos/cm,215,,
+Hancock,30660,Heron Hideout,4/3/18,Iron,ug/l,905,50,
+Hancock,30660,Heron Hideout,4/3/18,Nitrogen Kjeldahl,mg/l,3.75,0.1,
+Hancock,30660,Heron Hideout,4/3/18,Phosphorus Total,mg/l,1.01,0.015,
+Hancock,30660,Heron Hideout,4/3/18,Sulfate,mg/l,7.14,3.6,J3
+Hancock,30660,Heron Hideout,4/3/18,Nitrogen Ammonia,mg/l,0.079,0.01,C
+Hancock,30660,Heron Hideout,4/3/18,Nitrogen Total,mg/l,3.75,0.11,
+Hancock,30660,Heron Hideout,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30660,Heron Hideout,4/3/18,Phosphorus Ortho,mg/l,0.585,0.005,
+Hancock,30660,Heron Hideout,4/3/18,Chlorophyll a,ug/l,177,3,
+Hancock,30660,Heron Hideout,4/3/18,Chlorophyll a (Corrected),ug/l,142,3,
+Hancock,30660,Heron Hideout,4/3/18,Dissolved Oxygen,%,8.3,,
+Hancock,30660,Heron Hideout,4/3/18,Total Dissolved Solids,mg/l,144,1,
+Hancock,30660,Heron Hideout,4/3/18,Total Suspended Solids,mg/l,128,0.4,A J3
+Hancock,30661,Outflow Pipes,4/3/18,Total Suspended Solids,mg/l,96,0.4,
+Hancock,30661,Outflow Pipes,4/3/18,Total Dissolved Solids,mg/l,146,1,
+Hancock,30661,Outflow Pipes,4/3/18,Dissolved Oxygen,%,32.4,,
+Hancock,30661,Outflow Pipes,4/3/18,Chlorophyll a,ug/l,310,3,
+Hancock,30661,Outflow Pipes,4/3/18,Phosphorus Ortho,mg/l,0.081,0.005,
+Hancock,30661,Outflow Pipes,4/3/18,Chlorophyll a (Corrected),ug/l,244,3,
+Hancock,30661,Outflow Pipes,4/3/18,Nitrogen Total,mg/l,6.73,0.11,
+Hancock,30661,Outflow Pipes,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30661,Outflow Pipes,4/3/18,Nitrogen Ammonia,mg/l,0.135,0.01,C
+Hancock,30661,Outflow Pipes,4/3/18,Sulfate,mg/l,7.91,3.6,
+Hancock,30661,Outflow Pipes,4/3/18,Nitrogen Kjeldahl,mg/l,6.73,0.1,A
+Hancock,30661,Outflow Pipes,4/3/18,Iron,ug/l,241,50,
+Hancock,30661,Outflow Pipes,4/3/18,Phosphorus Total,mg/l,0.634,0.015,A
+Hancock,30661,Outflow Pipes,4/3/18,Dissolved Oxygen,mg/l,2.74,,
+Hancock,30661,Outflow Pipes,4/3/18,Conductivity,umhos/cm,212,,
+Hancock,30661,Outflow Pipes,4/3/18,pH,Std Unit,7.31,,
+Hancock,30661,Outflow Pipes,4/3/18,Temperature,deg C,23.74,,
+Hancock,30662,Canal Outflow,4/3/18,Temperature,deg C,23.79,,
+Hancock,30662,Canal Outflow,4/3/18,Dissolved Oxygen,mg/l,2.06,,
+Hancock,30662,Canal Outflow,4/3/18,pH,Std Unit,6.47,,
+Hancock,30662,Canal Outflow,4/3/18,Conductivity,umhos/cm,196,,
+Hancock,30662,Canal Outflow,4/3/18,Iron,ug/l,134,50,A I
+Hancock,30662,Canal Outflow,4/3/18,Phosphorus Total,mg/l,0.476,0.015,
+Hancock,30662,Canal Outflow,4/3/18,Nitrogen Kjeldahl,mg/l,2.07,0.1,
+Hancock,30662,Canal Outflow,4/3/18,Sulfate,mg/l,6.39,3.6,
+Hancock,30662,Canal Outflow,4/3/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30662,Canal Outflow,4/3/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30662,Canal Outflow,4/3/18,Nitrogen Total,mg/l,2.07,0.11,
+Hancock,30662,Canal Outflow,4/3/18,Phosphorus Ortho,mg/l,0.293,0.005,
+Hancock,30662,Canal Outflow,4/3/18,Chlorophyll a (Corrected),ug/l,61.1,3,A
+Hancock,30662,Canal Outflow,4/3/18,Chlorophyll a,ug/l,81.1,3,A
+Hancock,30662,Canal Outflow,4/3/18,Dissolved Oxygen,%,24.3,,
+Hancock,30662,Canal Outflow,4/3/18,Total Dissolved Solids,mg/l,135,1,A
+Hancock,30662,Canal Outflow,4/3/18,Total Suspended Solids,mg/l,30,0.4,
+Hancock,30728,Canal Outflow,5/1/18,Temperature,deg C,23.79,,
+Hancock,30728,Canal Outflow,5/1/18,Dissolved Oxygen,mg/l,1.13,,
+Hancock,30728,Canal Outflow,5/1/18,pH,Std Unit,6.4,,
+Hancock,30728,Canal Outflow,5/1/18,Conductivity,umhos/cm,180,,
+Hancock,30728,Canal Outflow,5/1/18,Iron,ug/l,171,50,I
+Hancock,30728,Canal Outflow,5/1/18,Phosphorus Total,mg/l,0.527,0.015,
+Hancock,30728,Canal Outflow,5/1/18,Nitrogen Kjeldahl,mg/l,3.36,0.1,
+Hancock,30728,Canal Outflow,5/1/18,Sulfate,mg/l,7.37,3.6,
+Hancock,30728,Canal Outflow,5/1/18,Nitrogen Ammonia,mg/l,0.029,0.01,C I
+Hancock,30728,Canal Outflow,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30728,Canal Outflow,5/1/18,Nitrogen Total,mg/l,3.36,0.11,
+Hancock,30728,Canal Outflow,5/1/18,Phosphorus Ortho,mg/l,0.171,0.005,
+Hancock,30728,Canal Outflow,5/1/18,Chlorophyll a (Corrected),ug/l,97.5,3,
+Hancock,30728,Canal Outflow,5/1/18,Chlorophyll a,ug/l,128,3,
+Hancock,30728,Canal Outflow,5/1/18,Total Dissolved Solids,mg/l,146,1,
+Hancock,30728,Canal Outflow,5/1/18,Total Suspended Solids,mg/l,38,0.4,
+Hancock,30728,Canal Outflow,5/1/18,Dissolved Oxygen Saturation,%,13,,
+Hancock,30729,Outflow Pipes,5/1/18,Dissolved Oxygen Saturation,%,10.3,,
+Hancock,30729,Outflow Pipes,5/1/18,Total Dissolved Solids,mg/l,168,1,
+Hancock,30729,Outflow Pipes,5/1/18,Total Suspended Solids,mg/l,68,0.4,
+Hancock,30729,Outflow Pipes,5/1/18,Chlorophyll a,ug/l,269,3,
+Hancock,30729,Outflow Pipes,5/1/18,Chlorophyll a (Corrected),ug/l,216,3,
+Hancock,30729,Outflow Pipes,5/1/18,Phosphorus Ortho,mg/l,0.087,0.005,
+Hancock,30729,Outflow Pipes,5/1/18,Nitrogen Total,mg/l,6.04,0.11,
+Hancock,30729,Outflow Pipes,5/1/18,Nitrogen Ammonia,mg/l,0.538,0.01,C
+Hancock,30729,Outflow Pipes,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30729,Outflow Pipes,5/1/18,Nitrogen Kjeldahl,mg/l,6.04,0.1,
+Hancock,30729,Outflow Pipes,5/1/18,Sulfate,mg/l,8.51,3.6,
+Hancock,30729,Outflow Pipes,5/1/18,Phosphorus Total,mg/l,0.551,0.015,
+Hancock,30729,Outflow Pipes,5/1/18,Iron,ug/l,195,50,I
+Hancock,30729,Outflow Pipes,5/1/18,pH,Std Unit,6.65,,
+Hancock,30729,Outflow Pipes,5/1/18,Conductivity,umhos/cm,225,,
+Hancock,30729,Outflow Pipes,5/1/18,Dissolved Oxygen,mg/l,0.87,,
+Hancock,30729,Outflow Pipes,5/1/18,Temperature,deg C,22.88,,
+Hancock,30731,Eagle Roost Rd,5/1/18,Temperature,deg C,23.12,,
+Hancock,30731,Eagle Roost Rd,5/1/18,Conductivity,umhos/cm,192,,
+Hancock,30731,Eagle Roost Rd,5/1/18,Dissolved Oxygen,mg/l,1.48,,
+Hancock,30731,Eagle Roost Rd,5/1/18,pH,Std Unit,6.42,,
+Hancock,30731,Eagle Roost Rd,5/1/18,Iron,ug/l,170,50,I
+Hancock,30731,Eagle Roost Rd,5/1/18,Phosphorus Total,mg/l,0.682,0.015,
+Hancock,30731,Eagle Roost Rd,5/1/18,Sulfate,mg/l,7.12,3.6,
+Hancock,30731,Eagle Roost Rd,5/1/18,Nitrogen Kjeldahl,mg/l,5.35,0.1,
+Hancock,30731,Eagle Roost Rd,5/1/18,Nitrogen Ammonia,mg/l,0.174,0.01,C
+Hancock,30731,Eagle Roost Rd,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30731,Eagle Roost Rd,5/1/18,Nitrogen Total,mg/l,5.35,0.11,
+Hancock,30731,Eagle Roost Rd,5/1/18,Phosphorus Ortho,mg/l,0.197,0.005,
+Hancock,30731,Eagle Roost Rd,5/1/18,Chlorophyll a (Corrected),ug/l,168,3,
+Hancock,30731,Eagle Roost Rd,5/1/18,Total Dissolved Solids,mg/l,152,1,
+Hancock,30731,Eagle Roost Rd,5/1/18,Chlorophyll a,ug/l,220,3,
+Hancock,30731,Eagle Roost Rd,5/1/18,Total Suspended Solids,mg/l,52,0.4,
+Hancock,30731,Eagle Roost Rd,5/1/18,Dissolved Oxygen Saturation,%,17.4,,
+Hancock,30732,Wading Bird South,5/1/18,Dissolved Oxygen Saturation,%,112.4,,
+Hancock,30732,Wading Bird South,5/1/18,Total Suspended Solids,mg/l,46,0.4,
+Hancock,30732,Wading Bird South,5/1/18,Total Dissolved Solids,mg/l,146,1,
+Hancock,30732,Wading Bird South,5/1/18,Chlorophyll a,ug/l,167,3,
+Hancock,30732,Wading Bird South,5/1/18,Phosphorus Ortho,mg/l,0.319,0.005,
+Hancock,30732,Wading Bird South,5/1/18,Chlorophyll a (Corrected),ug/l,132,3,
+Hancock,30732,Wading Bird South,5/1/18,Nitrogen Total,mg/l,3.56,0.11,
+Hancock,30732,Wading Bird South,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.018,0.01,I
+Hancock,30732,Wading Bird South,5/1/18,Nitrogen Ammonia,mg/l,0.075,0.01,C
+Hancock,30732,Wading Bird South,5/1/18,Sulfate,mg/l,7.79,3.6,
+Hancock,30732,Wading Bird South,5/1/18,Nitrogen Kjeldahl,mg/l,3.54,0.1,
+Hancock,30732,Wading Bird South,5/1/18,Phosphorus Total,mg/l,0.697,0.015,
+Hancock,30732,Wading Bird South,5/1/18,Iron,ug/l,144,50,I
+Hancock,30732,Wading Bird South,5/1/18,pH,Std Unit,8.22,,
+Hancock,30732,Wading Bird South,5/1/18,Dissolved Oxygen,mg/l,9.19,,
+Hancock,30732,Wading Bird South,5/1/18,Conductivity,umhos/cm,181,,
+Hancock,30732,Wading Bird South,5/1/18,Temperature,deg C,25.46,,
+Hancock,30733,Flooded Road,5/1/18,Temperature,deg C,21.55,,
+Hancock,30733,Flooded Road,5/1/18,Dissolved Oxygen,mg/l,5,,
+Hancock,30733,Flooded Road,5/1/18,Conductivity,umhos/cm,331,,
+Hancock,30733,Flooded Road,5/1/18,pH,Std Unit,6.94,,
+Hancock,30733,Flooded Road,5/1/18,Iron,ug/l,614,50,
+Hancock,30733,Flooded Road,5/1/18,Nitrogen Kjeldahl,mg/l,0.594,0.1,
+Hancock,30733,Flooded Road,5/1/18,Phosphorus Total,mg/l,0.305,0.015,
+Hancock,30733,Flooded Road,5/1/18,Sulfate,mg/l,7.9,3.6,
+Hancock,30733,Flooded Road,5/1/18,Nitrogen Ammonia,mg/l,0.03,0.01,C I
+Hancock,30733,Flooded Road,5/1/18,Nitrogen Total,mg/l,0.59,0.11,
+Hancock,30733,Flooded Road,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30733,Flooded Road,5/1/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30733,Flooded Road,5/1/18,Phosphorus Ortho,mg/l,0.191,0.005,
+Hancock,30733,Flooded Road,5/1/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30733,Flooded Road,5/1/18,Total Dissolved Solids,mg/l,206,1,
+Hancock,30733,Flooded Road,5/1/18,Total Suspended Solids,mg/l,3.2,0.4,
+Hancock,30733,Flooded Road,5/1/18,Dissolved Oxygen Saturation,%,57,,
+Hancock,30734,Reynold's Runoff,5/1/18,Dissolved Oxygen Saturation,%,117.5,,
+Hancock,30734,Reynold's Runoff,5/1/18,Total Suspended Solids,mg/l,2.4,0.4,I
+Hancock,30734,Reynold's Runoff,5/1/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30734,Reynold's Runoff,5/1/18,Total Dissolved Solids,mg/l,206,1,
+Hancock,30734,Reynold's Runoff,5/1/18,Phosphorus Ortho,mg/l,0.124,0.005,
+Hancock,30734,Reynold's Runoff,5/1/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30734,Reynold's Runoff,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30734,Reynold's Runoff,5/1/18,Nitrogen Total,mg/l,0.62,0.11,
+Hancock,30734,Reynold's Runoff,5/1/18,Nitrogen Ammonia,mg/l,0.016,0.01,C I
+Hancock,30734,Reynold's Runoff,5/1/18,Sulfate,mg/l,6.38,3.6,
+Hancock,30734,Reynold's Runoff,5/1/18,Phosphorus Total,mg/l,0.406,0.015,A
+Hancock,30734,Reynold's Runoff,5/1/18,Nitrogen Kjeldahl,mg/l,0.622,0.1,A
+Hancock,30734,Reynold's Runoff,5/1/18,Iron,ug/l,243,50,
+Hancock,30734,Reynold's Runoff,5/1/18,Conductivity,umhos/cm,337,,
+Hancock,30734,Reynold's Runoff,5/1/18,pH,Std Unit,7.55,,
+Hancock,30734,Reynold's Runoff,5/1/18,Dissolved Oxygen,mg/l,10.09,,
+Hancock,30734,Reynold's Runoff,5/1/18,Temperature,deg C,23.28,,
+Banana Creek,30735,Banana Creek,5/1/18,Temperature,deg C,26.1,,
+Banana Creek,30735,Banana Creek,5/1/18,Dissolved Oxygen,mg/l,5.79,,
+Banana Creek,30735,Banana Creek,5/1/18,pH,Std Unit,8.86,,
+Banana Creek,30735,Banana Creek,5/1/18,Conductivity,umhos/cm,193,,
+Banana Creek,30735,Banana Creek,5/1/18,Iron,ug/l,343,50,
+Banana Creek,30735,Banana Creek,5/1/18,Phosphorus Total,mg/l,1.38,0.015,
+Banana Creek,30735,Banana Creek,5/1/18,Nitrogen Kjeldahl,mg/l,9.29,0.1,
+Banana Creek,30735,Banana Creek,5/1/18,Sulfate,mg/l,5.32,3.6,
+Banana Creek,30735,Banana Creek,5/1/18,Nitrogen Ammonia,mg/l,0.025,0.01,C I
+Banana Creek,30735,Banana Creek,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30735,Banana Creek,5/1/18,Nitrogen Total,mg/l,9.29,0.11,
+Banana Creek,30735,Banana Creek,5/1/18,Phosphorus Ortho,mg/l,0.196,0.005,
+Banana Creek,30735,Banana Creek,5/1/18,Chlorophyll a (Corrected),ug/l,240,3,
+Banana Creek,30735,Banana Creek,5/1/18,Chlorophyll a,ug/l,287,3,
+Banana Creek,30735,Banana Creek,5/1/18,Total Dissolved Solids,mg/l,132,1,
+Banana Creek,30735,Banana Creek,5/1/18,Total Suspended Solids,mg/l,152,0.4,
+Banana Creek,30735,Banana Creek,5/1/18,Dissolved Oxygen Saturation,%,70.3,,
+Hancock,30736,Wading Bird North,5/1/18,Total Suspended Solids,mg/l,32,0.4,
+Hancock,30736,Wading Bird North,5/1/18,Dissolved Oxygen Saturation,%,92.1,,
+Hancock,30736,Wading Bird North,5/1/18,Total Dissolved Solids,mg/l,152,1,
+Hancock,30736,Wading Bird North,5/1/18,Chlorophyll a,ug/l,91.6,3,A
+Hancock,30736,Wading Bird North,5/1/18,Chlorophyll a (Corrected),ug/l,77.3,3,A
+Hancock,30736,Wading Bird North,5/1/18,Phosphorus Ortho,mg/l,0.117,0.005,
+Hancock,30736,Wading Bird North,5/1/18,Nitrogen Total,mg/l,2.74,0.11,
+Hancock,30736,Wading Bird North,5/1/18,Nitrogen Ammonia,mg/l,0.017,0.01,C I
+Hancock,30736,Wading Bird North,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30736,Wading Bird North,5/1/18,Nitrogen Kjeldahl,mg/l,2.74,0.1,
+Hancock,30736,Wading Bird North,5/1/18,Sulfate,mg/l,6.48,3.6,
+Hancock,30736,Wading Bird North,5/1/18,Iron,ug/l,175,50,A I
+Hancock,30736,Wading Bird North,5/1/18,Phosphorus Total,mg/l,0.426,0.015,
+Hancock,30736,Wading Bird North,5/1/18,Conductivity,umhos/cm,220,,
+Hancock,30736,Wading Bird North,5/1/18,pH,Std Unit,7.32,,
+Hancock,30736,Wading Bird North,5/1/18,Dissolved Oxygen,mg/l,7.51,,
+Hancock,30736,Wading Bird North,5/1/18,Temperature,deg C,25.56,,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Temperature,deg C,No Sample,,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Dissolved Oxygen,mg/l,No Sample,,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,pH,Std Unit,No Sample,,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Conductivity,umhos/cm,No Sample,,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Phosphorus Total,mg/l,No Sample,0.015,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Iron,ug/l,No Sample,50,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Sulfate,mg/l,No Sample,3.6,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Nitrogen Nitrate+Nitrite,mg/l,No Sample,0.01,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Nitrogen Ammonia,mg/l,No Sample,0.01,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Nitrogen Kjeldahl,mg/l,No Sample,0.1,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Nitrogen Total,mg/l,No Sample,0.11,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Phosphorus Ortho,mg/l,No Sample,0.005,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Chlorophyll a (Corrected),ug/l,No Sample,3,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Chlorophyll a,ug/l,No Sample,3,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Total Dissolved Solids,mg/l,No Sample,1,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Total Suspended Solids,mg/l,No Sample,0.4,
+Hancock,NS~BCMF-05.2018.b,Heron Hideout,5/1/18,Dissolved Oxygen Saturation,%,No Sample,,
+Hancock,30803,Outflow Pipes,6/5/18,Temperature,deg C,27.94,,
+Hancock,30803,Outflow Pipes,6/5/18,Dissolved Oxygen,mg/l,0.16,,J3
+Hancock,30803,Outflow Pipes,6/5/18,pH,Std Unit,6.26,,
+Hancock,30803,Outflow Pipes,6/5/18,Iron,ug/l,165,50,I
+Hancock,30803,Outflow Pipes,6/5/18,Conductivity,umhos/cm,174,,
+Hancock,30803,Outflow Pipes,6/5/18,Phosphorus Total,mg/l,0.668,0.015,
+Hancock,30803,Outflow Pipes,6/5/18,Nitrogen Kjeldahl,mg/l,1.35,0.1,
+Hancock,30803,Outflow Pipes,6/5/18,Sulfate,mg/l,7.42,3.6,
+Hancock,30803,Outflow Pipes,6/5/18,Nitrogen Ammonia,mg/l,0.095,0.01,C
+Hancock,30803,Outflow Pipes,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30803,Outflow Pipes,6/5/18,Nitrogen Total,mg/l,1.35,0.11,
+Hancock,30803,Outflow Pipes,6/5/18,Phosphorus Ortho,mg/l,0.615,0.005,
+Hancock,30803,Outflow Pipes,6/5/18,Chlorophyll a (Corrected),ug/l,20.8,3,
+Hancock,30803,Outflow Pipes,6/5/18,Chlorophyll a,ug/l,25.3,3,
+Hancock,30803,Outflow Pipes,6/5/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30803,Outflow Pipes,6/5/18,Total Suspended Solids,mg/l,3.2,0.4,
+Hancock,30803,Outflow Pipes,6/5/18,Dissolved Oxygen Saturation,%,2,,J3
+Hancock,30804,Canal Outflow,6/5/18,Dissolved Oxygen Saturation,%,26.6,,J3
+Hancock,30804,Canal Outflow,6/5/18,Chlorophyll a,ug/l,44.9,3,
+Hancock,30804,Canal Outflow,6/5/18,Total Dissolved Solids,mg/l,108,1,
+Hancock,30804,Canal Outflow,6/5/18,Phosphorus Ortho,mg/l,0.437,0.005,
+Hancock,30804,Canal Outflow,6/5/18,Chlorophyll a (Corrected),ug/l,38.5,3,
+Hancock,30804,Canal Outflow,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30804,Canal Outflow,6/5/18,Nitrogen Total,mg/l,1.84,0.11,
+Hancock,30804,Canal Outflow,6/5/18,Sulfate,mg/l,8.31,3.6,
+Hancock,30804,Canal Outflow,6/5/18,Nitrogen Ammonia,mg/l,0.011,0.01,C I
+Hancock,30804,Canal Outflow,6/5/18,Phosphorus Total,mg/l,0.683,0.015,
+Hancock,30804,Canal Outflow,6/5/18,Nitrogen Kjeldahl,mg/l,1.84,0.1,
+Hancock,30804,Canal Outflow,6/5/18,Conductivity,umhos/cm,178,,
+Hancock,30804,Canal Outflow,6/5/18,Iron,ug/l,302,50,
+Hancock,30804,Canal Outflow,6/5/18,Dissolved Oxygen,mg/l,2.01,,J3
+Hancock,30804,Canal Outflow,6/5/18,pH,Std Unit,6.62,,
+Hancock,30804,Canal Outflow,6/5/18,Temperature,deg C,28.9,,
+Hancock,30804,Canal Outflow,6/5/18,Total Suspended Solids,mg/l,35.6,0.4,
+Hancock,30805,Heron Hideout,6/5/18,Total Suspended Solids,mg/l,3.6,0.4,
+Hancock,30805,Heron Hideout,6/5/18,Temperature,deg C,28.39,,
+Hancock,30805,Heron Hideout,6/5/18,pH,Std Unit,6.3,,
+Hancock,30805,Heron Hideout,6/5/18,Dissolved Oxygen,mg/l,0.3,,J3
+Hancock,30805,Heron Hideout,6/5/18,Iron,ug/l,182,50,I
+Hancock,30805,Heron Hideout,6/5/18,Conductivity,umhos/cm,182,,
+Hancock,30805,Heron Hideout,6/5/18,Nitrogen Kjeldahl,mg/l,1.06,0.1,
+Hancock,30805,Heron Hideout,6/5/18,Phosphorus Total,mg/l,0.552,0.015,
+Hancock,30805,Heron Hideout,6/5/18,Nitrogen Ammonia,mg/l,0.026,0.01,C I
+Hancock,30805,Heron Hideout,6/5/18,Sulfate,mg/l,8.85,3.6,
+Hancock,30805,Heron Hideout,6/5/18,Nitrogen Total,mg/l,1.06,0.11,
+Hancock,30805,Heron Hideout,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30805,Heron Hideout,6/5/18,Chlorophyll a (Corrected),ug/l,9.61,3,
+Hancock,30805,Heron Hideout,6/5/18,Phosphorus Ortho,mg/l,0.502,0.005,
+Hancock,30805,Heron Hideout,6/5/18,Chlorophyll a,ug/l,12.4,3,
+Hancock,30805,Heron Hideout,6/5/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30805,Heron Hideout,6/5/18,Dissolved Oxygen Saturation,%,3.9,,J3
+Hancock,30806,Eagle Roost Rd,6/5/18,Dissolved Oxygen Saturation,%,6.1,,J3
+Hancock,30806,Eagle Roost Rd,6/5/18,Phosphorus Ortho,mg/l,0.492,0.005,
+Hancock,30806,Eagle Roost Rd,6/5/18,Total Dissolved Solids,mg/l,114,1,
+Hancock,30806,Eagle Roost Rd,6/5/18,Chlorophyll a,ug/l,42.9,3,
+Hancock,30806,Eagle Roost Rd,6/5/18,Chlorophyll a (Corrected),ug/l,36.1,3,
+Hancock,30806,Eagle Roost Rd,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30806,Eagle Roost Rd,6/5/18,Nitrogen Total,mg/l,1.46,0.11,
+Hancock,30806,Eagle Roost Rd,6/5/18,Nitrogen Ammonia,mg/l,0.034,0.01,C I
+Hancock,30806,Eagle Roost Rd,6/5/18,Sulfate,mg/l,7.68,3.6,
+Hancock,30806,Eagle Roost Rd,6/5/18,Phosphorus Total,mg/l,0.675,0.015,
+Hancock,30806,Eagle Roost Rd,6/5/18,Nitrogen Kjeldahl,mg/l,1.46,0.1,
+Hancock,30806,Eagle Roost Rd,6/5/18,Iron,ug/l,103,50,I
+Hancock,30806,Eagle Roost Rd,6/5/18,Conductivity,umhos/cm,179,,
+Hancock,30806,Eagle Roost Rd,6/5/18,Dissolved Oxygen,mg/l,0.47,,J3
+Hancock,30806,Eagle Roost Rd,6/5/18,pH,Std Unit,6.55,,
+Hancock,30806,Eagle Roost Rd,6/5/18,Temperature,deg C,28.97,,
+Hancock,30806,Eagle Roost Rd,6/5/18,Total Suspended Solids,mg/l,6.4,0.4,
+Hancock,30807,Wading Bird South,6/5/18,Total Suspended Solids,mg/l,11.6,0.4,
+Hancock,30807,Wading Bird South,6/5/18,Temperature,deg C,29.15,,
+Hancock,30807,Wading Bird South,6/5/18,pH,Std Unit,6.63,,
+Hancock,30807,Wading Bird South,6/5/18,Dissolved Oxygen,mg/l,3.53,,J3
+Hancock,30807,Wading Bird South,6/5/18,Conductivity,umhos/cm,176,,
+Hancock,30807,Wading Bird South,6/5/18,Iron,ug/l,188,50,I
+Hancock,30807,Wading Bird South,6/5/18,Nitrogen Kjeldahl,mg/l,1.45,0.1,
+Hancock,30807,Wading Bird South,6/5/18,Phosphorus Total,mg/l,0.437,0.015,
+Hancock,30807,Wading Bird South,6/5/18,Sulfate,mg/l,8.83,3.6,
+Hancock,30807,Wading Bird South,6/5/18,Nitrogen Ammonia,mg/l,0.01,0.01,C I
+Hancock,30807,Wading Bird South,6/5/18,Nitrogen Total,mg/l,1.45,0.11,
+Hancock,30807,Wading Bird South,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30807,Wading Bird South,6/5/18,Chlorophyll a (Corrected),ug/l,31.2,3,
+Hancock,30807,Wading Bird South,6/5/18,Chlorophyll a,ug/l,37.5,3,
+Hancock,30807,Wading Bird South,6/5/18,Phosphorus Ortho,mg/l,0.366,0.005,
+Hancock,30807,Wading Bird South,6/5/18,Dissolved Oxygen Saturation,%,46,,J3
+Hancock,30807,Wading Bird South,6/5/18,Total Dissolved Solids,mg/l,110,1,
+Hancock,30808,Wading Bird North,6/5/18,Total Dissolved Solids,mg/l,112,1,
+Hancock,30808,Wading Bird North,6/5/18,Dissolved Oxygen Saturation,%,18.6,,J3
+Hancock,30808,Wading Bird North,6/5/18,Phosphorus Ortho,mg/l,0.38,0.005,
+Hancock,30808,Wading Bird North,6/5/18,Chlorophyll a,ug/l,25.6,3,
+Hancock,30808,Wading Bird North,6/5/18,Chlorophyll a (Corrected),ug/l,21.6,3,
+Hancock,30808,Wading Bird North,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30808,Wading Bird North,6/5/18,Nitrogen Total,mg/l,1.32,0.11,
+Hancock,30808,Wading Bird North,6/5/18,Nitrogen Ammonia,mg/l,0.01,0.01,C I
+Hancock,30808,Wading Bird North,6/5/18,Sulfate,mg/l,8.84,3.6,
+Hancock,30808,Wading Bird North,6/5/18,Phosphorus Total,mg/l,0.548,0.015,A J3
+Hancock,30808,Wading Bird North,6/5/18,Nitrogen Kjeldahl,mg/l,1.32,0.1,A
+Hancock,30808,Wading Bird North,6/5/18,Iron,ug/l,219,50,
+Hancock,30808,Wading Bird North,6/5/18,Conductivity,umhos/cm,182,,
+Hancock,30808,Wading Bird North,6/5/18,Dissolved Oxygen,mg/l,1.42,,J3
+Hancock,30808,Wading Bird North,6/5/18,pH,Std Unit,6.53,,
+Hancock,30808,Wading Bird North,6/5/18,Temperature,deg C,28.98,,
+Hancock,30808,Wading Bird North,6/5/18,Total Suspended Solids,mg/l,10,0.4,A
+Hancock,30809,Flooded Road,6/5/18,Temperature,deg C,26.32,,
+Hancock,30809,Flooded Road,6/5/18,pH,Std Unit,6.95,,
+Hancock,30809,Flooded Road,6/5/18,Dissolved Oxygen,mg/l,3.97,,J3
+Hancock,30809,Flooded Road,6/5/18,Conductivity,umhos/cm,307,,
+Hancock,30809,Flooded Road,6/5/18,Iron,ug/l,461,50,
+Hancock,30809,Flooded Road,6/5/18,Nitrogen Kjeldahl,mg/l,0.708,0.1,
+Hancock,30809,Flooded Road,6/5/18,Phosphorus Total,mg/l,0.561,0.015,
+Hancock,30809,Flooded Road,6/5/18,Sulfate,mg/l,12.3,3.6,
+Hancock,30809,Flooded Road,6/5/18,Nitrogen Ammonia,mg/l,0.021,0.01,C I
+Hancock,30809,Flooded Road,6/5/18,Nitrogen Total,mg/l,0.71,0.11,
+Hancock,30809,Flooded Road,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30809,Flooded Road,6/5/18,Phosphorus Ortho,mg/l,0.48,0.005,
+Hancock,30809,Flooded Road,6/5/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30809,Flooded Road,6/5/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30809,Flooded Road,6/5/18,Dissolved Oxygen Saturation,%,49.4,,J3
+Hancock,30809,Flooded Road,6/5/18,Total Dissolved Solids,mg/l,199,1,A
+Hancock,30809,Flooded Road,6/5/18,Total Suspended Solids,mg/l,1.2,0.4,I
+Hancock,30810,Reynold's Runoff,6/5/18,Total Suspended Solids,mg/l,2,0.4,I
+Hancock,30810,Reynold's Runoff,6/5/18,Total Dissolved Solids,mg/l,208,1,
+Hancock,30810,Reynold's Runoff,6/5/18,Dissolved Oxygen Saturation,%,75,,J3
+Hancock,30810,Reynold's Runoff,6/5/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30810,Reynold's Runoff,6/5/18,Phosphorus Ortho,mg/l,0.486,0.005,
+Hancock,30810,Reynold's Runoff,6/5/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30810,Reynold's Runoff,6/5/18,Nitrogen Total,mg/l,0.91,0.11,
+Hancock,30810,Reynold's Runoff,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.024,0.01,I
+Hancock,30810,Reynold's Runoff,6/5/18,Nitrogen Ammonia,mg/l,0.016,0.01,C I
+Hancock,30810,Reynold's Runoff,6/5/18,Sulfate,mg/l,12.9,3.6,
+Hancock,30810,Reynold's Runoff,6/5/18,Nitrogen Kjeldahl,mg/l,0.881,0.1,
+Hancock,30810,Reynold's Runoff,6/5/18,Iron,ug/l,1050,50,
+Hancock,30810,Reynold's Runoff,6/5/18,Phosphorus Total,mg/l,0.921,0.015,
+Hancock,30810,Reynold's Runoff,6/5/18,Dissolved Oxygen,mg/l,6.02,,J3
+Hancock,30810,Reynold's Runoff,6/5/18,Conductivity,umhos/cm,312,,
+Hancock,30810,Reynold's Runoff,6/5/18,pH,Std Unit,7.16,,
+Hancock,30810,Reynold's Runoff,6/5/18,Temperature,deg C,26.48,,
+Banana Creek,30811,Banana Creek,6/5/18,Temperature,deg C,29.62,,
+Banana Creek,30811,Banana Creek,6/5/18,Dissolved Oxygen,mg/l,7.5,,J3
+Banana Creek,30811,Banana Creek,6/5/18,pH,Std Unit,7.62,,
+Banana Creek,30811,Banana Creek,6/5/18,Conductivity,umhos/cm,175,,
+Banana Creek,30811,Banana Creek,6/5/18,Iron,ug/l,203,50,A
+Banana Creek,30811,Banana Creek,6/5/18,Phosphorus Total,mg/l,0.716,0.015,
+Banana Creek,30811,Banana Creek,6/5/18,Nitrogen Kjeldahl,mg/l,1.99,0.1,
+Banana Creek,30811,Banana Creek,6/5/18,Sulfate,mg/l,8.46,3.6,
+Banana Creek,30811,Banana Creek,6/5/18,Nitrogen Ammonia,mg/l,0.04,0.01,C
+Banana Creek,30811,Banana Creek,6/5/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30811,Banana Creek,6/5/18,Nitrogen Total,mg/l,1.99,0.11,
+Banana Creek,30811,Banana Creek,6/5/18,Phosphorus Ortho,mg/l,0.447,0.005,
+Banana Creek,30811,Banana Creek,6/5/18,Chlorophyll a (Corrected),ug/l,44.1,3,A
+Banana Creek,30811,Banana Creek,6/5/18,Chlorophyll a,ug/l,57.5,3,A
+Banana Creek,30811,Banana Creek,6/5/18,Dissolved Oxygen Saturation,%,98.3,,J3
+Banana Creek,30811,Banana Creek,6/5/18,Total Dissolved Solids,mg/l,116,1,
+Banana Creek,30811,Banana Creek,6/5/18,Total Suspended Solids,mg/l,18,0.4,
+Hancock,30877,Heron Hideout,7/10/18,Temperature,deg C,28.32,,
+Hancock,30877,Heron Hideout,7/10/18,Dissolved Oxygen,mg/l,0.62,,
+Hancock,30877,Heron Hideout,7/10/18,pH,Std Unit,6.5,,
+Hancock,30877,Heron Hideout,7/10/18,Iron,ug/l,194,50,I
+Hancock,30877,Heron Hideout,7/10/18,Conductivity,umhos/cm,168,,
+Hancock,30877,Heron Hideout,7/10/18,Phosphorus Total,mg/l,0.436,0.015,
+Hancock,30877,Heron Hideout,7/10/18,Nitrogen Kjeldahl,mg/l,0.917,0.1,
+Hancock,30877,Heron Hideout,7/10/18,Sulfate,mg/l,7.41,3.6,
+Hancock,30877,Heron Hideout,7/10/18,Nitrogen Ammonia,mg/l,0.042,0.01,C
+Hancock,30877,Heron Hideout,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30877,Heron Hideout,7/10/18,Nitrogen Total,mg/l,0.92,0.11,
+Hancock,30877,Heron Hideout,7/10/18,Phosphorus Ortho,mg/l,0.376,0.005,
+Hancock,30877,Heron Hideout,7/10/18,Chlorophyll a (Corrected),ug/l,5.61,3,I
+Hancock,30877,Heron Hideout,7/10/18,Chlorophyll a,ug/l,7.89,3,
+Hancock,30877,Heron Hideout,7/10/18,Total Dissolved Solids,mg/l,108,1,
+Hancock,30877,Heron Hideout,7/10/18,Total Suspended Solids,mg/l,1.6,0.4,I
+Hancock,30877,Heron Hideout,7/10/18,Dissolved Oxygen Saturation,%,8.1,,
+Hancock,30878,Outflow Pipes,7/10/18,Dissolved Oxygen Saturation,%,5.8,,
+Hancock,30878,Outflow Pipes,7/10/18,Chlorophyll a,ug/l,18.4,3,
+Hancock,30878,Outflow Pipes,7/10/18,Total Dissolved Solids,mg/l,98,1,
+Hancock,30878,Outflow Pipes,7/10/18,Phosphorus Ortho,mg/l,0.259,0.005,
+Hancock,30878,Outflow Pipes,7/10/18,Chlorophyll a (Corrected),ug/l,16,3,
+Hancock,30878,Outflow Pipes,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30878,Outflow Pipes,7/10/18,Nitrogen Total,mg/l,1.16,0.11,
+Hancock,30878,Outflow Pipes,7/10/18,Sulfate,mg/l,6.05,3.6,
+Hancock,30878,Outflow Pipes,7/10/18,Nitrogen Ammonia,mg/l,0.088,0.01,C
+Hancock,30878,Outflow Pipes,7/10/18,Phosphorus Total,mg/l,0.354,0.015,
+Hancock,30878,Outflow Pipes,7/10/18,Nitrogen Kjeldahl,mg/l,1.16,0.1,
+Hancock,30878,Outflow Pipes,7/10/18,Conductivity,umhos/cm,138,,
+Hancock,30878,Outflow Pipes,7/10/18,Iron,ug/l,149,50,I
+Hancock,30878,Outflow Pipes,7/10/18,Dissolved Oxygen,mg/l,0.45,,
+Hancock,30878,Outflow Pipes,7/10/18,pH,Std Unit,6.35,,
+Hancock,30878,Outflow Pipes,7/10/18,Temperature,deg C,27.71,,
+Hancock,30878,Outflow Pipes,7/10/18,Total Suspended Solids,mg/l,1.6,0.4,I
+Hancock,30879,Canal Outflow,7/10/18,Total Suspended Solids,mg/l,23.6,0.4,
+Hancock,30879,Canal Outflow,7/10/18,Temperature,deg C,29.38,,
+Hancock,30879,Canal Outflow,7/10/18,pH,Std Unit,6.71,,
+Hancock,30879,Canal Outflow,7/10/18,Dissolved Oxygen,mg/l,1.4,,
+Hancock,30879,Canal Outflow,7/10/18,Iron,ug/l,219,50,
+Hancock,30879,Canal Outflow,7/10/18,Conductivity,umhos/cm,166,,
+Hancock,30879,Canal Outflow,7/10/18,Nitrogen Kjeldahl,mg/l,1.61,0.1,
+Hancock,30879,Canal Outflow,7/10/18,Phosphorus Total,mg/l,0.722,0.015,
+Hancock,30879,Canal Outflow,7/10/18,Nitrogen Ammonia,mg/l,0.08,0.01,C
+Hancock,30879,Canal Outflow,7/10/18,Sulfate,mg/l,7.99,3.6,
+Hancock,30879,Canal Outflow,7/10/18,Nitrogen Total,mg/l,1.61,0.11,
+Hancock,30879,Canal Outflow,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30879,Canal Outflow,7/10/18,Chlorophyll a (Corrected),ug/l,16.8,3,
+Hancock,30879,Canal Outflow,7/10/18,Phosphorus Ortho,mg/l,0.381,0.005,
+Hancock,30879,Canal Outflow,7/10/18,Chlorophyll a,ug/l,20.1,3,
+Hancock,30879,Canal Outflow,7/10/18,Total Dissolved Solids,mg/l,108,1,
+Hancock,30879,Canal Outflow,7/10/18,Dissolved Oxygen Saturation,%,18.7,,
+Hancock,30880,Eagle Roost Rd,7/10/18,Dissolved Oxygen Saturation,%,11.9,,
+Hancock,30880,Eagle Roost Rd,7/10/18,Phosphorus Ortho,mg/l,0.403,0.005,
+Hancock,30880,Eagle Roost Rd,7/10/18,Total Dissolved Solids,mg/l,94,1,
+Hancock,30880,Eagle Roost Rd,7/10/18,Chlorophyll a,ug/l,29.9,3,
+Hancock,30880,Eagle Roost Rd,7/10/18,Chlorophyll a (Corrected),ug/l,24,3,
+Hancock,30880,Eagle Roost Rd,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30880,Eagle Roost Rd,7/10/18,Nitrogen Total,mg/l,1.33,0.11,
+Hancock,30880,Eagle Roost Rd,7/10/18,Nitrogen Ammonia,mg/l,0.05,0.01,C
+Hancock,30880,Eagle Roost Rd,7/10/18,Sulfate,mg/l,8.29,3.6,
+Hancock,30880,Eagle Roost Rd,7/10/18,Phosphorus Total,mg/l,0.489,0.015,
+Hancock,30880,Eagle Roost Rd,7/10/18,Nitrogen Kjeldahl,mg/l,1.33,0.1,
+Hancock,30880,Eagle Roost Rd,7/10/18,Iron,ug/l,120,50,I
+Hancock,30880,Eagle Roost Rd,7/10/18,Conductivity,umhos/cm,168,,
+Hancock,30880,Eagle Roost Rd,7/10/18,Dissolved Oxygen,mg/l,0.91,,
+Hancock,30880,Eagle Roost Rd,7/10/18,pH,Std Unit,6.63,,
+Hancock,30880,Eagle Roost Rd,7/10/18,Temperature,deg C,29.52,,
+Hancock,30880,Eagle Roost Rd,7/10/18,Total Suspended Solids,mg/l,7.6,0.4,
+Hancock,30881,Wading Bird South,7/10/18,Total Suspended Solids,mg/l,10.8,0.4,
+Hancock,30881,Wading Bird South,7/10/18,Temperature,deg C,29.24,,
+Hancock,30881,Wading Bird South,7/10/18,pH,Std Unit,6.57,,
+Hancock,30881,Wading Bird South,7/10/18,Dissolved Oxygen,mg/l,1.47,,
+Hancock,30881,Wading Bird South,7/10/18,Conductivity,umhos/cm,172,,
+Hancock,30881,Wading Bird South,7/10/18,Iron,ug/l,199,50,I
+Hancock,30881,Wading Bird South,7/10/18,Nitrogen Kjeldahl,mg/l,1.37,0.1,A
+Hancock,30881,Wading Bird South,7/10/18,Phosphorus Total,mg/l,0.487,0.015,A
+Hancock,30881,Wading Bird South,7/10/18,Sulfate,mg/l,7.86,3.6,
+Hancock,30881,Wading Bird South,7/10/18,Nitrogen Ammonia,mg/l,0.036,0.01,C I
+Hancock,30881,Wading Bird South,7/10/18,Nitrogen Total,mg/l,1.37,0.11,
+Hancock,30881,Wading Bird South,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30881,Wading Bird South,7/10/18,Chlorophyll a (Corrected),ug/l,28.8,3,
+Hancock,30881,Wading Bird South,7/10/18,Chlorophyll a,ug/l,35.1,3,
+Hancock,30881,Wading Bird South,7/10/18,Phosphorus Ortho,mg/l,0.388,0.005,
+Hancock,30881,Wading Bird South,7/10/18,Dissolved Oxygen Saturation,%,19.2,,
+Hancock,30881,Wading Bird South,7/10/18,Total Dissolved Solids,mg/l,106,1,
+Hancock,30882,Wading Bird North,7/10/18,Total Dissolved Solids,mg/l,106,1,
+Hancock,30882,Wading Bird North,7/10/18,Dissolved Oxygen Saturation,%,13.3,,
+Hancock,30882,Wading Bird North,7/10/18,Phosphorus Ortho,mg/l,0.322,0.005,
+Hancock,30882,Wading Bird North,7/10/18,Chlorophyll a,ug/l,24.9,3,
+Hancock,30882,Wading Bird North,7/10/18,Chlorophyll a (Corrected),ug/l,22.4,3,
+Hancock,30882,Wading Bird North,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30882,Wading Bird North,7/10/18,Nitrogen Total,mg/l,1.25,0.11,
+Hancock,30882,Wading Bird North,7/10/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30882,Wading Bird North,7/10/18,Sulfate,mg/l,8.46,3.6,
+Hancock,30882,Wading Bird North,7/10/18,Phosphorus Total,mg/l,0.454,0.015,
+Hancock,30882,Wading Bird North,7/10/18,Nitrogen Kjeldahl,mg/l,1.25,0.1,
+Hancock,30882,Wading Bird North,7/10/18,Iron,ug/l,232,50,
+Hancock,30882,Wading Bird North,7/10/18,Conductivity,umhos/cm,174,,
+Hancock,30882,Wading Bird North,7/10/18,Dissolved Oxygen,mg/l,1,,
+Hancock,30882,Wading Bird North,7/10/18,pH,Std Unit,6.6,,
+Hancock,30882,Wading Bird North,7/10/18,Temperature,deg C,28.68,,
+Hancock,30882,Wading Bird North,7/10/18,Total Suspended Solids,mg/l,6.8,0.4,
+Hancock,30883,Flooded Road,7/10/18,Temperature,deg C,26.11,,
+Hancock,30883,Flooded Road,7/10/18,pH,Std Unit,7.09,,
+Hancock,30883,Flooded Road,7/10/18,Dissolved Oxygen,mg/l,3.74,,
+Hancock,30883,Flooded Road,7/10/18,Conductivity,umhos/cm,284,,
+Hancock,30883,Flooded Road,7/10/18,Iron,ug/l,458,50,
+Hancock,30883,Flooded Road,7/10/18,Nitrogen Kjeldahl,mg/l,0.674,0.1,
+Hancock,30883,Flooded Road,7/10/18,Phosphorus Total,mg/l,0.535,0.015,
+Hancock,30883,Flooded Road,7/10/18,Sulfate,mg/l,10.6,3.6,
+Hancock,30883,Flooded Road,7/10/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30883,Flooded Road,7/10/18,Nitrogen Total,mg/l,0.67,0.11,
+Hancock,30883,Flooded Road,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30883,Flooded Road,7/10/18,Phosphorus Ortho,mg/l,0.457,0.005,
+Hancock,30883,Flooded Road,7/10/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30883,Flooded Road,7/10/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30883,Flooded Road,7/10/18,Dissolved Oxygen Saturation,%,46.2,,
+Hancock,30883,Flooded Road,7/10/18,Total Dissolved Solids,mg/l,184,1,
+Hancock,30883,Flooded Road,7/10/18,Total Suspended Solids,mg/l,1.6,0.4,I
+Hancock,30884,Reynold's Runoff,7/10/18,Total Suspended Solids,mg/l,2.4,0.4,I
+Hancock,30884,Reynold's Runoff,7/10/18,Total Dissolved Solids,mg/l,200,1,
+Hancock,30884,Reynold's Runoff,7/10/18,Dissolved Oxygen Saturation,%,53,,
+Hancock,30884,Reynold's Runoff,7/10/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30884,Reynold's Runoff,7/10/18,Phosphorus Ortho,mg/l,0.483,0.005,
+Hancock,30884,Reynold's Runoff,7/10/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30884,Reynold's Runoff,7/10/18,Nitrogen Total,mg/l,0.7,0.11,
+Hancock,30884,Reynold's Runoff,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.034,0.01,I
+Hancock,30884,Reynold's Runoff,7/10/18,Nitrogen Ammonia,mg/l,0.012,0.01,C I
+Hancock,30884,Reynold's Runoff,7/10/18,Sulfate,mg/l,11.3,3.6,
+Hancock,30884,Reynold's Runoff,7/10/18,Nitrogen Kjeldahl,mg/l,0.67,0.1,
+Hancock,30884,Reynold's Runoff,7/10/18,Iron,ug/l,901,50,
+Hancock,30884,Reynold's Runoff,7/10/18,Phosphorus Total,mg/l,0.672,0.015,
+Hancock,30884,Reynold's Runoff,7/10/18,Dissolved Oxygen,mg/l,4.23,,
+Hancock,30884,Reynold's Runoff,7/10/18,Conductivity,umhos/cm,290,,
+Hancock,30884,Reynold's Runoff,7/10/18,pH,Std Unit,7.16,,
+Hancock,30884,Reynold's Runoff,7/10/18,Temperature,deg C,26.47,,
+Banana Creek,30885,Banana Creek,7/10/18,Temperature,deg C,29.91,,
+Banana Creek,30885,Banana Creek,7/10/18,Dissolved Oxygen,mg/l,5.13,,
+Banana Creek,30885,Banana Creek,7/10/18,pH,Std Unit,7.17,,
+Banana Creek,30885,Banana Creek,7/10/18,Conductivity,umhos/cm,168,,
+Banana Creek,30885,Banana Creek,7/10/18,Iron,ug/l,226,50,
+Banana Creek,30885,Banana Creek,7/10/18,Phosphorus Total,mg/l,0.556,0.015,
+Banana Creek,30885,Banana Creek,7/10/18,Nitrogen Kjeldahl,mg/l,1.87,0.1,
+Banana Creek,30885,Banana Creek,7/10/18,Sulfate,mg/l,8.77,3.6,
+Banana Creek,30885,Banana Creek,7/10/18,Nitrogen Ammonia,mg/l,0.048,0.01,C
+Banana Creek,30885,Banana Creek,7/10/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30885,Banana Creek,7/10/18,Nitrogen Total,mg/l,1.87,0.11,
+Banana Creek,30885,Banana Creek,7/10/18,Phosphorus Ortho,mg/l,0.341,0.005,
+Banana Creek,30885,Banana Creek,7/10/18,Chlorophyll a (Corrected),ug/l,46.1,3,A
+Banana Creek,30885,Banana Creek,7/10/18,Chlorophyll a,ug/l,57.7,3,A
+Banana Creek,30885,Banana Creek,7/10/18,Dissolved Oxygen Saturation,%,66.5,,
+Banana Creek,30885,Banana Creek,7/10/18,Total Dissolved Solids,mg/l,116,1,A
+Banana Creek,30885,Banana Creek,7/10/18,Total Suspended Solids,mg/l,19.5,0.4,A
+Hancock,30966,Heron Hideout,8/7/18,Temperature,deg C,27.85,,
+Hancock,30966,Heron Hideout,8/7/18,Dissolved Oxygen,mg/l,0.34,,
+Hancock,30966,Heron Hideout,8/7/18,pH,Std Unit,6.3,,
+Hancock,30966,Heron Hideout,8/7/18,Iron,ug/l,203,50,
+Hancock,30966,Heron Hideout,8/7/18,Conductivity,umhos/cm,169,,
+Hancock,30966,Heron Hideout,8/7/18,Phosphorus Total,mg/l,0.362,0.015,
+Hancock,30966,Heron Hideout,8/7/18,Nitrogen Kjeldahl,mg/l,1.02,0.1,
+Hancock,30966,Heron Hideout,8/7/18,Sulfate,mg/l,8.67,3.6,
+Hancock,30966,Heron Hideout,8/7/18,Nitrogen Ammonia,mg/l,0.045,0.01,C
+Hancock,30966,Heron Hideout,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30966,Heron Hideout,8/7/18,Nitrogen Total,mg/l,1.02,0.11,
+Hancock,30966,Heron Hideout,8/7/18,Phosphorus Ortho,mg/l,0.32,0.005,
+Hancock,30966,Heron Hideout,8/7/18,Chlorophyll a (Corrected),ug/l,5.61,3,I
+Hancock,30966,Heron Hideout,8/7/18,Chlorophyll a,ug/l,7.23,3,
+Hancock,30966,Heron Hideout,8/7/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30966,Heron Hideout,8/7/18,Total Suspended Solids,mg/l,2.4,0.4,I
+Hancock,30966,Heron Hideout,8/7/18,Dissolved Oxygen Saturation,%,4.3,,
+Hancock,30967,Outflow Pipes,8/7/18,Dissolved Oxygen Saturation,%,6.4,,
+Hancock,30967,Outflow Pipes,8/7/18,Chlorophyll a,ug/l,13,3,
+Hancock,30967,Outflow Pipes,8/7/18,Total Dissolved Solids,mg/l,106,1,
+Hancock,30967,Outflow Pipes,8/7/18,Phosphorus Ortho,mg/l,0.264,0.005,
+Hancock,30967,Outflow Pipes,8/7/18,Chlorophyll a (Corrected),ug/l,12,3,
+Hancock,30967,Outflow Pipes,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U J3
+Hancock,30967,Outflow Pipes,8/7/18,Nitrogen Total,mg/l,1.14,0.11,J3
+Hancock,30967,Outflow Pipes,8/7/18,Sulfate,mg/l,7.41,3.6,
+Hancock,30967,Outflow Pipes,8/7/18,Nitrogen Ammonia,mg/l,0.157,0.01,C
+Hancock,30967,Outflow Pipes,8/7/18,Phosphorus Total,mg/l,0.313,0.015,A
+Hancock,30967,Outflow Pipes,8/7/18,Nitrogen Kjeldahl,mg/l,1.14,0.1,A
+Hancock,30967,Outflow Pipes,8/7/18,Conductivity,umhos/cm,148,,
+Hancock,30967,Outflow Pipes,8/7/18,Iron,ug/l,160,50,I
+Hancock,30967,Outflow Pipes,8/7/18,Dissolved Oxygen,mg/l,0.51,,
+Hancock,30967,Outflow Pipes,8/7/18,pH,Std Unit,6.23,,
+Hancock,30967,Outflow Pipes,8/7/18,Temperature,deg C,27.5,,
+Hancock,30967,Outflow Pipes,8/7/18,Total Suspended Solids,mg/l,1.2,0.4,I
+Hancock,30968,Canal Outflow,8/7/18,Total Suspended Solids,mg/l,26.4,0.4,
+Hancock,30968,Canal Outflow,8/7/18,Temperature,deg C,29.64,,
+Hancock,30968,Canal Outflow,8/7/18,pH,Std Unit,6.6,,
+Hancock,30968,Canal Outflow,8/7/18,Dissolved Oxygen,mg/l,0.88,,
+Hancock,30968,Canal Outflow,8/7/18,Iron,ug/l,163,50,I
+Hancock,30968,Canal Outflow,8/7/18,Conductivity,umhos/cm,171,,
+Hancock,30968,Canal Outflow,8/7/18,Nitrogen Kjeldahl,mg/l,1.74,0.1,
+Hancock,30968,Canal Outflow,8/7/18,Phosphorus Total,mg/l,0.518,0.015,
+Hancock,30968,Canal Outflow,8/7/18,Nitrogen Ammonia,mg/l,0.199,0.01,C
+Hancock,30968,Canal Outflow,8/7/18,Sulfate,mg/l,8.38,3.6,
+Hancock,30968,Canal Outflow,8/7/18,Nitrogen Total,mg/l,1.74,0.11,
+Hancock,30968,Canal Outflow,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30968,Canal Outflow,8/7/18,Chlorophyll a (Corrected),ug/l,28.8,3,
+Hancock,30968,Canal Outflow,8/7/18,Phosphorus Ortho,mg/l,0.381,0.005,
+Hancock,30968,Canal Outflow,8/7/18,Chlorophyll a,ug/l,39.1,3,
+Hancock,30968,Canal Outflow,8/7/18,Total Dissolved Solids,mg/l,116,1,
+Hancock,30968,Canal Outflow,8/7/18,Dissolved Oxygen Saturation,%,12.1,,
+Hancock,30969,Eagle Roost Rd,8/7/18,Dissolved Oxygen Saturation,%,5.5,,
+Hancock,30969,Eagle Roost Rd,8/7/18,Phosphorus Ortho,mg/l,0.375,0.005,
+Hancock,30969,Eagle Roost Rd,8/7/18,Total Dissolved Solids,mg/l,114,1,
+Hancock,30969,Eagle Roost Rd,8/7/18,Chlorophyll a,ug/l,42.7,3,
+Hancock,30969,Eagle Roost Rd,8/7/18,Chlorophyll a (Corrected),ug/l,32.8,3,
+Hancock,30969,Eagle Roost Rd,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30969,Eagle Roost Rd,8/7/18,Nitrogen Total,mg/l,1.5,0.11,
+Hancock,30969,Eagle Roost Rd,8/7/18,Nitrogen Ammonia,mg/l,0.173,0.01,C
+Hancock,30969,Eagle Roost Rd,8/7/18,Sulfate,mg/l,8.37,3.6,
+Hancock,30969,Eagle Roost Rd,8/7/18,Phosphorus Total,mg/l,0.466,0.015,
+Hancock,30969,Eagle Roost Rd,8/7/18,Nitrogen Kjeldahl,mg/l,1.5,0.1,
+Hancock,30969,Eagle Roost Rd,8/7/18,Iron,ug/l,132,50,I
+Hancock,30969,Eagle Roost Rd,8/7/18,Conductivity,umhos/cm,171,,
+Hancock,30969,Eagle Roost Rd,8/7/18,Dissolved Oxygen,mg/l,0.42,,
+Hancock,30969,Eagle Roost Rd,8/7/18,pH,Std Unit,6.57,,
+Hancock,30969,Eagle Roost Rd,8/7/18,Temperature,deg C,30.13,,
+Hancock,30969,Eagle Roost Rd,8/7/18,Total Suspended Solids,mg/l,17.6,0.4,
+Hancock,30970,Wading Bird South,8/7/18,Total Suspended Solids,mg/l,8.8,0.4,
+Hancock,30970,Wading Bird South,8/7/18,Temperature,deg C,29.72,,
+Hancock,30970,Wading Bird South,8/7/18,pH,Std Unit,6.6,,
+Hancock,30970,Wading Bird South,8/7/18,Dissolved Oxygen,mg/l,3.58,,
+Hancock,30970,Wading Bird South,8/7/18,Conductivity,umhos/cm,165,,
+Hancock,30970,Wading Bird South,8/7/18,Iron,ug/l,131,50,I
+Hancock,30970,Wading Bird South,8/7/18,Nitrogen Kjeldahl,mg/l,1.5,0.1,
+Hancock,30970,Wading Bird South,8/7/18,Phosphorus Total,mg/l,0.357,0.015,
+Hancock,30970,Wading Bird South,8/7/18,Sulfate,mg/l,8.16,3.6,
+Hancock,30970,Wading Bird South,8/7/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30970,Wading Bird South,8/7/18,Nitrogen Total,mg/l,1.5,0.11,
+Hancock,30970,Wading Bird South,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30970,Wading Bird South,8/7/18,Chlorophyll a (Corrected),ug/l,56.1,3,
+Hancock,30970,Wading Bird South,8/7/18,Chlorophyll a,ug/l,64.6,3,
+Hancock,30970,Wading Bird South,8/7/18,Phosphorus Ortho,mg/l,0.224,0.005,
+Hancock,30970,Wading Bird South,8/7/18,Dissolved Oxygen Saturation,%,48.3,,
+Hancock,30970,Wading Bird South,8/7/18,Total Dissolved Solids,mg/l,110,1,
+Hancock,30971,Wading Bird North,8/7/18,Total Dissolved Solids,mg/l,122,1,
+Hancock,30971,Wading Bird North,8/7/18,Dissolved Oxygen Saturation,%,34.7,,
+Hancock,30971,Wading Bird North,8/7/18,Phosphorus Ortho,mg/l,0.302,0.005,
+Hancock,30971,Wading Bird North,8/7/18,Chlorophyll a,ug/l,44.9,3,
+Hancock,30971,Wading Bird North,8/7/18,Chlorophyll a (Corrected),ug/l,39.2,3,
+Hancock,30971,Wading Bird North,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30971,Wading Bird North,8/7/18,Nitrogen Total,mg/l,1.29,0.11,
+Hancock,30971,Wading Bird North,8/7/18,Nitrogen Ammonia,mg/l,0.01,0.01,C U
+Hancock,30971,Wading Bird North,8/7/18,Sulfate,mg/l,8.12,3.6,
+Hancock,30971,Wading Bird North,8/7/18,Phosphorus Total,mg/l,0.421,0.015,
+Hancock,30971,Wading Bird North,8/7/18,Nitrogen Kjeldahl,mg/l,1.29,0.1,
+Hancock,30971,Wading Bird North,8/7/18,Iron,ug/l,151,50,I
+Hancock,30971,Wading Bird North,8/7/18,Conductivity,umhos/cm,180,,
+Hancock,30971,Wading Bird North,8/7/18,Dissolved Oxygen,mg/l,2.61,,
+Hancock,30971,Wading Bird North,8/7/18,pH,Std Unit,6.66,,
+Hancock,30971,Wading Bird North,8/7/18,Temperature,deg C,30.04,,
+Hancock,30971,Wading Bird North,8/7/18,Total Suspended Solids,mg/l,8.4,0.4,
+Hancock,30972,Flooded Road,8/7/18,Temperature,deg C,26.68,,
+Hancock,30972,Flooded Road,8/7/18,pH,Std Unit,6.99,,
+Hancock,30972,Flooded Road,8/7/18,Dissolved Oxygen,mg/l,3.68,,
+Hancock,30972,Flooded Road,8/7/18,Conductivity,umhos/cm,300,,
+Hancock,30972,Flooded Road,8/7/18,Iron,ug/l,337,50,
+Hancock,30972,Flooded Road,8/7/18,Nitrogen Kjeldahl,mg/l,0.824,0.1,
+Hancock,30972,Flooded Road,8/7/18,Phosphorus Total,mg/l,0.544,0.015,
+Hancock,30972,Flooded Road,8/7/18,Sulfate,mg/l,11,3.6,
+Hancock,30972,Flooded Road,8/7/18,Nitrogen Ammonia,mg/l,0.018,0.01,C I
+Hancock,30972,Flooded Road,8/7/18,Nitrogen Total,mg/l,0.82,0.11,
+Hancock,30972,Flooded Road,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,30972,Flooded Road,8/7/18,Phosphorus Ortho,mg/l,0.346,0.005,
+Hancock,30972,Flooded Road,8/7/18,Chlorophyll a,ug/l,3,3,U
+Hancock,30972,Flooded Road,8/7/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,30972,Flooded Road,8/7/18,Dissolved Oxygen Saturation,%,46.3,,
+Hancock,30972,Flooded Road,8/7/18,Total Dissolved Solids,mg/l,202,1,
+Hancock,30972,Flooded Road,8/7/18,Total Suspended Solids,mg/l,0.4,0.4,U
+Banana Creek,30973,Banana Creek,8/7/18,Total Suspended Solids,mg/l,26,0.4,
+Banana Creek,30973,Banana Creek,8/7/18,Total Dissolved Solids,mg/l,112,1,
+Banana Creek,30973,Banana Creek,8/7/18,Dissolved Oxygen Saturation,%,65.3,,
+Banana Creek,30973,Banana Creek,8/7/18,Chlorophyll a,ug/l,85.7,3,
+Banana Creek,30973,Banana Creek,8/7/18,Phosphorus Ortho,mg/l,0.306,0.005,
+Banana Creek,30973,Banana Creek,8/7/18,Chlorophyll a (Corrected),ug/l,66.8,3,
+Banana Creek,30973,Banana Creek,8/7/18,Nitrogen Total,mg/l,2.45,0.11,
+Banana Creek,30973,Banana Creek,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,30973,Banana Creek,8/7/18,Nitrogen Ammonia,mg/l,0.051,0.01,C
+Banana Creek,30973,Banana Creek,8/7/18,Sulfate,mg/l,8.52,3.6,
+Banana Creek,30973,Banana Creek,8/7/18,Nitrogen Kjeldahl,mg/l,2.45,0.1,
+Banana Creek,30973,Banana Creek,8/7/18,Iron,ug/l,265,50,
+Banana Creek,30973,Banana Creek,8/7/18,Phosphorus Total,mg/l,0.613,0.015,
+Banana Creek,30973,Banana Creek,8/7/18,Dissolved Oxygen,mg/l,4.89,,
+Banana Creek,30973,Banana Creek,8/7/18,Conductivity,umhos/cm,168,,
+Banana Creek,30973,Banana Creek,8/7/18,pH,Std Unit,7.25,,
+Banana Creek,30973,Banana Creek,8/7/18,Temperature,deg C,30.57,,
+Hancock,30974,Reynold's Runoff,8/7/18,Temperature,deg C,26.92,,
+Hancock,30974,Reynold's Runoff,8/7/18,Dissolved Oxygen,mg/l,4.19,,
+Hancock,30974,Reynold's Runoff,8/7/18,pH,Std Unit,7.11,,
+Hancock,30974,Reynold's Runoff,8/7/18,Conductivity,umhos/cm,303,,
+Hancock,30974,Reynold's Runoff,8/7/18,Iron,ug/l,697,50,
+Hancock,30974,Reynold's Runoff,8/7/18,Phosphorus Total,mg/l,0.517,0.015,
+Hancock,30974,Reynold's Runoff,8/7/18,Nitrogen Kjeldahl,mg/l,0.641,0.1,
+Hancock,30974,Reynold's Runoff,8/7/18,Sulfate,mg/l,11.2,3.6,
+Hancock,30974,Reynold's Runoff,8/7/18,Nitrogen Ammonia,mg/l,0.017,0.01,C I
+Hancock,30974,Reynold's Runoff,8/7/18,Nitrogen Nitrate+Nitrite,mg/l,0.046,0.01,
+Hancock,30974,Reynold's Runoff,8/7/18,Nitrogen Total,mg/l,0.69,0.11,
+Hancock,30974,Reynold's Runoff,8/7/18,Phosphorus Ortho,mg/l,0.309,0.005,
+Hancock,30974,Reynold's Runoff,8/7/18,Chlorophyll a (Corrected),ug/l,3,3,U A
+Hancock,30974,Reynold's Runoff,8/7/18,Chlorophyll a,ug/l,3,3,U A
+Hancock,30974,Reynold's Runoff,8/7/18,Dissolved Oxygen Saturation,%,52.5,,
+Hancock,30974,Reynold's Runoff,8/7/18,Total Dissolved Solids,mg/l,200,1,A
+Hancock,30974,Reynold's Runoff,8/7/18,Total Suspended Solids,mg/l,5.2,0.4,
+Hancock,31055,Heron Hideout,9/4/18,Temperature,deg C,26.27,,
+Hancock,31055,Heron Hideout,9/4/18,Dissolved Oxygen,mg/l,0.4,,
+Hancock,31055,Heron Hideout,9/4/18,pH,Std Unit,6.21,,
+Hancock,31055,Heron Hideout,9/4/18,Iron,ug/l,184,50,I
+Hancock,31055,Heron Hideout,9/4/18,Conductivity,umhos/cm,164,,
+Hancock,31055,Heron Hideout,9/4/18,Phosphorus Total,mg/l,0.408,0.015,
+Hancock,31055,Heron Hideout,9/4/18,Nitrogen Kjeldahl,mg/l,0.936,0.1,
+Hancock,31055,Heron Hideout,9/4/18,Sulfate,mg/l,8.39,3.6,
+Hancock,31055,Heron Hideout,9/4/18,Nitrogen Ammonia,mg/l,0.059,0.01,C
+Hancock,31055,Heron Hideout,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31055,Heron Hideout,9/4/18,Nitrogen Total,mg/l,0.94,0.11,
+Hancock,31055,Heron Hideout,9/4/18,Phosphorus Ortho,mg/l,0.362,0.005,
+Hancock,31055,Heron Hideout,9/4/18,Chlorophyll a (Corrected),ug/l,5.61,3,I
+Hancock,31055,Heron Hideout,9/4/18,Chlorophyll a,ug/l,7.23,3,
+Hancock,31055,Heron Hideout,9/4/18,Total Dissolved Solids,mg/l,112,1,
+Hancock,31055,Heron Hideout,9/4/18,Total Suspended Solids,mg/l,2.4,0.4,I
+Hancock,31055,Heron Hideout,9/4/18,Dissolved Oxygen Saturation,%,4.9,,
+Hancock,31056,Outflow Pipes,9/4/18,Dissolved Oxygen Saturation,%,8,,
+Hancock,31056,Outflow Pipes,9/4/18,Chlorophyll a,ug/l,14.4,3,
+Hancock,31056,Outflow Pipes,9/4/18,Total Dissolved Solids,mg/l,100,1,
+Hancock,31056,Outflow Pipes,9/4/18,Phosphorus Ortho,mg/l,0.221,0.005,
+Hancock,31056,Outflow Pipes,9/4/18,Chlorophyll a (Corrected),ug/l,12,3,
+Hancock,31056,Outflow Pipes,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31056,Outflow Pipes,9/4/18,Nitrogen Total,mg/l,1.18,0.11,
+Hancock,31056,Outflow Pipes,9/4/18,Sulfate,mg/l,7.82,3.6,
+Hancock,31056,Outflow Pipes,9/4/18,Nitrogen Ammonia,mg/l,0.123,0.01,C
+Hancock,31056,Outflow Pipes,9/4/18,Phosphorus Total,mg/l,0.272,0.015,
+Hancock,31056,Outflow Pipes,9/4/18,Nitrogen Kjeldahl,mg/l,1.18,0.1,
+Hancock,31056,Outflow Pipes,9/4/18,Conductivity,umhos/cm,129,,
+Hancock,31056,Outflow Pipes,9/4/18,Iron,ug/l,140,50,I
+Hancock,31056,Outflow Pipes,9/4/18,Dissolved Oxygen,mg/l,0.65,,
+Hancock,31056,Outflow Pipes,9/4/18,pH,Std Unit,6.17,,
+Hancock,31056,Outflow Pipes,9/4/18,Temperature,deg C,26.09,,
+Hancock,31056,Outflow Pipes,9/4/18,Total Suspended Solids,mg/l,7.6,0.4,
+Hancock,31057,Canal Outflow,9/4/18,Total Suspended Solids,mg/l,6,0.4,
+Hancock,31057,Canal Outflow,9/4/18,Temperature,deg C,27.66,,
+Hancock,31057,Canal Outflow,9/4/18,pH,Std Unit,6.55,,
+Hancock,31057,Canal Outflow,9/4/18,Dissolved Oxygen,mg/l,0.69,,
+Hancock,31057,Canal Outflow,9/4/18,Iron,ug/l,90,50,I
+Hancock,31057,Canal Outflow,9/4/18,Conductivity,umhos/cm,170,,
+Hancock,31057,Canal Outflow,9/4/18,Nitrogen Kjeldahl,mg/l,1.42,0.1,
+Hancock,31057,Canal Outflow,9/4/18,Phosphorus Total,mg/l,0.409,0.015,
+Hancock,31057,Canal Outflow,9/4/18,Nitrogen Ammonia,mg/l,0.19,0.01,C
+Hancock,31057,Canal Outflow,9/4/18,Sulfate,mg/l,7.23,3.6,
+Hancock,31057,Canal Outflow,9/4/18,Nitrogen Total,mg/l,1.42,0.11,
+Hancock,31057,Canal Outflow,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31057,Canal Outflow,9/4/18,Chlorophyll a (Corrected),ug/l,20.8,3,
+Hancock,31057,Canal Outflow,9/4/18,Phosphorus Ortho,mg/l,0.302,0.005,
+Hancock,31057,Canal Outflow,9/4/18,Chlorophyll a,ug/l,25.2,3,
+Hancock,31057,Canal Outflow,9/4/18,Total Dissolved Solids,mg/l,112,1,
+Hancock,31057,Canal Outflow,9/4/18,Dissolved Oxygen Saturation,%,8.8,,
+Hancock,31058,Eagle Roost Rd,9/4/18,Dissolved Oxygen Saturation,%,9.6,,
+Hancock,31058,Eagle Roost Rd,9/4/18,Phosphorus Ortho,mg/l,0.281,0.005,
+Hancock,31058,Eagle Roost Rd,9/4/18,Total Dissolved Solids,mg/l,114,1,
+Hancock,31058,Eagle Roost Rd,9/4/18,Chlorophyll a,ug/l,42.7,3,
+Hancock,31058,Eagle Roost Rd,9/4/18,Chlorophyll a (Corrected),ug/l,32.5,3,
+Hancock,31058,Eagle Roost Rd,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31058,Eagle Roost Rd,9/4/18,Nitrogen Total,mg/l,1.72,0.11,
+Hancock,31058,Eagle Roost Rd,9/4/18,Nitrogen Ammonia,mg/l,0.176,0.01,C
+Hancock,31058,Eagle Roost Rd,9/4/18,Sulfate,mg/l,7.14,3.6,
+Hancock,31058,Eagle Roost Rd,9/4/18,Phosphorus Total,mg/l,0.423,0.015,
+Hancock,31058,Eagle Roost Rd,9/4/18,Nitrogen Kjeldahl,mg/l,1.72,0.1,
+Hancock,31058,Eagle Roost Rd,9/4/18,Iron,ug/l,103,50,I
+Hancock,31058,Eagle Roost Rd,9/4/18,Conductivity,umhos/cm,171,,
+Hancock,31058,Eagle Roost Rd,9/4/18,Dissolved Oxygen,mg/l,0.75,,
+Hancock,31058,Eagle Roost Rd,9/4/18,pH,Std Unit,6.53,,
+Hancock,31058,Eagle Roost Rd,9/4/18,Temperature,deg C,27.69,,
+Hancock,31058,Eagle Roost Rd,9/4/18,Total Suspended Solids,mg/l,17.2,0.4,
+Hancock,31059,Wading Bird South,9/4/18,Total Suspended Solids,mg/l,10.4,0.4,A
+Hancock,31059,Wading Bird South,9/4/18,Temperature,deg C,27.24,,
+Hancock,31059,Wading Bird South,9/4/18,pH,Std Unit,6.78,,
+Hancock,31059,Wading Bird South,9/4/18,Dissolved Oxygen,mg/l,4.9,,
+Hancock,31059,Wading Bird South,9/4/18,Conductivity,umhos/cm,169,,
+Hancock,31059,Wading Bird South,9/4/18,Iron,ug/l,128,50,I
+Hancock,31059,Wading Bird South,9/4/18,Nitrogen Kjeldahl,mg/l,1.62,0.1,A
+Hancock,31059,Wading Bird South,9/4/18,Phosphorus Total,mg/l,0.357,0.015,A
+Hancock,31059,Wading Bird South,9/4/18,Sulfate,mg/l,7.14,3.6,
+Hancock,31059,Wading Bird South,9/4/18,Nitrogen Ammonia,mg/l,0.175,0.01,C
+Hancock,31059,Wading Bird South,9/4/18,Nitrogen Total,mg/l,1.62,0.11,
+Hancock,31059,Wading Bird South,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31059,Wading Bird South,9/4/18,Chlorophyll a (Corrected),ug/l,64.9,3,
+Hancock,31059,Wading Bird South,9/4/18,Chlorophyll a,ug/l,73.9,3,
+Hancock,31059,Wading Bird South,9/4/18,Phosphorus Ortho,mg/l,0.215,0.005,
+Hancock,31059,Wading Bird South,9/4/18,Dissolved Oxygen Saturation,%,61.9,,
+Hancock,31059,Wading Bird South,9/4/18,Total Dissolved Solids,mg/l,122,1,
+Hancock,31060,Wading Bird North,9/4/18,Total Dissolved Solids,mg/l,131,1,A
+Hancock,31060,Wading Bird North,9/4/18,Dissolved Oxygen Saturation,%,23.6,,
+Hancock,31060,Wading Bird North,9/4/18,Phosphorus Ortho,mg/l,0.265,0.005,
+Hancock,31060,Wading Bird North,9/4/18,Chlorophyll a,ug/l,37.8,3,
+Hancock,31060,Wading Bird North,9/4/18,Chlorophyll a (Corrected),ug/l,32,3,
+Hancock,31060,Wading Bird North,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31060,Wading Bird North,9/4/18,Nitrogen Total,mg/l,1.23,0.11,
+Hancock,31060,Wading Bird North,9/4/18,Nitrogen Ammonia,mg/l,0.031,0.01,C I
+Hancock,31060,Wading Bird North,9/4/18,Sulfate,mg/l,6.96,3.6,J3
+Hancock,31060,Wading Bird North,9/4/18,Phosphorus Total,mg/l,0.375,0.015,
+Hancock,31060,Wading Bird North,9/4/18,Nitrogen Kjeldahl,mg/l,1.23,0.1,
+Hancock,31060,Wading Bird North,9/4/18,Iron,ug/l,191,50,I
+Hancock,31060,Wading Bird North,9/4/18,Conductivity,umhos/cm,181,,
+Hancock,31060,Wading Bird North,9/4/18,Dissolved Oxygen,mg/l,1.85,,
+Hancock,31060,Wading Bird North,9/4/18,pH,Std Unit,6.3,,
+Hancock,31060,Wading Bird North,9/4/18,Temperature,deg C,27.78,,
+Hancock,31060,Wading Bird North,9/4/18,Total Suspended Solids,mg/l,5.2,0.4,
+Hancock,31061,Flooded Road,9/4/18,Temperature,deg C,26.35,,
+Hancock,31061,Flooded Road,9/4/18,pH,Std Unit,7,,
+Hancock,31061,Flooded Road,9/4/18,Dissolved Oxygen,mg/l,4.22,,
+Hancock,31061,Flooded Road,9/4/18,Conductivity,umhos/cm,297,,
+Hancock,31061,Flooded Road,9/4/18,Iron,ug/l,264,50,
+Hancock,31061,Flooded Road,9/4/18,Nitrogen Kjeldahl,mg/l,0.567,0.1,
+Hancock,31061,Flooded Road,9/4/18,Phosphorus Total,mg/l,0.331,0.015,
+Hancock,31061,Flooded Road,9/4/18,Sulfate,mg/l,9.2,3.6,
+Hancock,31061,Flooded Road,9/4/18,Nitrogen Ammonia,mg/l,0.015,0.01,C I
+Hancock,31061,Flooded Road,9/4/18,Nitrogen Total,mg/l,0.57,0.11,
+Hancock,31061,Flooded Road,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Hancock,31061,Flooded Road,9/4/18,Phosphorus Ortho,mg/l,0.279,0.005,
+Hancock,31061,Flooded Road,9/4/18,Chlorophyll a,ug/l,3,3,U
+Hancock,31061,Flooded Road,9/4/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,31061,Flooded Road,9/4/18,Dissolved Oxygen Saturation,%,52.4,,
+Hancock,31061,Flooded Road,9/4/18,Total Dissolved Solids,mg/l,202,1,
+Hancock,31061,Flooded Road,9/4/18,Total Suspended Solids,mg/l,1.6,0.4,I
+Banana Creek,31062,Banana Creek,9/4/18,Total Suspended Solids,mg/l,25.3,0.4,
+Banana Creek,31062,Banana Creek,9/4/18,Total Dissolved Solids,mg/l,116,1,
+Banana Creek,31062,Banana Creek,9/4/18,Dissolved Oxygen Saturation,%,97.7,,
+Banana Creek,31062,Banana Creek,9/4/18,Chlorophyll a,ug/l,86.5,3,
+Banana Creek,31062,Banana Creek,9/4/18,Phosphorus Ortho,mg/l,0.258,0.005,
+Banana Creek,31062,Banana Creek,9/4/18,Chlorophyll a (Corrected),ug/l,70.8,3,
+Banana Creek,31062,Banana Creek,9/4/18,Nitrogen Total,mg/l,2.18,0.11,
+Banana Creek,31062,Banana Creek,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.01,0.01,U
+Banana Creek,31062,Banana Creek,9/4/18,Nitrogen Ammonia,mg/l,0.023,0.01,C I
+Banana Creek,31062,Banana Creek,9/4/18,Sulfate,mg/l,6.19,3.6,
+Banana Creek,31062,Banana Creek,9/4/18,Nitrogen Kjeldahl,mg/l,2.18,0.1,
+Banana Creek,31062,Banana Creek,9/4/18,Iron,ug/l,177,50,I
+Banana Creek,31062,Banana Creek,9/4/18,Phosphorus Total,mg/l,0.498,0.015,
+Banana Creek,31062,Banana Creek,9/4/18,Dissolved Oxygen,mg/l,7.51,,
+Banana Creek,31062,Banana Creek,9/4/18,Conductivity,umhos/cm,164,,
+Banana Creek,31062,Banana Creek,9/4/18,pH,Std Unit,8.52,,
+Banana Creek,31062,Banana Creek,9/4/18,Temperature,deg C,29.02,,
+Hancock,31063,Reynold's Runoff,9/4/18,Temperature,deg C,26.43,,
+Hancock,31063,Reynold's Runoff,9/4/18,Dissolved Oxygen,mg/l,4.78,,
+Hancock,31063,Reynold's Runoff,9/4/18,pH,Std Unit,7.31,,
+Hancock,31063,Reynold's Runoff,9/4/18,Conductivity,umhos/cm,299,,
+Hancock,31063,Reynold's Runoff,9/4/18,Iron,ug/l,558,50,
+Hancock,31063,Reynold's Runoff,9/4/18,Phosphorus Total,mg/l,0.396,0.015,
+Hancock,31063,Reynold's Runoff,9/4/18,Nitrogen Kjeldahl,mg/l,0.556,0.1,
+Hancock,31063,Reynold's Runoff,9/4/18,Sulfate,mg/l,8.77,3.6,
+Hancock,31063,Reynold's Runoff,9/4/18,Nitrogen Ammonia,mg/l,0.014,0.01,C I
+Hancock,31063,Reynold's Runoff,9/4/18,Nitrogen Nitrate+Nitrite,mg/l,0.038,0.01,I
+Hancock,31063,Reynold's Runoff,9/4/18,Nitrogen Total,mg/l,0.59,0.11,
+Hancock,31063,Reynold's Runoff,9/4/18,Phosphorus Ortho,mg/l,0.252,0.005,
+Hancock,31063,Reynold's Runoff,9/4/18,Chlorophyll a (Corrected),ug/l,3,3,U
+Hancock,31063,Reynold's Runoff,9/4/18,Chlorophyll a,ug/l,3,3,U
+Hancock,31063,Reynold's Runoff,9/4/18,Dissolved Oxygen Saturation,%,59.7,,
+Hancock,31063,Reynold's Runoff,9/4/18,Total Dissolved Solids,mg/l,202,1,
+Hancock,31063,Reynold's Runoff,9/4/18,Total Suspended Solids,mg/l,4,0.4,
