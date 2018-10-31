@@ -142,6 +142,10 @@ $(document).ready(function () {
 <li><a href="#section-7">2017</a></li>
 <li><a href="#section-8">2018</a></li>
 </ul></li>
+<li><a href="#water-data">Water Data</a><ul>
+<li><a href="#analysis-for-total-nitrogen">Analysis for Total Nitrogen</a></li>
+<li><a href="#analysis-for-total-phosphorous">Analysis for Total Phosphorous</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
@@ -149,8 +153,9 @@ $(document).ready(function () {
 <hr />
 <div id="summary-on-the-scripts" class="section level1">
 <h1>Summary on the Scripts</h1>
-<p>The Structure of the data set shows there are three values 0,1,2,NA. Although the data looks quantitative, it is actually qualitative with 0 representing - no traces found 1 representing - traces found 2 representing - sand skinks found NA representing - no observations made</p>
-<pre class="r"><code>clpData &lt;- read.csv(&quot;F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/SS_Crooked Lake Sandhil.csv&quot;, header = TRUE)
+<p>The structure of the skink data set shows there are three values 0, 1, 2, NA. Although the data looks quantitative, it is actually qualitative with: 0 representing - no traces found 1 representing - traces found 2 representing - sand skinks found NA representing - no observations made</p>
+<p>The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. Basic statistics are useful to help understand the data, but most of the analysis will be within the coming plots. The code for the water data will be after the code for the sand skink data.</p>
+<pre class="r"><code>clpData &lt;- read.csv(&quot;SS_Crooked Lake Sandhil.csv&quot;, header = TRUE)
 str(clpData)</code></pre>
 <pre><code>## 'data.frame':    24 obs. of  74 variables:
 ##  $ X             : Factor w/ 1 level &quot;Crooked Lake Sandhill&quot;: 1 1 1 1 1 1 1 1 1 1 ...
@@ -212,7 +217,7 @@ str(clpData)</code></pre>
 ##  $ X5.19.2016    : int  1 0 0 0 0 0 0 0 0 0 ...
 ##  $ X5.26.2016    : int  0 0 0 0 0 0 0 0 0 0 ...
 ##  $ X4.6.2017     : int  0 0 0 0 0 0 0 0 0 0 ...
-##  $ X4.13.2018    : int  1 0 0 1 NA 0 1 1 1 0 ...
+##  $ X4.13.2017    : int  1 0 0 1 NA 0 1 1 1 0 ...
 ##  $ X4.20.2017    : int  1 0 1 1 NA 1 1 1 1 0 ...
 ##  $ X4.27.2017    : int  1 0 1 0 NA 1 1 0 0 0 ...
 ##  $ X5.4.2017     : int  1 1 1 1 1 1 1 0 1 0 ...
@@ -330,6 +335,63 @@ count(clp2018, vars = &quot;y2018&quot;)</code></pre>
 ## 3     2   11
 ## 4     3    1</code></pre>
 <p>Inference: 126 not found, 54 traces, 11 found</p>
+</div>
+</div>
+<div id="water-data" class="section level2">
+<h2>Water Data</h2>
+<pre><code>## Loading required package: gsubfn</code></pre>
+<pre><code>## Loading required package: proto</code></pre>
+<pre><code>## Warning in doTryCatch(return(expr), name, parentenv, handler): unable to load shared object '/Library/Frameworks/R.framework/Resources/modules//R_X11.so':
+##   dlopen(/Library/Frameworks/R.framework/Resources/modules//R_X11.so, 6): Library not loaded: /opt/X11/lib/libSM.6.dylib
+##   Referenced from: /Library/Frameworks/R.framework/Resources/modules//R_X11.so
+##   Reason: image not found</code></pre>
+<pre><code>## Could not load tcltk.  Will use slower R code instead.</code></pre>
+<pre><code>## Loading required package: RSQLite</code></pre>
+<pre><code>## 'data.frame':    1568 obs. of  9 variables:
+##  $ Waterbody         : Factor w/ 2 levels &quot;Banana Creek&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ LabNo             : int  30811 30885 30431 30221 30421 30508 30588 30654 30735 30973 ...
+##  $ Sampling.Site.Name: Factor w/ 9 levels &quot;Banana Creek&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ Date.Collected    : Factor w/ 11 levels &quot;1/2/18&quot;,&quot;11/7/17&quot;,..: 8 9 1 2 3 4 5 6 7 10 ...
+##  $ Parameter         : Factor w/ 16 levels &quot;Chlorophyll a (Corrected)&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ Unit              : Factor w/ 6 levels &quot;%&quot;,&quot;deg C&quot;,&quot;mg/l&quot;,..: 5 5 5 5 5 5 5 5 5 5 ...
+##  $ Result            : num  44.1 46.1 96.1 110 164 150 108 232 240 66.8 ...
+##  $ DetectionLimit    : num  3 3 3 3 3 3 3 3 3 3 ...
+##  $ DQCodes           : Factor w/ 21 levels &quot;A&quot;,&quot;A I&quot;,&quot;A J3&quot;,..: 1 1 10 NA NA NA NA NA NA NA ...</code></pre>
+<div id="analysis-for-total-nitrogen" class="section level3">
+<h3>Analysis for Total Nitrogen</h3>
+<pre class="r"><code>nitro &lt;- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE &quot;%nitrogen total%&quot;')
+nitroClean &lt;- sqldf('SELECT * FROM nitro ORDER BY &quot;Date.Collected&quot;, LabNo')
+sqldf('SELECT &quot;Date.Collected&quot;, AVG(Result) FROM nitroClean GROUP BY &quot;Date.Collected&quot;')</code></pre>
+<pre><code>##    Date.Collected AVG(Result)
+## 1          1/2/18    3.073333
+## 2         11/7/17    1.956667
+## 3         12/5/17    2.276667
+## 4          2/6/18    2.118889
+## 5          3/6/18    2.280000
+## 6          4/3/18    3.624444
+## 7          5/1/18    3.943750
+## 8          6/5/18    1.343333
+## 9         7/10/18    1.208889
+## 10         8/7/18    1.350000
+## 11         9/4/18    1.272222</code></pre>
+</div>
+<div id="analysis-for-total-phosphorous" class="section level3">
+<h3>Analysis for Total Phosphorous</h3>
+<pre class="r"><code>phos &lt;- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE &quot;%phosphorus total%&quot;')
+phosClean &lt;- sqldf('SELECT * FROM phos ORDER BY &quot;Date.Collected&quot;, LabNo')
+sqldf('SELECT &quot;Date.Collected&quot;, AVG(Result) FROM phosClean GROUP BY &quot;Date.Collected&quot;')</code></pre>
+<pre><code>##    Date.Collected AVG(Result)
+## 1          1/2/18   0.7412222
+## 2         11/7/17   0.6304444
+## 3         12/5/17   0.5810000
+## 4          2/6/18   0.6292222
+## 5          3/6/18   0.6636667
+## 6          4/3/18   0.6417778
+## 7          5/1/18   0.6217500
+## 8          6/5/18   0.6401111
+## 9         7/10/18   0.5227778
+## 10         8/7/18   0.4567778
+## 11         9/4/18   0.3854444</code></pre>
 </div>
 </div>
 </div>
