@@ -14,11 +14,13 @@ output:
 ---
 * * *
 # Summary on the Scripts
-The Structure of the data set shows there are three values 0,1,2,NA. Although the data looks quantitative, it is actually qualitative with 
+The structure of the skink data set shows there are three values 0, 1, 2, NA. Although the data looks quantitative, it is actually qualitative with:
 0 representing - no traces found
 1 representing - traces found
 2 representing - sand skinks found
 NA representing - no observations made
+
+The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. Basic statistics are useful to help understand the data, but most of the analysis will be within the coming plots. The code for the water data will be after the code for the sand skink data.
 
 ```{r clpData}
 clpData <- read.csv("F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/SS_Crooked Lake Sandhil.csv", header = TRUE)
@@ -113,3 +115,26 @@ clp2018 <- data.frame(y2018 = c(clpData[,"X4.5.2018"], clpData[,"X4.12.2018"], c
 count(clp2018, vars = "y2018")
 ```
 Inference: 126 not found, 54 traces, 11 found
+
+## Water Data
+
+```{r wtrData}
+wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
+library(sqldf)
+str(wtrData)
+```
+
+### Analysis for Total Nitrogen
+
+```{r nitroClean}
+nitro <- sqldf('SELECT * FROM wtr WHERE Parameter LIKE "%nitrogen total%"')
+nitroClean <- sqldf('SELECT * FROM nitro ORDER BY "Date.Collected", LabNo')
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroClean GROUP BY "Date.Collected"')
+```
+### Analysis for Total Nitrogen
+
+```{r phosClean}
+phos <- sqldf('SELECT * FROM wtr WHERE Parameter LIKE "%phosphorus total%"')
+phosClean <- sqldf('SELECT * FROM phos ORDER BY "Date.Collected", LabNo')
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosClean GROUP BY "Date.Collected"')
+```
