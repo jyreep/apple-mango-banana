@@ -62,7 +62,11 @@ Our choice in filling in the blank data was based on there being a specified dat
 Data cleaning steps
 ===================
 
-**Sand Skink Data** 1. Replaced blank fields with "xxx" 2. Replaced "XXXX" and "xxx" with "xxx" for consistency 3. Deleted empty rows and aggregate columns
+**Sand Skink Data** 
+1. Replaced blank fields with "xxx" 
+2. Replaced "XXXX" and "xxx" with "xxx" for consistency 
+3. Deleted empty rows and aggregate columns
+4. 5/2/2013 is corrected to 5/2/2012, 5/11/2018 is corrected to 5/11/2017 in Crooked Lake Sandhil data
 
 **Burn history and sand skink** 1. Corrected "Crooked Lake Prarie" to "Crooked Lake Prairie"
 
