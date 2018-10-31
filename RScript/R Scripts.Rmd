@@ -14,24 +14,21 @@ output:
 ---
 * * *
 # Summary on the Scripts
+
+## Sand Skink Data
 The structure of the skink data set shows there are three values 0, 1, 2, NA. Although the data looks quantitative, it is actually qualitative with:
 0 representing - no traces found
 1 representing - traces found
 2 representing - sand skinks found
 NA representing - no observations made
 
-The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. Basic statistics are useful to help understand the data, but most of the analysis will be within the coming plots. The code for the water data will be after the code for the sand skink data.
+So in this case finding the average, max, min is not useful. Hence we continued to find the count of 0's, 1's, 2's for each year to get the number of sand skinks found/not found in each year.
 
+## Crooked Lake Sandhil area
 ```{r clpData}
 clpData <- read.csv("SS_Crooked Lake Sandhil.csv", header = TRUE)
 str(clpData)
 ```
-
-
-So in this case finding the average, max, min is not useful. Hence we continued to find the count of 0's, 1's, 2's for each year to get the number of sand skinks found/not found in each year.
-
-## Crooked Lake Sandhil area
-
 Below is the summary on sand skinks in Crooked Lake Sandhil area.
 
 ### 2006
@@ -116,7 +113,325 @@ count(clp2018, vars = "y2018")
 ```
 Inference: 126 not found, 54 traces, 11 found
 
+## Crooked Lake Prairie area
+```{r prairie}
+clpData <- read.csv("SS_Crooked Lake Prairie.csv", header = TRUE)
+str(prairie)
+```
+Below is the summary on sand skinks in Crooked Lake Prairie rea.
+
+### 2003
+
+```{r Summary2003, echo=FALSE}
+library(plyr)
+prairie03 <- data.frame(y2003 = c(prairie[,"X4.3.2003"], prairie[,"X4.10.2003"], prairie[,"X4.17.2003"],
+                                  prairie[,"X4.24.2003"], prairie[,"X5.1.2003"], prairie[,"X5.8.2003"],
+                                  prairie[,"X5.15.2003"], prairie[,"X5.22.2003"]))
+count(prairie03, vars = "y2003")
+```
+Inference: 703 not found, 225 traces, 32 not observed
+
+### 2004
+```{r}
+prairie04 <- data.frame(y2004 = c(prairie[,"X4.8.2004"], prairie[,"X4.15.2004"], prairie[,"X4.22.2004"],
+                                  prairie[,"X4.30.2004"], prairie[,"X5.6.2004"], prairie[,"X5.13.2004"],
+                                  prairie[,"X5.20.2004"], prairie[,"X5.27.2004"]))
+count(prairie04, vars = "y2004")
+```
+Inference: 611 not found, 341 traces, 8 not observed
+
+### 2005
+```{r}
+prairie05 <- data.frame(y2005 = c(prairie[,"X4.21.2005"], prairie[,"X4.28.2005"], prairie[,"X5.5.2005"],
+                                  prairie[,"X5.12.2005"], prairie[,"X5.19.2005"], prairie[,"X5.26.2005"]))
+count(prairie05, vars = "y2005")
+```
+Inference: 703 not found, 17 traces
+
+### 2006
+```{r}
+prairie06 <- data.frame(y2006 = c(prairie[,"X4.6.2006"], prairie[,"X4.13.2006"], prairie[,"X5.4.2006"],
+                                  prairie[,"X5.11.2006"], prairie[,"X5.18.2006"], prairie[,"X5.25.2006"]))
+count(prairie06, vars = "y2006")
+```
+Inference: 694 not found, 25 traces, 1 not observed
+
+### 2007
+```{r}
+prairie07 <- data.frame(y2007 = c(prairie[,"X4.19.2007"], prairie[,"X4.26.2007"], prairie[,"X5.3.2007"],
+                                  prairie[,"X5.10.2007"]))
+count(prairie07, vars = "y2007")
+```
+Inference: 431 not found, 49 traces
+
+### 2009
+```{r}
+prairie09 <- data.frame(y2009 = c(prairie[,"X4.9.2009"], prairie[,"X4.16.2009"], prairie[,"X5.7.2009"],
+                                  prairie[,"X5.14.2009"], prairie[,"X5.21.2009"], prairie[,"X5.28.2009"]))
+count(prairie09, vars = "y2009")
+```
+Inference: 662 not found, 58 traces
+
+### 2010
+```{r}
+prairie10 <- data.frame(y2010 = c(prairie[,"X4.22.2010"], prairie[,"X4.29.2010"]))
+count(prairie10, vars = "y2010")
+```
+Inference: 210 not found, 13 traces, 8 not observed
+
+### 2011
+```{r}
+prairie11 <- data.frame(y2011 = c(prairie[,"X4.7.2011"], prairie[,"X4.14.2011"], prairie[,"X5.5.2011"],
+                                  prairie[,"X5.19.2011"], prairie[,"X5.26.2011"]))
+count(prairie11, vars = "y2011")
+```
+Inference: 533 not found, 47 traces, 20 not observed
+
+### 2012
+```{r}
+prairie12 <- data.frame(y2012 = c(prairie[,"X4.19.2012"], prairie[,"X4.26.2012"], prairie[,"X5.3.2012"]))
+count(prairie12, vars = "y2012")
+```
+Inference: 316 not found, 44 traces
+
+### 2013
+```{r}
+prairie13 <- data.frame(y2013 = c(prairie[,"X5.9.2013"], prairie[,"X5.16.2013"], prairie[,"X5.23.2013"]))
+count(prairie13, vars = "y2013")
+```
+Inference: 252 not found, 44 traces, 64 not observed
+
+### 2015
+```{r}
+prairie15 <- data.frame(y2015 = c(prairie[,"X4.17.2015"], prairie[,"X4.24.2015"], prairie[,"X4.30.2015"],
+                                  prairie[,"X5.7.2015"], prairie[,"X5.14.2015"]))
+count(prairie15, vars = "y2015")
+```
+Inference: 495 not found, 105 traces
+
+### 2016
+```{r}
+prairie16 <- data.frame(y2016 = c(prairie[,"X4.21.2016"]))
+count(prairie16, vars = "y2016")
+```
+Inference: 96 not found, 24 traces
+
+### 2017
+```{r}
+prairie17 <- data.frame(y2017 = c(prairie[,"X4.13.2017"], prairie[,"X4.20.2017"], prairie[,"X5.11.2017"],
+                                  prairie[,"X5.18.2017"], prairie[,"X5.25.2017"]))
+count(prairie17, vars = "y2017")
+```
+Inference: 509 not found, 88 traces, 3 not observed
+
+### 2018
+```{r}
+prairie18 <- data.frame(y2018 = c(prairie[,"X4.19.2018"], prairie[,"X5.24.2018"]))
+count(prairie18, vars = "y2018")
+```
+Inference: 219 not found, 21 traces
+
+## Crooked Lake West - Lewis area
+```{r lewis}
+lewis <- read.csv("SS_Crooked West -Lewis.csv", header = TRUE)
+str(lewis)
+```
+Below is the summary on sand skinks in Crooked Lake West - Lewis area.
+
+### 2015
+
+```{r Summary2006, echo=FALSE}
+library(plyr)
+lewis15 <- data.frame(y2015 = c(lewis[,"X4.2.2015"], lewis[,"X4.9.2015"], lewis[,"X4.16.2015"],
+                                lewis[,"X4.23.2015"], lewis[,"X4.30.2015"], lewis[,"X5.7.2015"],
+                                lewis[,"X5.15.2015"], lewis[,"X5.21.2015"], lewis[,"X5.28.2015"]))
+count(lewis15, vars = "y2015")
+```
+Inference: 343 not found, 125 traces, 36 not observed
+
+### 2016
+```{r}
+lewis16 <- data.frame(y2016 = c(lewis[,"X4.7.2016"], lewis[,"X4.14.2016"], lewis[,"X4.21.2016"],
+                                lewis[,"X4.28.2016"], lewis[,"X5.5.2016"], lewis[,"X5.12.2016"],
+                                lewis[,"X5.19.2016"], lewis[,"X5.26.2016"]))
+count(lewis16, vars = "y2016")
+```
+Inference: 190 not found, 30 traces, 228 not observed
+
+### 2017
+```{r}
+lewis17 <- data.frame(y2017 = c(lewis[,"X4.6.2017"], lewis[,"X4.13.2017"], lewis[,"X4.20.2017"],
+                                lewis[,"X4.27.2017"], lewis[,"X5.4.2017"], lewis[,"X5.11.2017"],
+                                lewis[,"X5.18.2017"], lewis[,"X5.25.2017"]))
+count(lewis17, vars = "y2017")
+```
+Inference: 144 not found, 48 traces, 256 not observed
+
+### 2018
+```{r}
+lewis18 <- data.frame(y2018 = c(lewis[,"X4.5.2018"], lewis[,"X4.12.2018"], lewis[,"X4.19.2018"],
+                                lewis[,"X4.26.2018"], lewis[,"X5.3.2018"], lewis[,"X5.10.2018"],
+                                lewis[,"X5.17.2018"], lewis[,"X5.24.2018"]))
+count(lewis18, vars = "y2018")
+```
+Inference: 215 not found, 41 traces, 192 not observed
+
+## Crooked Lake West - Stuart area
+```{r stuart}
+stuart <- read.csv("SS_Crooked West -Stuart.csv", header = TRUE)
+str(stuart)
+```
+Below is the summary on sand skinks in Crooked Lake West - Stuart area.
+
+### 2015
+
+```{r Summary2006, echo=FALSE}
+library(plyr)
+stuart15 <- data.frame(y2015 = c(stuart[,"X4.2.2015"], stuart[,"X4.9.2015"], stuart[,"X4.16.2015"],
+                                 stuart[,"X4.23.2015"], stuart[,"X4.30.2015"], stuart[,"X5.7.2015"],
+                                 stuart[,"X5.14.2015"], stuart[,"X5.21.2015"], stuart[,"X5.28.2015"]))
+count(stuart15, vars = "y2015")
+```
+Inference: 239 not found, 33 traces, 16 not observed
+
+### 2016
+```{r}
+stuart16 <- data.frame(y2016 = c(stuart[,"X4.7.2016"], stuart[,"X4.14.2016"], stuart[,"X4.21.2016"],
+                                 stuart[,"X4.28.2016"], stuart[,"X5.5.2016"], stuart[,"X5.12.2016"],
+                                 stuart[,"X5.19.2016"], stuart[,"X5.26.2016"]))
+count(stuart16, vars = "y2016")
+```
+Inference: 240 not found, 16 traces
+
+### 2017
+```{r}
+stuart17 <- data.frame(y2017 = c(stuart[,"X4.6.2017"], stuart[,"X4.13.2017"], stuart[,"X4.20.2017"],
+                                 stuart[,"X4.27.2017"], stuart[,"X5.4.2017"], stuart[,"X5.11.2017"],
+                                 stuart[,"X5.18.2017"], stuart[,"X5.25.2017"]))
+count(stuart17, vars = "y2017")
+```
+Inference: 173 not found, 19 traces, 64 not observed
+
+### 2018
+```{r}
+stuart18 <- data.frame(y2018 = c(stuart[,"X4.5.2018"], stuart[,"X4.12.2018"], stuart[,"X4.19.2018"],
+                                 stuart[,"X4.26.2018"], stuart[,"X5.3.2018"], stuart[,"X5.10.2018"],
+                                 stuart[,"X5.17.2018"], stuart[,"X5.24.2018"]))
+count(stuart18, vars = "y2018")
+```
+Inference: 237 not found, 18 traces, 1 not observed
+
+## Hickory Lake Scrub area
+```{r hickory}
+hickory <- read.csv("Hickory Lake Scrub.csv", header = TRUE)
+str(hickory)
+```
+Below is the summary on sand skinks in Hickory Lake Scrub area.
+
+### 2006
+
+```{r Summary2006 echo=FALSE}
+library(plyr)
+hickory06 <- data.frame(y2006 = c(hickory[,"X4.6.2006"], hickory[,"X4.13.2006"], hickory[,"X4.20.2006"],
+                                  hickory[,"X4.27.2006"], hickory[,"X5.4.2006"], hickory[,"X5.11.2006"],
+                                  hickory[,"X5.18.2006"], hickory[,"X5.25.2006"]))
+count(hickory06, vars = "y2006")
+```
+Inference: 111 not found, 80 traces, 33 not observed
+
+### 2009
+```{r}
+hickory09 <- data.frame(y2009 = c(hickory[,"X4.9.2009"], hickory[,"X4.16.2009"], hickory[,"X4.23.2009"],
+                                  hickory[,"X4.30.2009"], hickory[,"X5.7.2009"], hickory[,"X5.14.2009"],
+                                  hickory[,"X5.21.2009"], hickory[,"X5.28.2009"]))
+count(hickory09, vars = "y2009")
+```
+Inference: 132 not found, 60 traces, 32 not observed
+
+### 2010
+```{r}
+hickory10 <- data.frame(y2010 = c(hickory[,"X4.1.2010"], hickory[,"X4.8.2010"], hickory[,"X4.15.2010"],
+                                  hickory[,"X4.22.2010"], hickory[,"X4.29.2010"], hickory[,"X5.6.2010"],
+                                  hickory[,"X5.13.2010"], hickory[,"X5.20.2010"], hickory[,"X5.27.2010"]))
+count(hickory10, vars = "y2010")
+```
+Inference: 141 not found, 79 traces, 32 not observed
+
+### 2011
+```{r}
+hickory11 <- data.frame(y2011 = c(hickory[,"X4.7.2011"], hickory[,"X4.14.2011"], hickory[,"X4.21.2011"],
+                                  hickory[,"X4.28.2011"], hickory[,"X5.5.2011"], hickory[,"X5.12.2011"],
+                                  hickory[,"X5.19.2011"], hickory[,"X5.26.2011"]))
+count(hickory11, vars = "y2011")
+```
+Inference: 99 not found, 69 traces, 56 not observed
+
+### 2012
+```{r}
+hickory12 <- data.frame(y2012 = c(hickory[,"X4.5.2012"], hickory[,"X4.12.2012"], hickory[,"X4.19.2012"],
+                                  hickory[,"X4.26.2012"], hickory[,"X5.3.2012"], hickory[,"X5.10.2012"],
+                                  hickory[,"X5.17.2012"], hickory[,"X5.24.2012"]))
+count(hickory12, vars = "y2012")
+```
+Inference: 126 not found, 66 traces, 32 not observed
+
+### 2013
+```{r}
+hickory13 <- data.frame(y2013 = c(hickory[,"X4.4.2013"], hickory[,"X4.11.2013"], hickory[,"X4.18.2013"],
+                                  hickory[,"X4.25.2013"], hickory[,"X5.32.2013"], hickory[,"X5.9.2013"],
+                                  hickory[,"X5.16.2013"], hickory[,"X5.23.2013"]))
+count(hickory13, vars = "y2013")
+```
+Inference: 119 not found, 73 traces, 32 not observed
+
+### 2014
+```{r}
+hickory14 <- data.frame(y2014 = c(hickory[,"X4.3.2014"], hickory[,"X4.10.2014"], hickory[,"X4.24.2014"],
+                                  hickory[,"X5.1.2014"], hickory[,"X5.8.2014"], hickory[,"X5.22.2014"],
+                                  hickory[,"X5.29.2014"], hickory[,"X6.5.2014"]))
+count(hickory14, vars = "y2014")
+```
+Inference: 119 not found, 73 traces, 32 not observed
+
+### 2015
+```{r}
+hickory15 <- data.frame(y2015 = c(hickory[,"X4.9.2015"], hickory[,"X4.16.2015"], hickory[,"X4.23.2015"],
+                                  hickory[,"X4.30.2015"], hickory[,"X5.7.2015"], hickory[,"X5.14.2015"],
+                                  hickory[,"X5.21.2015"], hickory[,"X5.28.2015"]))
+count(hickory15, vars = "y2015")
+```
+Inference: 150 not found, 74 traces
+
+### 2016
+```{r}
+hickory16 <- data.frame(y2016 = c(hickory[,"X4.7.2016"], hickory[,"X4.14.2016"], hickory[,"X4.21.2016"],
+                                  hickory[,"X4.28.2016"], hickory[,"X5.5.2016"], hickory[,"X5.12.2016"],
+                                  hickory[,"X5.19.2016"], hickory[,"X5.26.2016"]))
+count(hickory16, vars = "y2016")
+```
+Inference: 167 not found, 55 traces, 2 not observed
+
+### 2017
+```{r}
+hickory17 <- data.frame(y2017 = c(hickory[,"X4.6.2017"], hickory[,"X4.13.2017"], hickory[,"X4.20.2017"],
+                                  hickory[,"X4.27.2017"], hickory[,"X5.4.2017"], hickory[,"X5.11.2017"],
+                                  hickory[,"X5.18.2017"], hickory[,"X5.25.2017"]))
+count(hickory17, vars = "y2017")
+```
+Inference: 107 not found, 84 traces, 33 not observed
+
+### 2018
+```{r}
+hickory18 <- data.frame(y2018 = c(hickory[,"X4.5.2018"], hickory[,"X4.12.2018"], hickory[,"X4.19.2018"],
+                                  hickory[,"X4.26.2018"], hickory[,"X5.3.2018"], hickory[,"X5.10.2018"],
+                                  hickory[,"X5.17.2018"], hickory[,"X5.24.2018"]))
+count(hickory18, vars = "y2018")
+```
+Inference: 132 not found, 92 traces
+
+---
 ## Water Data
+The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. Basic statistics are useful to help understand the data, but most of the analysis will be within the coming plots. The code for the water data will be after the code for the sand skink data.
 
 ```{r wtrData, echo=FALSE}
 wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
