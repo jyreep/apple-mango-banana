@@ -70,6 +70,10 @@ Data cleaning steps
 
 **Burn history and sand skink** 1. Corrected "Crooked Lake Prarie" to "Crooked Lake Prairie"
 
-**Water Quality Data** 1. Added index column for easy visualizations 2. Deleted comments column 3. Copied and pasted each month's data onto the same sheet, keeping the columns in line
+**Water Quality Data** 
+1. Added index column for easy visualizations 
+2. Deleted comments column 
+3. Copied and pasted each month's data onto the same sheet, keeping the columns in line
+4. Removed rows with no observations. They were rare (4) and made summaries much more difficult.
 
 *Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to the data cleaning undertaking and the writing of this document.*
