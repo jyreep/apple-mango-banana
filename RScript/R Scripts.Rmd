@@ -120,6 +120,7 @@ Inference: 126 not found, 54 traces, 11 found
 
 ```{r wtrData}
 wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
+library(sqldf)
 str(wtrData)
 ```
 
