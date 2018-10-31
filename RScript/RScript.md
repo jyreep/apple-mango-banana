@@ -1,4 +1,0 @@
-# R Script
-
-
-Contributorship Statement:
