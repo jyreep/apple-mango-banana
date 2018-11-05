@@ -54,9 +54,8 @@ Our choice in filling in the blank data was based on there being a specified dat
 
 # Data cleaning steps
 **Sand Skink Data**
-1. Replaced blank fields with "xxx"
-2. Replaced "XXXX" and "xxx" with "xxx" for consistency
-3. Deleted empty rows and aggregate columns
+1. Replaced blank fields and fields marked "xxx" with "NA"
+2. Deleted empty rows and aggregate columns
 
 **Burn history and sand skink**
 1. Corrected "Crooked Lake Prarie" to "Crooked Lake Prairie"
