@@ -75,5 +75,6 @@ Data cleaning steps
 2. Deleted comments column 
 3. Copied and pasted each month's data onto the same sheet, keeping the columns in line
 4. Removed rows with no observations. They were rare (4) and made summaries much more difficult.
+5. Added period, sequence, and north column to make analysis more efficient.
 
 *Contributorship Statement: Aysha Ruhi Damda, Hemachandra Ghanta, and Jeremy Reep contributed to the data cleaning undertaking and the writing of this document.*
