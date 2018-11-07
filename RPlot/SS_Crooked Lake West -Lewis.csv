@@ -1,0 +1,57 @@
+Site,point and quad,4/2/2015,4/9/2015,4/16/2015,4/23/2015,4/30/2015,5/7/2015,5/15/2015,5/21/2015,5/28/2015,4/7/2016,4/14/2016,4/21/2016,4/28/2016,5/5/2016,5/12/2016,5/19/2016,5/26/2016,4/6/2017,4/13/2017,4/20/2017,4/27/2017,5/4/2017,5/11/2017,5/18/2017,5/25/2017,4/5/2018,4/12/2018,4/19/2018,4/26/2018,5/3/2018,5/10/2018,5/17/2018,5/24/2018
+Crooked Lake West Lewis ,1N,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,1E,1,0,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0,1,NA,0,0,1,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,1S,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,1,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,1W,1,1,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,2N,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,2E,1,1,0,1,0,1,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,2S,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,2W,0,1,1,1,0,0,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis,3N,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis,3E,0,1,1,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,NA,0,1,1,1,1,1,0,1,1,0,0
+Crooked Lake West Lewis,3S,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,1,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis,3W,0,1,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,NA,0,0,0,1,1,0,0,0,0,0,0
+Crooked Lake West Lewis ,4N,0,0,0,0,0,1,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,4E,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,4S,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,4W,1,1,1,0,0,1,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,5N,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,NA,0,0,0,0,0,1,0,1,1,1,0
+Crooked Lake West Lewis ,5E,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,NA,0,1,1,NA,0,0,1,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,5S,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,NA,0,0,0,NA,1,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,5W,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,NA,0,0,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,6N,1,1,1,2,0,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,6E,0,1,1,1,0,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,6S,1,1,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,6W,0,0,1,1,0,1,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,7N,0,1,1,1,0,1,0,1,1,NA,1,1,0,0,0,0,0,1,0,0,0,NA,1,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,7E,0,0,1,1,1,1,0,0,1,NA,1,0,0,0,0,0,0,0,0,1,1,NA,0,0,0,0,0,0,0,1,0,0,0
+Crooked Lake West Lewis ,7S,1,1,0,0,0,1,0,1,1,NA,1,0,0,0,0,1,0,1,0,1,2,NA,0,1,1,0,0,0,0,1,0,0,0
+Crooked Lake West Lewis ,7W,0,0,0,1,1,1,1,0,1,NA,0,1,1,0,0,0,0,1,0,0,1,NA,1,1,0,1,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,8N,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,8E,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,8S,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,8W,0,1,1,0,0,1,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,9N,1,0,0,1,0,1,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,9E,0,0,1,1,0,1,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,9S,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,9W,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,10N,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,1,1,1,1,0,0
+Crooked Lake West Lewis ,10E,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,0,1,0,0
+Crooked Lake West Lewis ,10S,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,0,1,0,0,0
+Crooked Lake West Lewis ,10W,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,0,1,0,0,0,0
+Crooked Lake West Lewis,11N,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis,11E,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis,11S,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,0,0,0,1,1
+Crooked Lake West Lewis,11W,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,1,1,0,0,0
+Crooked Lake West Lewis ,12N,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,0,0,0,0,0,0,1,0,0,0,0
+Crooked Lake West Lewis ,12E,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,NA,1,0,0,0,0,0,1,0,0,0,0
+Crooked Lake West Lewis ,12S,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,1,1,NA,0,1,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,12W,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,1,0,0,0,0,0,0,0,0,0,0
+Crooked Lake West Lewis ,13N,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,13E,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,13S,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,13W,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Crooked Lake West Lewis ,14N,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,1,0,0,0,1,0,1,1,1,NA,1,0,0,0,1,0,1,1,1,0,0
+Crooked Lake West Lewis ,14E,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,NA,1,0,0,1,0,0,1,0,0,0,0
+Crooked Lake West Lewis ,14S,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,0,0,0,0,0,1,0,0,0,NA,0,0,0,0,0,0,0,1,0,0,0
+Crooked Lake West Lewis ,14W,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,0,0,0,0,0,1,1,1,0,1,NA,0,1,0,1,0,0,0,1,1,0,0
