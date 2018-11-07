@@ -20,7 +20,13 @@ The structure of the skink data set shows there are three values 0, 1, 2, NA. Al
 2 representing - sand skinks found
 NA representing - no observations made
 
-The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. Basic statistics are useful to help understand the data, but most of the analysis will be within the coming plots. The code for the water data will be after the code for the sand skink data.
+The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. There is a northern and southern route so the analysis is split between these two geographies. Basic statistics are useful to help understand the data, but most of the analysis will be within the plots. The code for the water data will be after the code for the sand skink data.
+
+```{r libraries, include=FALSE}
+library(plyr)
+library(sqldf)
+library(ggplot2)
+```
 
 ```{r clpData}
 clpData <- read.csv("SS_Crooked Lake Sandhil.csv", header = TRUE)
@@ -36,8 +42,7 @@ Below is the summary on sand skinks in Crooked Lake Sandhil area.
 
 ### 2006
 
-```{r Summary2006, echo=FALSE}
-library(plyr)
+```{r Summary2006}
 clp2006 <- data.frame(y2006 = c(clpData[,"X4.6.2006"], clpData[,"X4.13.2006"], clpData[,"X4.13.2006"],
                                 clpData[,"X4.13.2006"], clpData[,"X4.13.2006"], clpData[,"X4.13.2006"],
                                 clpData[,"X4.13.2006"], clpData[,"X4.13.2006"]))
@@ -120,21 +125,117 @@ Inference: 126 not found, 54 traces, 11 found
 
 ```{r wtrData, echo=FALSE}
 wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
-library(sqldf)
+wtrData$Date.Collected <- as.Date(wtrData$Date.Collected, format = "%m/%d/%y")
+wtrData$Period <- as.factor(wtrData$Period)
 str(wtrData)
 ```
 
 ### Analysis for Total Nitrogen
 
-```{r nitroClean}
+```{r nitroClean, echo=FALSE}
 nitro <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%nitrogen total%"')
 nitroClean <- sqldf('SELECT * FROM nitro ORDER BY "Date.Collected", LabNo')
-sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroClean GROUP BY "Date.Collected"')
+nitroCleanNorth <- sqldf('SELECT * FROM nitroClean WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+nitroCleanSouth <- sqldf('SELECT * FROM nitroClean WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+nitroNorth1 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 1 ORDER BY Sequence')
+nitroNorth2 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 2 ORDER BY Sequence')
+nitroNorth3 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 3 ORDER BY Sequence')
+nitroNorth4 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 4 ORDER BY Sequence')
+nitroNorth5 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 5 ORDER BY Sequence')
+nitroNorth6 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 6 ORDER BY Sequence')
+nitroNorth7 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 7 ORDER BY Sequence')
+nitroNorth8 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 8 ORDER BY Sequence')
+nitroNorth9 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 9 ORDER BY Sequence')
+nitroNorth10 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 10 ORDER BY Sequence')
+nitroNorth11 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+nitroSouth1 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 1 ORDER BY Sequence')
+nitroSouth2 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 2 ORDER BY Sequence')
+nitroSouth3 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 3 ORDER BY Sequence')
+nitroSouth4 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 4 ORDER BY Sequence')
+nitroSouth5 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 5 ORDER BY Sequence')
+nitroSouth6 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 6 ORDER BY Sequence')
+nitroSouth7 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 7 ORDER BY Sequence')
+nitroSouth8 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 8 ORDER BY Sequence')
+nitroSouth9 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 9 ORDER BY Sequence')
+nitroSouth10 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 10 ORDER BY Sequence')
+nitroSouth11 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 11 ORDER BY Sequence')
 ```
+
+#### Averages for total nitrogen in the northern route
+
+```{r nitroNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanNorth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Nitrogen Through North Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Nitrogen (mg/l)")
+```
+
+#### Averages for total nitrogen in the southern route
+
+```{r nitroSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanSouth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Nitrogen Through South Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Nitrogen (mg/l)")
+```
+
 ### Analysis for Total Phosphorous
 
-```{r phosClean}
+```{r phosClean, echo=FALSE}
 phos <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%phosphorus total%"')
 phosClean <- sqldf('SELECT * FROM phos ORDER BY "Date.Collected", LabNo')
-sqldf('SELECT "Date.Collected", AVG(Result) FROM phosClean GROUP BY "Date.Collected"')
+phosCleanNorth <- sqldf('SELECT * FROM phos WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+phosCleanSouth <- sqldf('SELECT * FROM phos WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+phosNorth1 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 1 ORDER BY Sequence')
+phosNorth2 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 2 ORDER BY Sequence')
+phosNorth3 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 3 ORDER BY Sequence')
+phosNorth4 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 4 ORDER BY Sequence')
+phosNorth5 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 5 ORDER BY Sequence')
+phosNorth6 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 6 ORDER BY Sequence')
+phosNorth7 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 7 ORDER BY Sequence')
+phosNorth8 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 8 ORDER BY Sequence')
+phosNorth9 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 9 ORDER BY Sequence')
+phosNorth10 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 10 ORDER BY Sequence')
+phosNorth11 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+phosSouth1 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 1 ORDER BY Sequence')
+phosSouth2 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 2 ORDER BY Sequence')
+phosSouth3 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 3 ORDER BY Sequence')
+phosSouth4 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 4 ORDER BY Sequence')
+phosSouth5 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 5 ORDER BY Sequence')
+phosSouth6 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 6 ORDER BY Sequence')
+phosSouth7 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 7 ORDER BY Sequence')
+phosSouth8 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 8 ORDER BY Sequence')
+phosSouth9 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 9 ORDER BY Sequence')
+phosSouth10 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 10 ORDER BY Sequence')
+phosSouth11 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 11 ORDER BY Sequence')
+```
+
+#### Averages for total phosphorus in the northern route
+
+```{r phosNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanNorth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Phosphorous Through North Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Phosphorous (mg/l)")
+```
+
+#### Averages for total phosphorus in the southern route
+
+```{r phosSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanSouth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Phosphorous Through South Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Phosphorous (mg/l)")
 ```
