@@ -1,0 +1,242 @@
+---
+title: "R Scripts"
+author: "Hemachandra Ghanta <br /> Ayesha Ruhi Damda <br />Jeremy Reep"
+date: "October 30, 2018"
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+  github_document:
+    toc: yes
+  word_document: default
+  pdf_document:
+    toc: yes
+---
+* * *
+# Summary on the Scripts
+The structure of the skink data set shows there are three values 0, 1, 2, NA. Although the data looks quantitative, it is actually qualitative with:
+0 representing - no traces found
+1 representing - traces found
+2 representing - sand skinks found
+NA representing - no observations made
+
+The water data is much more straight forward. For each day, there are a series of observations measuring the levels of a number of water-borne particulates. The current observation variables are total nitrogen and total phosphorus. The goal is to track the decline in particulates as the water moves through the waterbody. There is a northern and southern route so the analysis is split between these two geographies. Basic statistics are useful to help understand the data, but most of the analysis will be within the plots. The code for the water data will be after the code for the sand skink data.
+
+```{r libraries, include=FALSE}
+library(plyr)
+library(sqldf)
+library(ggplot2)
+```
+
+```{r clpData}
+clpData <- read.csv("SS_Crooked Lake Sandhil.csv", header = TRUE)
+str(clpData)
+```
+
+
+So in this case finding the average, max, min is not useful. Hence we continued to find the count of 0's, 1's, 2's for each year to get the number of sand skinks found/not found in each year.
+
+## Crooked Lake Sandhil area
+
+Below is the summary on sand skinks in Crooked Lake Sandhil area.
+
+### 2006
+
+```{r Summary2006}
+clp2006 <- data.frame(y2006 = c(clpData[,"X4.6.2006"], clpData[,"X4.13.2006"], clpData[,"X4.13.2006"],
+                                clpData[,"X4.13.2006"], clpData[,"X4.13.2006"], clpData[,"X4.13.2006"],
+                                clpData[,"X4.13.2006"], clpData[,"X4.13.2006"]))
+count(clp2006, vars = "y2006")
+```
+Inference: 116 not found, 75 traces found, 1 found
+
+### 2011
+```{r}
+clp2011 <- data.frame(y2011 = c(clpData[,"X4.7.2011"], clpData[,"X4.14.2011"], clpData[,"X4.21.2011"],
+                                clpData[,"X4.28.2011"], clpData[,"X5.5.2011"], clpData[,"X5.12.2011"],
+                                clpData[,"X5.19.2011"], clpData[,"X5.26.2011"]))
+count(clp2011, vars = "y2011")
+```
+Inference: 119 not found, 49 traces, 24 No observations 
+
+### 2012
+```{r}
+clp2012 <- data.frame(y2012 = c(clpData[,"X4.5.2012"], clpData[,"X4.12.2012"], clpData[,"X4.19.2012"],
+                                clpData[,"X4.26.2012"], clpData[,"X5.3.2012"], clpData[,"X5.10.2012"],
+                                clpData[,"X5.17.2012"], clpData[,"X5.24.2012"]))
+count(clp2012, vars = "y2012")
+```
+Inference: 113 not found, 79 traces
+
+### 2013
+```{r}
+clp2013 <- data.frame(y2013 = c(clpData[,"X4.4.2013"], clpData[,"X4.11.2013"], clpData[,"X4.18.2013"],
+                                clpData[,"X4.25.2013"], clpData[,"X5.2.2013"], clpData[,"X5.19.2013"],
+                                clpData[,"X5.23.2013"], clpData[,"X5.30.2013"]))
+count(clp2013, vars = "y2013")
+```
+Inference: 113 not found, 61 traces
+
+### 2014
+```{r}
+clp2014 <- data.frame(y2014 = c(clpData[,"X4.3.2014"], clpData[,"X4.10.2014"], clpData[,"X4.24.2014"],
+                                clpData[,"X5.1.2014"], clpData[,"X5.8.2014"], clpData[,"X5.22.2014"],
+                                clpData[,"X5.29.2014"], clpData[,"X6.5.2014"]))
+count(clp2014, vars = "y2014")
+```
+Inference: 155 not found, 37 traces
+
+### 2015
+```{r}
+clp2015 <- data.frame(y2015 = c(clpData[,"X4.7.2015"], clpData[,"X4.9.2015"], clpData[,"X4.16.2015"],
+                                clpData[,"X4.23.2015"], clpData[,"X4.30.2015"], clpData[,"X5.14.2015"],
+                                clpData[,"X5.21.2015"], clpData[,"X5.28.2015"]))
+count(clp2015, vars = "y2015")
+```
+Inference: 153 not found, 39 traces
+
+### 2016
+```{r}
+clp2016 <- data.frame(y2016 = c(clpData[,"X4.7.2016"], clpData[,"X4.14.2016"], clpData[,"X4.21.2016"],
+                                clpData[,"X4.28.2016"], clpData[,"X5.5.2016"], clpData[,"X5.12.2016"],
+                                clpData[,"X5.19.2016"], clpData[,"X5.26.2016"]))
+count(clp2016, vars = "y2016")
+```
+Inference: 153 not found, 38 traces, 1 found
+
+### 2017
+```{r}
+clp2017 <- data.frame(y2017 = c(clpData[,"X4.20.2017"], clpData[,"X4.27.2017"], clpData[,"X5.4.2017"],
+                                clpData[,"X5.11.2017"], clpData[,"X5.18.2017"], clpData[,"X5.25.2017"]))
+count(clp2017, vars = "y2017")
+```
+Inference: 72 not found, 70 traces, 2 not observed
+
+### 2018
+```{r}
+clp2018 <- data.frame(y2018 = c(clpData[,"X4.5.2018"], clpData[,"X4.12.2018"], clpData[,"X4.19.2018"],
+                                clpData[,"X4.26.2018"], clpData[,"X5.3.2018"], clpData[,"X5.10.2018"],
+                                clpData[,"X5.17.2018"], clpData[,"X5.24.2018"]))
+count(clp2018, vars = "y2018")
+```
+Inference: 126 not found, 54 traces, 11 found
+
+## Water Data
+
+```{r wtrData, echo=FALSE}
+wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
+wtrData$Date.Collected <- as.Date(wtrData$Date.Collected, format = "%m/%d/%y")
+wtrData$Date.Collected <- as.factor(wtrData$Date.Collected)
+wtrData$Period <- as.factor(wtrData$Period)
+str(wtrData)
+```
+
+### Analysis for Total Nitrogen
+
+```{r nitroClean, echo=FALSE}
+nitro <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%nitrogen total%"')
+nitroClean <- sqldf('SELECT * FROM nitro ORDER BY "Date.Collected", LabNo')
+nitroCleanNorth <- sqldf('SELECT * FROM nitroClean WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+nitroCleanSouth <- sqldf('SELECT * FROM nitroClean WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+nitroNorth1 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 1 ORDER BY Sequence')
+nitroNorth2 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 2 ORDER BY Sequence')
+nitroNorth3 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 3 ORDER BY Sequence')
+nitroNorth4 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 4 ORDER BY Sequence')
+nitroNorth5 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 5 ORDER BY Sequence')
+nitroNorth6 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 6 ORDER BY Sequence')
+nitroNorth7 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 7 ORDER BY Sequence')
+nitroNorth8 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 8 ORDER BY Sequence')
+nitroNorth9 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 9 ORDER BY Sequence')
+nitroNorth10 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 10 ORDER BY Sequence')
+nitroNorth11 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+nitroSouth1 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 1 ORDER BY Sequence')
+nitroSouth2 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 2 ORDER BY Sequence')
+nitroSouth3 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 3 ORDER BY Sequence')
+nitroSouth4 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 4 ORDER BY Sequence')
+nitroSouth5 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 5 ORDER BY Sequence')
+nitroSouth6 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 6 ORDER BY Sequence')
+nitroSouth7 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 7 ORDER BY Sequence')
+nitroSouth8 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 8 ORDER BY Sequence')
+nitroSouth9 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 9 ORDER BY Sequence')
+nitroSouth10 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 10 ORDER BY Sequence')
+nitroSouth11 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 11 ORDER BY Sequence')
+```
+
+#### Averages for total nitrogen in the northern route
+
+```{r nitroNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanNorth, aes(x=Sequence, y=Result, color=Date.Collected)) +
+geom_line() +
+ggtitle("Total Nitrogen Through North Route") +
+ylab("Total Nitrogen (mg/l)") +
+scale_x_continuous("Order of Sample Sites", labels=c("Reynold's Runoff", "Flooded Road", "Wading Bird North", "Heron Hideout", "Outflow Pipes"))
+```
+
+#### Averages for total nitrogen in the southern route
+
+```{r nitroSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanSouth, aes(x=Sequence, y=Result, color=Date.Collected)) +
+geom_line() +
+ggtitle("Total Nitrogen Through South Route") +
+ylab("Total Nitrogen (mg/l)") +
+scale_x_continuous("Order of Sample Sites", labels=c("Banana Creek", "Wading Bird South", "Eagle Roost Rd", "Canal Outflow"))
+```
+
+### Analysis for Total Phosphorous
+
+```{r phosClean, echo=FALSE}
+phos <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%phosphorus total%"')
+phosClean <- sqldf('SELECT * FROM phos ORDER BY "Date.Collected", LabNo')
+phosCleanNorth <- sqldf('SELECT * FROM phos WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+phosCleanSouth <- sqldf('SELECT * FROM phos WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+phosNorth1 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 1 ORDER BY Sequence')
+phosNorth2 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 2 ORDER BY Sequence')
+phosNorth3 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 3 ORDER BY Sequence')
+phosNorth4 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 4 ORDER BY Sequence')
+phosNorth5 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 5 ORDER BY Sequence')
+phosNorth6 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 6 ORDER BY Sequence')
+phosNorth7 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 7 ORDER BY Sequence')
+phosNorth8 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 8 ORDER BY Sequence')
+phosNorth9 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 9 ORDER BY Sequence')
+phosNorth10 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 10 ORDER BY Sequence')
+phosNorth11 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+phosSouth1 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 1 ORDER BY Sequence')
+phosSouth2 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 2 ORDER BY Sequence')
+phosSouth3 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 3 ORDER BY Sequence')
+phosSouth4 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 4 ORDER BY Sequence')
+phosSouth5 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 5 ORDER BY Sequence')
+phosSouth6 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 6 ORDER BY Sequence')
+phosSouth7 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 7 ORDER BY Sequence')
+phosSouth8 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 8 ORDER BY Sequence')
+phosSouth9 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 9 ORDER BY Sequence')
+phosSouth10 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 10 ORDER BY Sequence')
+phosSouth11 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 11 ORDER BY Sequence')
+```
+
+#### Averages for total phosphorus in the northern route
+
+```{r phosNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanNorth, aes(x=Sequence, y=Result, color=Date.Collected)) +
+geom_line() +
+ggtitle("Total Phosphorous Through North Route") +
+ylab("Total Phosphorous (mg/l)") +
+scale_x_continuous("Order of Sample Sites", labels=c("Reynold's Runoff", "Flooded Road", "Wading Bird North", "Heron Hideout", "Outflow Pipes"))
+```
+
+#### Averages for total phosphorus in the southern route
+
+```{r phosSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanSouth, aes(x=Sequence, y=Result, color=Date.Collected)) +
+geom_line() +
+ggtitle("Total Phosphorous Through South Route") +
+ylab("Total Phosphorous (mg/l)") +
+scale_x_continuous("Order of Sample Sites", labels=c("Banana Creek", "Wading Bird South", "Eagle Roost Rd", "Canal Outflow"))
+```
