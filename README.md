@@ -16,7 +16,23 @@
   * [SandSkinkData2018Clean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/SandSkinkData2018Clean.xlsx)
   * [WaterDataClean.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/WaterDataClean.xlsx)
   * [Burn history.xlsx](https://github.com/ruhidamda/apple-mango-banana/blob/master/DataCleaningDocumentation/Burn%20history.xlsx)
-
+* RScript
+  * Data
+    * [SS_Crooked Lake Prairie.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/SS_Crooked%20Lake%20Prairie.csv)
+    * [SS_Crooked Lake Sandhil.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/SS_Crooked%20Lake%20Sandhil.csv)
+    * [SS_Crooked Lake West -Lewis.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/SS_Crooked%20Lake%20West%20-Lewis.csv)
+    * [SS_Crooked Lake West -Stuart.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/SS_Crooked%20Lake%20West%20-Stuart.csv)
+    * [SS_Hickory Lake Scrub.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/SS_Hickory%20Lake%20Scrub.csv)
+    * [WaterDataClean.csv](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/Data/WaterDataClean.csv)
+  * [R Scripts.Rmd](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/R%20Scripts.Rmd)
+  * [R_Scripts.html](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/R_Scripts.html)
+  * [SSanalysis.r](https://github.com/ruhidamda/apple-mango-banana/blob/master/RScript/SSanalysis.R)
+* RPlot
+  * [Contributorship Statement.md](https://github.com/ruhidamda/apple-mango-banana/blob/master/RPlot/Contributorship%20Statement.md) 
+  *
+  *
+  
+  
 ### License
 
  Apache License

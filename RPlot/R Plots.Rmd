@@ -1,0 +1,555 @@
+---
+title: "R Plots"
+author: "Hemachandra Ghanta <br /> Ayesha Ruhi Damda <br />Jeremy Reep"
+date: "November 07, 2018"
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+  github_document:
+    toc: yes
+  word_document: default
+  pdf_document:
+    toc: yes
+---
+* * *
+
+# Sand Skink plots
+The structure of the skink data set shows there are three values 0, 1, 2, NA. Although the data looks quantitative, it is actually qualitative with:
+0 representing - no traces found
+1 representing - traces found
+2 representing - sand skinks found
+NA representing - no observations made
+
+So in this case finding the average, max, min is not useful. Hence we continued to find the count of 0's, 1's, 2's for each year to get the number of sand skinks found/not found in each year.
+
+## Crooked Lake Sandhil area Summary
+```{r}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+clsData <- read.csv("SS_Crooked Lake Sandhil.csv", header = TRUE)
+str(clsData)
+```
+
+
+Count of observations on sand skins made in each year
+
+The below R script is used to get the counts in each year
+```{r, echo=FALSE}
+library(plyr)
+cls2006 <- data.frame(y2006 = c(clsData[,"X4.6.2006"], clsData[,"X4.13.2006"], clsData[,"X4.13.2006"],
+                                clsData[,"X4.13.2006"], clsData[,"X4.13.2006"], clsData[,"X4.13.2006"],
+                                clsData[,"X4.13.2006"], clsData[,"X4.13.2006"]))
+count06 <- count(cls2006, vars = "y2006")
+
+cls2011 <- data.frame(y2011 = c(clsData[,"X4.7.2011"], clsData[,"X4.14.2011"], clsData[,"X4.21.2011"],
+                                clsData[,"X4.28.2011"], clsData[,"X5.5.2011"], clsData[,"X5.12.2011"],
+                                clsData[,"X5.19.2011"], clsData[,"X5.26.2011"]))
+count11 <- count(cls2011, vars = "y2011")
+
+cls2012 <- data.frame(y2012 = c(clsData[,"X4.5.2012"], clsData[,"X4.12.2012"], clsData[,"X4.19.2012"],
+                                clsData[,"X4.26.2012"], clsData[,"X5.3.2012"], clsData[,"X5.10.2012"],
+                                clsData[,"X5.17.2012"], clsData[,"X5.24.2012"]))
+count12 <- count(cls2012, vars = "y2012")
+
+cls2013 <- data.frame(y2013 = c(clsData[,"X4.4.2013"], clsData[,"X4.11.2013"], clsData[,"X4.18.2013"],
+                                clsData[,"X4.25.2013"], clsData[,"X5.2.2013"], clsData[,"X5.19.2013"],
+                                clsData[,"X5.23.2013"], clsData[,"X5.30.2013"]))
+count13 <- count(cls2013, vars = "y2013")
+
+cls2014 <- data.frame(y2014 = c(clsData[,"X4.3.2014"], clsData[,"X4.10.2014"], clsData[,"X4.24.2014"],
+                                clsData[,"X5.1.2014"], clsData[,"X5.8.2014"], clsData[,"X5.22.2014"],
+                                clsData[,"X5.29.2014"], clsData[,"X6.5.2014"]))
+count14 <- count(cls2014, vars = "y2014")
+
+cls2015 <- data.frame(y2015 = c(clsData[,"X4.7.2015"], clsData[,"X4.9.2015"], clsData[,"X4.16.2015"],
+                                clsData[,"X4.23.2015"], clsData[,"X4.30.2015"], clsData[,"X5.14.2015"],
+                                clsData[,"X5.21.2015"], clsData[,"X5.28.2015"]))
+count15 <- count(cls2015, vars = "y2015")
+
+cls2016 <- data.frame(y2016 = c(clsData[,"X4.7.2016"], clsData[,"X4.14.2016"], clsData[,"X4.21.2016"],
+                                clsData[,"X4.28.2016"], clsData[,"X5.5.2016"], clsData[,"X5.12.2016"],
+                                clsData[,"X5.19.2016"], clsData[,"X5.26.2016"]))
+count16 <- count(cls2016, vars = "y2016")
+
+cls2017 <- data.frame(y2017 = c(clsData[,"X4.20.2017"], clsData[,"X4.27.2017"], clsData[,"X5.4.2017"],
+                                clsData[,"X5.11.2017"], clsData[,"X5.18.2017"], clsData[,"X5.25.2017"]))
+count17 <- count(cls2017, vars = "y2017")
+
+cls2018 <- data.frame(y2018 = c(clsData[,"X4.5.2018"], clsData[,"X4.12.2018"], clsData[,"X4.19.2018"],
+                                clsData[,"X4.26.2018"], clsData[,"X5.3.2018"], clsData[,"X5.10.2018"],
+                                clsData[,"X5.17.2018"], clsData[,"X5.24.2018"]))
+count18 <- count(cls2018, vars = "y2018")
+```
+
+Data Frame to plot time series data of Crooked Lake Sandhil
+
+```{r}
+cls1 <- data.frame(Year=numeric(), NoTracks=numeric(), Tracks=numeric(), SkinkPresent=numeric(), NotObserved=numeric())
+cls1 <- rbind(cls1, data.frame(Year=2006, NoTracks=count06[1,2], Tracks=count06[2,2], SkinkPresent=count06[3,2], NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2011, NoTracks=count11[1,2], Tracks=count11[2,2], SkinkPresent=0, NotObserved=count11[3,2] ))
+cls1 <- rbind(cls1, data.frame(Year=2012, NoTracks=count12[1,2], Tracks=count12[2,2], SkinkPresent=0, NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2013, NoTracks=count13[1,2], Tracks=count13[2,2], SkinkPresent=0, NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2014, NoTracks=count14[1,2], Tracks=count14[2,2], SkinkPresent=0, NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2015, NoTracks=count15[1,2], Tracks=count15[2,2], SkinkPresent=0, NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2016, NoTracks=count16[1,2], Tracks=count16[2,2], SkinkPresent=count16[3,2], NotObserved=0 ))
+cls1 <- rbind(cls1, data.frame(Year=2017, NoTracks=count17[1,2], Tracks=count17[2,2], SkinkPresent=0, NotObserved=count17[3,2] ))
+cls1 <- rbind(cls1, data.frame(Year=2018, NoTracks=count18[1,2], Tracks=count18[2,2], SkinkPresent=count18[3,2], NotObserved=0 ))
+
+```
+
+
+## Crooked Lake Sandhil plots
+
+```{r}
+library(ggplot2)
+
+p1 <- ggplot() + 
+  geom_line(aes(y = NoTracks, x = Year, color="No tracks present"), data = cls1) +
+  geom_line(aes(y = Tracks, x = Year, color="Tracks found"), data = cls1)+
+  geom_line(aes(y = SkinkPresent, x = Year, color="Skink found"), data = cls1)+
+  geom_line(aes(y = NotObserved, x = Year, color="Not observed"), data = cls1)+
+  scale_x_continuous(breaks=seq(2006,2018,2)) + 
+  theme(text=element_text(family="Tahoma"))
+
+p1 + labs(title = "Crooked Lake Sandhil Sand Skink observations", x = "Year", y = "Count")
+```
+
+## Crooked Lake Prairie area summary
+```{r}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+prairie <- read.csv("SS_Crooked Lake Prairie.csv", header = TRUE)
+str(prairie)
+```
+
+
+Count of observations on sand skins made in each year
+
+The below R script is used to get the counts in each year
+```{r, echo=FALSE}
+library(plyr)
+prairie03 <- data.frame(y2003 = c(prairie[,"X4.3.2003"], prairie[,"X4.10.2003"], prairie[,"X4.17.2003"],
+                                  prairie[,"X4.24.2003"], prairie[,"X5.1.2003"], prairie[,"X5.8.2003"],
+                                  prairie[,"X5.15.2003"], prairie[,"X5.22.2003"]))
+count03 <- count(prairie03, vars = "y2003")
+
+prairie04 <- data.frame(y2004 = c(prairie[,"X4.8.2004"], prairie[,"X4.15.2004"], prairie[,"X4.22.2004"],
+                                  prairie[,"X4.30.2004"], prairie[,"X5.6.2004"], prairie[,"X5.13.2004"],
+                                  prairie[,"X5.20.2004"], prairie[,"X5.27.2004"]))
+count04 <- count(prairie04, vars = "y2004")
+
+prairie05 <- data.frame(y2005 = c(prairie[,"X4.21.2005"], prairie[,"X4.28.2005"], prairie[,"X5.5.2005"],
+                                  prairie[,"X5.12.2005"], prairie[,"X5.19.2005"], prairie[,"X5.26.2005"]))
+count05 <- count(prairie05, vars = "y2005")
+
+prairie06 <- data.frame(y2006 = c(prairie[,"X4.6.2006"], prairie[,"X4.13.2006"], prairie[,"X5.4.2006"],
+                                  prairie[,"X5.11.2006"], prairie[,"X5.18.2006"], prairie[,"X5.25.2006"]))
+count06 <- count(prairie06, vars = "y2006")
+
+prairie07 <- data.frame(y2007 = c(prairie[,"X4.19.2007"], prairie[,"X4.26.2007"], prairie[,"X5.3.2007"],
+                                  prairie[,"X5.10.2007"]))
+count07 <- count(prairie07, vars = "y2007")
+
+prairie09 <- data.frame(y2009 = c(prairie[,"X4.9.2009"], prairie[,"X4.16.2009"], prairie[,"X5.7.2009"],
+                                  prairie[,"X5.14.2009"], prairie[,"X5.21.2009"], prairie[,"X5.28.2009"]))
+count09 <- count(prairie09, vars = "y2009")
+
+prairie10 <- data.frame(y2010 = c(prairie[,"X4.22.2010"], prairie[,"X4.29.2010"]))
+count10 <- count(prairie10, vars = "y2010")
+
+prairie11 <- data.frame(y2011 = c(prairie[,"X4.7.2011"], prairie[,"X4.14.2011"], prairie[,"X5.5.2011"],
+                                  prairie[,"X5.19.2011"], prairie[,"X5.26.2011"]))
+count11 <- count(prairie11, vars = "y2011")
+
+prairie12 <- data.frame(y2012 = c(prairie[,"X4.19.2012"], prairie[,"X4.26.2012"], prairie[,"X5.3.2012"]))
+count12 <- count(prairie12, vars = "y2012")
+
+prairie13 <- data.frame(y2013 = c(prairie[,"X5.9.2013"], prairie[,"X5.16.2013"], prairie[,"X5.23.2013"]))
+count13 <- count(prairie13, vars = "y2013")
+
+prairie15 <- data.frame(y2015 = c(prairie[,"X4.17.2015"], prairie[,"X4.24.2015"], prairie[,"X4.30.2015"],
+                                  prairie[,"X5.7.2015"], prairie[,"X5.14.2015"]))
+count15 <- count(prairie15, vars = "y2015")
+
+prairie16 <- data.frame(y2016 = c(prairie[,"X4.21.2016"]))
+count16 <- count(prairie16, vars = "y2016")
+
+prairie17 <- data.frame(y2017 = c(prairie[,"X4.13.2017"], prairie[,"X4.20.2017"], prairie[,"X5.11.2017"],
+                                  prairie[,"X5.18.2017"], prairie[,"X5.25.2017"]))
+count17 <- count(prairie17, vars = "y2017")
+
+prairie18 <- data.frame(y2018 = c(prairie[,"X4.19.2018"], prairie[,"X5.24.2018"]))
+count18 <- count(prairie18, vars = "y2018")
+```
+
+## Crooked Lake Prairie plots
+
+```{r}
+clp1 <- data.frame(Year=numeric(), NoTracks=numeric(), Tracks=numeric(), SkinkPresent=numeric(), NotObserved=numeric())
+clp1 <- rbind(clp1, data.frame(Year=2003, NoTracks=count03[1,2], Tracks=count03[2,2], SkinkPresent=0, NotObserved=count03[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2004, NoTracks=count04[1,2], Tracks=count04[2,2], SkinkPresent=count04[3,2], NotObserved=count04[4,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2005, NoTracks=count05[1,2], Tracks=count05[2,2], SkinkPresent=0, NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2006, NoTracks=count06[1,2], Tracks=count06[2,2], SkinkPresent=0, NotObserved=count06[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2007, NoTracks=count07[1,2], Tracks=count07[2,2], SkinkPresent=0, NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2009, NoTracks=count09[1,2], Tracks=count09[2,2], SkinkPresent=0, NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2010, NoTracks=count10[1,2], Tracks=count10[2,2], SkinkPresent=0, NotObserved=count10[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2011, NoTracks=count11[1,2], Tracks=count11[2,2], SkinkPresent=0, NotObserved=count11[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2012, NoTracks=count12[1,2], Tracks=count12[2,2], SkinkPresent=count12[3,2], NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2013, NoTracks=count13[1,2], Tracks=count13[2,2], SkinkPresent=0, NotObserved=count13[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2015, NoTracks=count15[1,2], Tracks=count15[2,2], SkinkPresent=count15[3,2], NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2016, NoTracks=count16[1,2], Tracks=count16[2,2], SkinkPresent=0, NotObserved=0 ))
+clp1 <- rbind(clp1, data.frame(Year=2017, NoTracks=count17[1,2], Tracks=count17[2,2], SkinkPresent=0, NotObserved=count17[3,2] ))
+clp1 <- rbind(clp1, data.frame(Year=2018, NoTracks=count18[1,2], Tracks=count18[2,2], SkinkPresent=count18[3,2], NotObserved=0 ))
+
+library(ggplot2)
+
+p1 <- ggplot() + 
+  geom_line(aes(y = NoTracks, x = Year, color="No tracks present"), data = clp1) +
+  geom_line(aes(y = Tracks, x = Year, color="Tracks found"), data = clp1)+
+  geom_line(aes(y = SkinkPresent, x = Year, color="Skink found"), data = clp1)+
+  geom_line(aes(y = NotObserved, x = Year, color="Not observed"), data = clp1)+
+  scale_x_continuous(breaks=seq(2003,2018,2)) + 
+  theme(text=element_text(family="Tahoma"))
+
+p1 + labs(title = "Crooked Lake Prairie Sand Skink observations", x = "Year", y = "Count")
+```
+
+
+
+## Hickory Lake Scrub area summary
+```{r}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+hickory <- read.csv("SS_Hickory Lake Scrub.csv", header = TRUE)
+str(hickory)
+```
+
+
+Count of observations on sand skins made in each year
+
+The below R script is used to get the counts in each year
+```{r, echo=FALSE}
+library(plyr)
+hickory06 <- data.frame(y2006 = c(hickory[,"X4.6.2006"], hickory[,"X4.13.2006"], hickory[,"X4.20.2006"],
+                                 hickory[,"X4.27.2006"], hickory[,"X5.4.2006"], hickory[,"X5.11.2006"],
+                                 hickory[,"X5.18.2006"], hickory[,"X5.25.2006"]))
+count06 <- count(hickory06, vars = "y2006")
+
+
+hickory09 <- data.frame(y2009 = c(hickory[,"X4.9.2009"], hickory[,"X4.16.2009"], hickory[,"X4.23.2009"],
+                                  hickory[,"X4.30.2009"], hickory[,"X5.7.2009"], hickory[,"X5.14.2009"],
+                                  hickory[,"X5.21.2009"], hickory[,"X5.28.2009"]))
+count09 <- count(hickory09, vars = "y2009")
+
+hickory10 <- data.frame(y2010 = c(hickory[,"X4.1.2010"], hickory[,"X4.8.2010"], hickory[,"X4.15.2010"],
+                                  hickory[,"X4.22.2010"], hickory[,"X4.29.2010"], hickory[,"X5.6.2010"],
+                                  hickory[,"X5.13.2010"], hickory[,"X5.20.2010"], hickory[,"X5.27.2010"]))
+count10 <- count(hickory10, vars = "y2010")
+
+hickory11 <- data.frame(y2011 = c(hickory[,"X4.7.2011"], hickory[,"X4.14.2011"], hickory[,"X4.21.2011"],
+                                  hickory[,"X4.28.2011"], hickory[,"X5.5.2011"], hickory[,"X5.12.2011"],
+                                  hickory[,"X5.19.2011"], hickory[,"X5.26.2011"]))
+count11 <- count(hickory11, vars = "y2011")
+
+hickory12 <- data.frame(y2012 = c(hickory[,"X4.5.2012"], hickory[,"X4.12.2012"], hickory[,"X4.19.2012"],
+                                  hickory[,"X4.26.2012"], hickory[,"X5.3.2012"], hickory[,"X5.10.2012"],
+                                  hickory[,"X5.17.2012"], hickory[,"X5.24.2012"]))
+count12 <- count(hickory12, vars = "y2012")
+
+hickory13 <- data.frame(y2013 = c(hickory[,"X4.4.2013"], hickory[,"X4.11.2013"], hickory[,"X4.18.2013"],
+                                  hickory[,"X4.25.2013"], hickory[,"X5.32.2013"], hickory[,"X5.9.2013"],
+                                  hickory[,"X5.16.2013"], hickory[,"X5.23.2013"]))
+count13 <- count(hickory13, vars = "y2013")
+
+hickory14 <- data.frame(y2014 = c(hickory[,"X4.3.2014"], hickory[,"X4.10.2014"], hickory[,"X4.24.2014"],
+                                  hickory[,"X5.1.2014"], hickory[,"X5.8.2014"], hickory[,"X5.22.2014"],
+                                  hickory[,"X5.29.2014"], hickory[,"X6.5.2014"]))
+count14 <- count(hickory14, vars = "y2014")
+
+hickory15 <- data.frame(y2015 = c(hickory[,"X4.9.2015"], hickory[,"X4.16.2015"], hickory[,"X4.23.2015"],
+                                  hickory[,"X4.30.2015"], hickory[,"X5.7.2015"], hickory[,"X5.14.2015"],
+                                  hickory[,"X5.21.2015"], hickory[,"X5.28.2015"]))
+count15 <- count(hickory15, vars = "y2015")
+
+hickory16 <- data.frame(y2016 = c(hickory[,"X4.7.2016"], hickory[,"X4.14.2016"], hickory[,"X4.21.2016"],
+                                  hickory[,"X4.28.2016"], hickory[,"X5.5.2016"], hickory[,"X5.12.2016"],
+                                  hickory[,"X5.19.2016"], hickory[,"X5.26.2016"]))
+count16 <- count(hickory16, vars = "y2016")
+
+hickory17 <- data.frame(y2017 = c(hickory[,"X4.6.2017"], hickory[,"X4.13.2017"], hickory[,"X4.20.2017"],
+                                  hickory[,"X4.27.2017"], hickory[,"X5.4.2017"], hickory[,"X5.11.2017"],
+                                  hickory[,"X5.18.2017"], hickory[,"X5.25.2017"]))
+count17 <- count(hickory17, vars = "y2017")
+
+hickory18 <- data.frame(y2018 = c(hickory[,"X4.5.2018"], hickory[,"X4.12.2018"], hickory[,"X4.19.2018"],
+                                  hickory[,"X4.26.2018"], hickory[,"X5.3.2018"], hickory[,"X5.10.2018"],
+                                  hickory[,"X5.17.2018"], hickory[,"X5.24.2018"]))
+count18 <- count(hickory18, vars = "y2018")
+```
+
+## Hickory Lake Scrub plots
+
+```{r}
+hls1 <- data.frame(Year=numeric(), NoTracks=numeric(), Tracks=numeric(), SkinkPresent=numeric(), NotObserved=numeric())
+hls1 <- rbind(hls1, data.frame(Year=2006, NoTracks=count06[1,2], Tracks=count06[2,2], SkinkPresent=count06[3,2], NotObserved=count06[4,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2009, NoTracks=count09[1,2], Tracks=count09[2,2], SkinkPresent=0, NotObserved=count09[3,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2010, NoTracks=count10[1,2], Tracks=count10[2,2], SkinkPresent=count10[3,2], NotObserved=count10[4,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2011, NoTracks=count11[1,2], Tracks=count11[2,2], SkinkPresent=0, NotObserved=count11[3,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2012, NoTracks=count12[1,2], Tracks=count12[2,2], SkinkPresent=0, NotObserved=count12[3,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2013, NoTracks=count13[1,2], Tracks=count13[2,2], SkinkPresent=0, NotObserved=count13[3,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2014, NoTracks=count14[1,2], Tracks=count14[2,2], SkinkPresent=count14[3,2], NotObserved=count14[4,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2015, NoTracks=count15[1,2], Tracks=count15[2,2], SkinkPresent=count15[3,2], NotObserved=0 ))
+hls1 <- rbind(hls1, data.frame(Year=2016, NoTracks=count16[1,2], Tracks=count16[2,2], SkinkPresent=count16[3,2], NotObserved=count16[4,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2017, NoTracks=count17[1,2], Tracks=count17[2,2], SkinkPresent=0, NotObserved=count17[3,2] ))
+hls1 <- rbind(hls1, data.frame(Year=2018, NoTracks=count18[1,2], Tracks=count18[2,2], SkinkPresent=0, NotObserved=0 ))
+
+library(ggplot2)
+
+h1 <- ggplot() + 
+  geom_line(aes(y = NoTracks, x = Year, color="No tracks present"), data = hls1) +
+  geom_line(aes(y = Tracks, x = Year, color="Tracks found"), data = hls1)+
+  geom_line(aes(y = SkinkPresent, x = Year, color="Skink found"), data = hls1)+
+  geom_line(aes(y = NotObserved, x = Year, color="Not observed"), data = hls1)+
+  scale_x_continuous(breaks=seq(2006,2018,2)) + 
+  theme(text=element_text(family="Tahoma"))
+
+h1 + labs(title = "Hickory Lake Scrub Sand Skink Observations", x = "Year", y = "Count")
+```
+
+
+
+## Crooked Lake West -Lewis area summary
+```{r}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+lewis <- read.csv("SS_Crooked Lake West -Lewis.csv", header = TRUE)
+str(lewis)
+```
+
+
+Count of observations on sand skins made in each year
+
+The below R script is used to get the counts in each year
+```{r, echo=FALSE}
+library(plyr)
+lewis15 <- data.frame(y2015 = c(lewis[,"X4.2.2015"], lewis[,"X4.9.2015"], lewis[,"X4.16.2015"],
+                                  lewis[,"X4.23.2015"], lewis[,"X4.30.2015"], lewis[,"X5.7.2015"],
+                                  lewis[,"X5.15.2015"], lewis[,"X5.21.2015"], lewis[,"X5.28.2015"]))
+l15 <- count(lewis15, vars = "y2015")
+
+lewis16 <- data.frame(y2016 = c(lewis[,"X4.7.2016"], lewis[,"X4.14.2016"], lewis[,"X4.21.2016"],
+                                lewis[,"X4.28.2016"], lewis[,"X5.5.2016"], lewis[,"X5.12.2016"],
+                                lewis[,"X5.19.2016"], lewis[,"X5.26.2016"]))
+l16 <- count(lewis16, vars = "y2016")
+
+lewis17 <- data.frame(y2017 = c(lewis[,"X4.6.2017"], lewis[,"X4.13.2017"], lewis[,"X4.20.2017"],
+                                lewis[,"X4.27.2017"], lewis[,"X5.4.2017"], lewis[,"X5.11.2017"],
+                                lewis[,"X5.18.2017"], lewis[,"X5.25.2017"]))
+l17 <- count(lewis17, vars = "y2017")
+
+lewis18 <- data.frame(y2018 = c(lewis[,"X4.5.2018"], lewis[,"X4.12.2018"], lewis[,"X4.19.2018"],
+                                lewis[,"X4.26.2018"], lewis[,"X5.3.2018"], lewis[,"X5.10.2018"],
+                                lewis[,"X5.17.2018"], lewis[,"X5.24.2018"]))
+l18 <- count(lewis18, vars = "y2018")
+```
+
+## Crooked Lake West -Lewis plots
+
+```{r}
+clwl <- data.frame(Year=numeric(), NoTracks=numeric(), Tracks=numeric(), SkinkPresent=numeric(), NotObserved=numeric())
+clwl <- rbind(clwl, data.frame(Year=2015, NoTracks=l15[1,2], Tracks=l15[2,2], SkinkPresent=l15[3,2], NotObserved=l15[4,2] ))
+clwl <- rbind(clwl, data.frame(Year=2016, NoTracks=l16[1,2], Tracks=l16[2,2], SkinkPresent=0, NotObserved=l16[3,2] ))
+clwl <- rbind(clwl, data.frame(Year=2017, NoTracks=l17[1,2], Tracks=l17[2,2], SkinkPresent=l17[3,2], NotObserved=l17[4,2] ))
+clwl <- rbind(clwl, data.frame(Year=2018, NoTracks=l18[1,2], Tracks=l18[2,2], SkinkPresent=0, NotObserved=l18[3,2] ))
+
+library(ggplot2)
+
+l1 <- ggplot() + 
+  geom_line(aes(y = NoTracks, x = Year, color="No tracks present"), data = clwl) +
+  geom_line(aes(y = Tracks, x = Year, color="Tracks found"), data = clwl)+
+  geom_line(aes(y = SkinkPresent, x = Year, color="Skink found"), data = clwl)+
+  geom_line(aes(y = NotObserved, x = Year, color="Not observed"), data = clwl)+
+  scale_x_continuous(breaks=seq(2015,2018,1)) + 
+  theme(text=element_text(family="Tahoma"))
+
+l1 + labs(title = "Crooked Lake West-Lewis Sand Skink observations", x = "Year", y = "Count")
+```
+
+
+
+
+## Crooked Lake West -Stuart area summary
+```{r}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+stuart <- read.csv("SS_Crooked Lake West -Stuart.csv", header = TRUE)
+str(stuart)
+```
+
+
+Count of observations on sand skins made in each year
+
+The below R script is used to get the counts in each year
+```{r, echo=FALSE}
+library(plyr)
+stuart15 <- data.frame(y2015 = c(stuart[,"X4.2.2015"], stuart[,"X4.9.2015"], stuart[,"X4.16.2015"],
+                                stuart[,"X4.23.2015"], stuart[,"X4.30.2015"], stuart[,"X5.7.2015"],
+                                stuart[,"X5.14.2015"], stuart[,"X5.21.2015"], stuart[,"X5.28.2015"]))
+s15 <- count(stuart15, vars = "y2015")
+
+stuart16 <- data.frame(y2016 = c(stuart[,"X4.7.2016"], stuart[,"X4.14.2016"], stuart[,"X4.21.2016"],
+                                stuart[,"X4.28.2016"], stuart[,"X5.5.2016"], stuart[,"X5.12.2016"],
+                                stuart[,"X5.19.2016"], stuart[,"X5.26.2016"]))
+s16 <- count(stuart16, vars = "y2016")
+
+stuart17 <- data.frame(y2017 = c(stuart[,"X4.6.2017"], stuart[,"X4.13.2017"], stuart[,"X4.20.2017"],
+                                stuart[,"X4.27.2017"], stuart[,"X5.4.2017"], stuart[,"X5.11.2017"],
+                                stuart[,"X5.18.2017"], stuart[,"X5.25.2017"]))
+s17 <- count(stuart17, vars = "y2017")
+
+stuart18 <- data.frame(y2018 = c(stuart[,"X4.5.2018"], stuart[,"X4.12.2018"], stuart[,"X4.19.2018"],
+                                stuart[,"X4.26.2018"], stuart[,"X5.3.2018"], stuart[,"X5.10.2018"],
+                                stuart[,"X5.17.2018"], stuart[,"X5.24.2018"]))
+s18 <- count(stuart18, vars = "y2018")
+```
+
+## Crooked Lake West -Stuart plots
+
+```{r}
+clws <- data.frame(Year=numeric(), NoTracks=numeric(), Tracks=numeric(), SkinkPresent=numeric(), NotObserved=numeric())
+clws <- rbind(clws, data.frame(Year=2015, NoTracks=l15[1,2], Tracks=l15[2,2], SkinkPresent=l15[3,2], NotObserved=l15[4,2] ))
+clws <- rbind(clws, data.frame(Year=2016, NoTracks=l16[1,2], Tracks=l16[2,2], SkinkPresent=0, NotObserved=0 ))
+clws <- rbind(clws, data.frame(Year=2017, NoTracks=l17[1,2], Tracks=l17[2,2], SkinkPresent=l17[3,2], NotObserved=l17[4,2] ))
+clws <- rbind(clws, data.frame(Year=2018, NoTracks=l18[1,2], Tracks=l18[2,2], SkinkPresent=0, NotObserved=l18[3,2] ))
+
+library(ggplot2)
+
+s1 <- ggplot() + 
+  geom_line(aes(y = NoTracks, x = Year, color="No tracks present"), data = clws) +
+  geom_line(aes(y = Tracks, x = Year, color="Tracks found"), data = clws)+
+  geom_line(aes(y = SkinkPresent, x = Year, color="Skink found"), data = clws)+
+  geom_line(aes(y = NotObserved, x = Year, color="Not observed"), data = clws)+
+  scale_x_continuous(breaks=seq(2015,2018,1)) + 
+  theme(text=element_text(family="Tahoma"))
+
+s1 + labs(title = "Crooked Lake West-Stuart Sand Skink observations", x = "Year", y = "Count")
+```
+
+# Water Data
+
+```{r wtrData, echo=FALSE}
+setwd('F:/UNO/Fall 2018/8086-Data to Decisions/Polk Co Parks/Data/')
+wtrData <- read.csv("WaterDataClean.csv", header = TRUE)
+wtrData$Date.Collected <- as.Date(wtrData$Date.Collected, format = "%m/%d/%y")
+wtrData$Period <- as.factor(wtrData$Period)
+str(wtrData)
+```
+
+### Analysis for Total Nitrogen
+
+```{r nitroClean, echo=FALSE}
+library(sqldf)
+nitro <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%nitrogen total%"')
+nitroClean <- sqldf('SELECT * FROM nitro ORDER BY "Date.Collected", LabNo')
+nitroCleanNorth <- sqldf('SELECT * FROM nitroClean WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+nitroCleanSouth <- sqldf('SELECT * FROM nitroClean WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+nitroNorth1 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 1 ORDER BY Sequence')
+nitroNorth2 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 2 ORDER BY Sequence')
+nitroNorth3 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 3 ORDER BY Sequence')
+nitroNorth4 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 4 ORDER BY Sequence')
+nitroNorth5 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 5 ORDER BY Sequence')
+nitroNorth6 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 6 ORDER BY Sequence')
+nitroNorth7 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 7 ORDER BY Sequence')
+nitroNorth8 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 8 ORDER BY Sequence')
+nitroNorth9 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 9 ORDER BY Sequence')
+nitroNorth10 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 10 ORDER BY Sequence')
+nitroNorth11 <- sqldf('SELECT * FROM nitroCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+nitroSouth1 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 1 ORDER BY Sequence')
+nitroSouth2 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 2 ORDER BY Sequence')
+nitroSouth3 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 3 ORDER BY Sequence')
+nitroSouth4 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 4 ORDER BY Sequence')
+nitroSouth5 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 5 ORDER BY Sequence')
+nitroSouth6 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 6 ORDER BY Sequence')
+nitroSouth7 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 7 ORDER BY Sequence')
+nitroSouth8 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 8 ORDER BY Sequence')
+nitroSouth9 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 9 ORDER BY Sequence')
+nitroSouth10 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 10 ORDER BY Sequence')
+nitroSouth11 <- sqldf('SELECT * FROM nitroCleanSouth WHERE Period = 11 ORDER BY Sequence')
+```
+
+#### Averages for total nitrogen in the northern route
+
+```{r nitroNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanNorth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Nitrogen Through North Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Nitrogen (mg/l)")
+```
+
+#### Averages for total nitrogen in the southern route
+
+```{r nitroSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM nitroCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=nitroCleanSouth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Nitrogen Through South Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Nitrogen (mg/l)")
+```
+
+### Analysis for Total Phosphorous
+
+```{r phosClean, echo=FALSE}
+phos <- sqldf('SELECT * FROM wtrData WHERE Parameter LIKE "%phosphorus total%"')
+phosClean <- sqldf('SELECT * FROM phos ORDER BY "Date.Collected", LabNo')
+phosCleanNorth <- sqldf('SELECT * FROM phos WHERE North = 1 ORDER BY "Date.Collected", Sequence')
+phosCleanSouth <- sqldf('SELECT * FROM phos WHERE North = 0 ORDER BY "Date.Collected", Sequence')
+
+phosNorth1 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 1 ORDER BY Sequence')
+phosNorth2 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 2 ORDER BY Sequence')
+phosNorth3 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 3 ORDER BY Sequence')
+phosNorth4 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 4 ORDER BY Sequence')
+phosNorth5 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 5 ORDER BY Sequence')
+phosNorth6 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 6 ORDER BY Sequence')
+phosNorth7 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 7 ORDER BY Sequence')
+phosNorth8 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 8 ORDER BY Sequence')
+phosNorth9 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 9 ORDER BY Sequence')
+phosNorth10 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 10 ORDER BY Sequence')
+phosNorth11 <- sqldf('SELECT * FROM phosCleanNorth WHERE Period = 11 ORDER BY Sequence')
+
+phosSouth1 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 1 ORDER BY Sequence')
+phosSouth2 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 2 ORDER BY Sequence')
+phosSouth3 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 3 ORDER BY Sequence')
+phosSouth4 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 4 ORDER BY Sequence')
+phosSouth5 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 5 ORDER BY Sequence')
+phosSouth6 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 6 ORDER BY Sequence')
+phosSouth7 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 7 ORDER BY Sequence')
+phosSouth8 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 8 ORDER BY Sequence')
+phosSouth9 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 9 ORDER BY Sequence')
+phosSouth10 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 10 ORDER BY Sequence')
+phosSouth11 <- sqldf('SELECT * FROM phosCleanSouth WHERE Period = 11 ORDER BY Sequence')
+```
+
+#### Averages for total phosphorus in the northern route
+
+```{r phosNorth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanNorth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanNorth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Phosphorous Through North Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Phosphorous (mg/l)")
+```
+
+#### Averages for total phosphorus in the southern route
+
+```{r phosSouth, echo=FALSE}
+sqldf('SELECT "Date.Collected", AVG(Result) FROM phosCleanSouth GROUP BY "Date.Collected"')
+ggplot(data=phosCleanSouth, aes(x=Sequence, y=Result, color=Period)) +
+geom_line() +
+ggtitle("Total Phosphorous Through South Route") +
+xlab("Order of Sample Sites") + 
+ylab("Total Phosphorous (mg/l)")
+```
+
+
